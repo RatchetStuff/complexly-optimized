@@ -6,21 +6,19 @@ This is a (complex) optimization modpack based on my own philosophy! It's free, 
 ## How?
 Optimization mods and configs, and also guides (if you're willing to have a bit more performance).
 
-### Flavors
-There are two different flavors:
-1. Vanilla (🍦), which contains optimizations that do not break vanilla features. Also known as the "stable" flavor.
-2. Non-vanilla (🍫), which contains optimizations that do break vanilla features. Also known as the "experimental" flavor.
-
 ### Levels
-There are three different levels:
-1. Bleeding-edge (🔪), which contains the best optimizations at the cost of compatibility. Recommended for vanilla/light modded.
+There are two main levels:
+1. Bleeding-edge (🔪), which contains the best optimizations at the cost of some compatibility. Recommended for vanilla/light modded.
 2. Stability (🌲), which contains optimizations predicted not to crash at any mods you throw at it. Recommended for heavy modded.
-3. Compatibility (🪾), which contains optimizations predicted to not crash at any instance, even if you are playing on a refrigerator. Recommended for mobile players.
 
-### Variants
-There are currently two variants (or whatever you call it). When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
+These levels are occasionally added (if they get enough support):
+3. Compatibility (🪾), which contains optimizations predicted to not crash at any instance, even if you are playing on a refrigerator. Recommended for mobile players.
+4. Experimental (⚠️), which contains optimizations targeted towards specific mod sets. The mods added are usually not drop-and-replace and require extensive changes to the mod list for the modpack to work correctly. Even then, it could perform better or worse. These are not what you're looking for. TLDR; not tested.
+
+### Distribution
+There are currently two distributions. When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
 1. CurseForge-only, which contains all but a niche amount of the optimizations, which will be distributed on CurseForge. This tier was made because some of the good mods (like Accelerated Rendering) are only on CF. This may contain Modrinth mods subject to the [Approved Non-CurseForge Mods list](https://docs.google.com/spreadsheets/d/176Wv-PZUo9hFxy6oC6N8tWdquBLPRtSuLbNK-r0_byM/edit#gid=0).
-2. Modrinth-only, which contains most of the optimizations, which will be distributed on Modrinth. Despite "some" optimizations not included, this variant (or whatever you call it) contains roughly 80% of the optimizations.
+2. Modrinth-only, which contains most of the optimizations, which will be distributed on Modrinth. Despite "some" optimizations not included, this distribution contains roughly 80% of the optimizations.
 
 ## Which?
 
@@ -30,7 +28,7 @@ Versions that get updates will have the minor version incremented by +1 (e.g. 0.
 ### Emoji?
 The above section shows which one refers to which. The variant with the most features will be given (🔼), while the variant with the least features will be given (🔽).
 
-It is recommended to use the version that starts with (🍦🌲🔼) for the best experience. If you're feeling experimental, you can try using (🍦🔪🔼).
+It is recommended to use the version that starts with (🌲🔼) for the best experience. If you're feeling experimental, you can try using (🔪🔼).
 
 ## Why?
 Because most optimization modpacks as of right now:
