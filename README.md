@@ -41,12 +41,12 @@ Most of them are licensed under MIT, which is fair, but it prevents commercial m
 ### Don't have a clear sense of direction.
 There are modpacks like Adrenaline which knows what they're doing, but they center their modpack around everyone (vanilla players and modpack makers, which cannot be mixed together), which creates a frankenstein-sort of mod set.
 
-### Hate unofficial Minecraft players.[^3]
-They refuse to help players that have a problem just because they play on offline-mode. This is unprofessional practice in my opinion, and prevents a fraction of the player base. Mind you, these limitations serve no purpose, because these problems are usually not related to whatever they're thinking of.
+### Don't help specific people.
+They refuse to help players that have a problem just because of unrelated reasons.[^1] This is unprofessional practice in my opinion, and prevents a fraction of the player base. Mind you, these limitations serve no purpose, because these problems are usually not related to whatever they're thinking of.
 
 ## Who?
 Made by me and other contributors (if there are).
 
-[^1]: Even if you are a pirate!
+[^1]: We're chill with pirates.
 [^2]: "free" as in you can do whatever you want with no restrictions.
 [^3]: You get what I mean.
