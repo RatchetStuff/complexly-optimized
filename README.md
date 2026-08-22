@@ -6,17 +6,31 @@ This is a (complex) optimization modpack based on my own philosophy! It's free, 
 ## How?
 Optimization mods and configs, and also guides (if you're willing to have a bit more performance).
 
-### Tiers
-There are three different tiers:
-1. Bleeding-edge, which contains the best optimizations at the cost of stability. Recommended for vanilla/light modded.
-2. Stability, which contains optimizations predicted not to crash at any mods you throw at it. Recommended for heavy modded.
-3. Compatibility, which contains optimizations predicted to not crash at any instance, even if you are playing on a refrigerator. Recommended for mobile players.
+### Flavors
+There are two different flavors:
+1. Vanilla (🍦), which contains optimizations that do not break vanilla features. Also known as the "stable" flavor.
+2. Non-vanilla (🍫), which contains optimizations that do break vanilla features. Also known as the "experimental" flavor.
 
-### Distributions
-There are currently three distributions (or whatever you call it). When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
-1. GitHub-only, which contains all the sweet optimizations, but will not be released. You'd have to build it yourself.
-2. CurseForge-only, which contains all but a niche amount of the optimizations, which will be distributed on CurseForge. This tier was made because some of the good mods (like Accelerated Rendering) are only on CF. This may contain Modrinth mods subject to the [Approved Non-CurseForge Mods list](https://docs.google.com/spreadsheets/d/176Wv-PZUo9hFxy6oC6N8tWdquBLPRtSuLbNK-r0_byM/edit#gid=0).
-3. Modrinth-only, which contains most of the optimizations, which will be distributed on Modrinth. Despite "some" optimizations not included, this distribution (or whatever you call it) contains roughly 80% of the optimizations.
+### Levels
+There are three different levels:
+1. Bleeding-edge (🔪), which contains the best optimizations at the cost of compatibility. Recommended for vanilla/light modded.
+2. Stability (🌲), which contains optimizations predicted not to crash at any mods you throw at it. Recommended for heavy modded.
+3. Compatibility (🪾), which contains optimizations predicted to not crash at any instance, even if you are playing on a refrigerator. Recommended for mobile players.
+
+### Variants
+There are currently two variants (or whatever you call it). When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
+1. CurseForge-only, which contains all but a niche amount of the optimizations, which will be distributed on CurseForge. This tier was made because some of the good mods (like Accelerated Rendering) are only on CF. This may contain Modrinth mods subject to the [Approved Non-CurseForge Mods list](https://docs.google.com/spreadsheets/d/176Wv-PZUo9hFxy6oC6N8tWdquBLPRtSuLbNK-r0_byM/edit#gid=0).
+2. Modrinth-only, which contains most of the optimizations, which will be distributed on Modrinth. Despite "some" optimizations not included, this variant (or whatever you call it) contains roughly 80% of the optimizations.
+
+## Which?
+
+### Version?
+Versions that get updates will have the minor version incremented by +1 (e.g. 0.1.0 -> 0.2.0). When a version falls behind in updates, and the others get more updates and patches (e.g. 0.3.1), then that version will update to whatever current version it is (e.g. 0.1.0 -> 0.3.1).
+
+### Emoji?
+The above section shows which one refers to which. The variant with the most features will be given (🔼), while the variant with the least features will be given (🔽).
+
+It is recommended to use the version that starts with (🍦🌲🔼) for the best experience. If you're feeling experimental, you can try using (🍫🔪🔼).
 
 ## Why?
 Because most optimization modpacks as of right now:
