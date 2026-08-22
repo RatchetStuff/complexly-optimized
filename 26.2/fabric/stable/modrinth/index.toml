@@ -6,7 +6,7 @@ hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
 [[files]]
 file = "configureddefaults/config/modernfix-mixins.properties"
-hash = "beaaf18d7041f45dab2e925fbf568ce03771de077d16af22be41a55e424c4c15"
+hash = "38134588a824ac3436a548e6fd7ad0906d1eaab0b1d4487a0d524e60f3889ecc"
 
 [[files]]
 file = "configureddefaults/config/moreculling.toml"
@@ -34,7 +34,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "5c76a1e72c12255967cdc39636698133af73c2ac87378934a8efb42a15aaa195"
+hash = "28eb18c27957ff822c1206d9b196c2b2736636947904b61ae23382110d895dbf"
 metafile = true
 
 [[files]]
@@ -123,11 +123,6 @@ hash = "a7038f7260b128480f8a62b12e5583240c2a94bd782c1b60e2356ec7a3843e4c"
 metafile = true
 
 [[files]]
-file = "mods/nvidium.pw.toml"
-hash = "bdaff0978a93172ccc7bebff9fcd72ea39ec99bd0c340e55db2e7020757eaed0"
-metafile = true
-
-[[files]]
 file = "mods/particle-core.pw.toml"
 hash = "ee72eb8f39a3d98dd6693a01a460a50ff88843270d23478f80413b609d1ade87"
 metafile = true
@@ -149,7 +144,7 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "fda2f23dc5a311460c9a277922fbb94ccfd6adbde2b74cc395a467f51523b90f"
+hash = "8635a6f88d0f0e9487299a0da5507bb9f1685969a8b02772efdba6df3d9c0afa"
 metafile = true
 
 [[files]]
@@ -159,7 +154,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "b0d722aa3b463fddb3a425affdc9e6c898a657040321e8c6501b089d8f7caee2"
+hash = "a899b14d4bbab643586ac2734da162e9cae579d461f81776804c598a03297ebe"
 metafile = true
 
 [[files]]
