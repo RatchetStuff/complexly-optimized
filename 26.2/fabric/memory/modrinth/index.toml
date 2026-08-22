@@ -1,8 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
+file = "configureddefaults/config/c2me.toml"
+hash = "c3509a7984beddc53dab7083bcd97e6f16d680443c58ec753f100b0aaa19f59d"
+
+[[files]]
 file = "configureddefaults/config/ferritecore.mixin.properties"
-hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
+hash = "647b66c014548ee0651515c198c4765e3677d1bf3bfdb807147a8b39ee144b5f"
 
 [[files]]
 file = "configureddefaults/config/ixeris.toml"
@@ -10,7 +14,7 @@ hash = "a1cba535c9e21e1618b39b4bd3d5331ccc06d0b013ffaa374eb405f208929e0b"
 
 [[files]]
 file = "configureddefaults/config/modernfix-mixins.properties"
-hash = "f753ad282c4471d8b4525cb893295a9e7c1b8664076a4ce6407f13050e485a0b"
+hash = "4613620e466aa23d33782f8eb6f3afa5d8c43789985f9973b15b61ed7a247544"
 
 [[files]]
 file = "configureddefaults/config/moreculling.toml"

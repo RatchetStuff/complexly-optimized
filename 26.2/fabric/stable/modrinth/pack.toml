@@ -1,12 +1,12 @@
 name = "Complexly Optimized"
 author = "Ratchet"
-version = "0.1.0"
+version = "26.2.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "90a3c01e0b00bd551361cee9891a9b2214cb6c29fb773d8478cc029ca9ee49ff"
+hash = "0c55f00ad6b459d1308a2f236053216855ccdaa287efc21ac4ad5f518eecf9aa"
 
 [versions]
 fabric = "0.19.3"

@@ -25,7 +25,9 @@ There are currently two distributions. When making a modpack, only distribute th
 ## Which?
 
 ### Version?
-Versions that get updates will have the minor version incremented by +1 (e.g. 0.1.0 -> 0.2.0). When a version falls behind in updates, and the others get more updates and patches (e.g. 0.3.1), then that version will update to whatever current version it is (e.g. 0.1.0 -> 0.3.1).
+- Versions follow the NeoForge version naming scheme (e.g. "26.2.0.1" for the first release of version 26.2, and "26.1.2.2" for the second release of version 26.1.2).
+- Any version before 26.1 will have the "1." prefix omitted (e.g. "12.2.3" for the third release of 1.12.2).
+- Non-release versions will also have the "1." prefix omitted (e.g. "b7.3.4" for the fourth release of beta 1.7.3).
 
 ### Emoji?
 The above section shows which one refers to which. The variant with the most features will be given (🔼), while the variant with the least features will be given (🔽).
