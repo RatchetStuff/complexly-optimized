@@ -19,7 +19,7 @@ These levels are occasionally added (if they get enough support):
 
 ### Distribution
 There are currently two distributions. When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
-1. CurseForge-only, which contains all but a niche amount of the optimizations, which will be distributed on CurseForge. This tier was made because some of the good mods (like Accelerated Rendering) are only on CF. This may contain Modrinth mods subject to the [Approved Non-CurseForge Mods list](https://docs.google.com/spreadsheets/d/176Wv-PZUo9hFxy6oC6N8tWdquBLPRtSuLbNK-r0_byM/edit#gid=0).
+1. CurseForge-only, which contains all but a niche amount of the optimizations, which will be distributed on CurseForge. This was made because some of the good mods (like Accelerated Rendering) are only on CF. This may contain Modrinth mods subject to the [Approved Non-CurseForge Mods list](https://docs.google.com/spreadsheets/d/176Wv-PZUo9hFxy6oC6N8tWdquBLPRtSuLbNK-r0_byM/edit#gid=0).
 2. Modrinth-only, which contains most of the optimizations, which will be distributed on Modrinth. Despite "some" optimizations not included, this distribution contains roughly 80% of the optimizations.
 
 ## Which?
