@@ -13,7 +13,7 @@ There are two main levels:
 
 These levels are occasionally added (if they get enough support):
 
-3. Compatibility (🪾), which contains optimizations predicted to not crash at any instance, even if you are playing on a refrigerator. Recommended for mobile players.
+3. Compatibility (🍫), which contains optimizations predicted to not crash at any instance, even if you are playing on a refrigerator. Recommended for mobile players.
 4. Experimental (⚠️), which contains optimizations targeted towards specific mod sets. The mods added are usually not drop-and-replace and require extensive changes to the mod list for the modpack to work correctly. Even then, it could perform better or worse. These are not what you're looking for. TLDR; not tested.
 
 ### Distribution
