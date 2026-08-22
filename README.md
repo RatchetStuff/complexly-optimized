@@ -4,7 +4,7 @@
 This is a (complex) optimization modpack based on my own philosophy! It's free, open-source, and whatever problems you have with it, we will certainly not judge you![^1] Based on [Simply Optimized](https://modrinth.com/modpack/sop), which (I think) is based on the same philosophy. Licensed under Unlicense.
 
 ## How?
-Optimization mods and configs, and also guides (if you're willing to have a bit more performance).
+Optimization mods and configs, and also guides (if you're willing to have a bit more performance). Some semi-vanilla non-breaking optimization mods (like Immersive Optimization) are added if the specific version is used mainly for modded.
 
 ### Levels
 There are two main levels:
