@@ -1,0 +1,13 @@
+name = "Async Logger"
+filename = "asynclogger-2.2.2+1.12.2-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zvNzKfGF/versions/7KLY8ACp/asynclogger-2.2.2%2B1.12.2-forge.jar"
+hash-format = "sha512"
+hash = "58892d3b9a26bebd000ba54cca76f3983334bba5721af5b1b3edcba68c416b0901f8805fb737292f9611abb9de07c74d74cb878a2943a88f361a5f154e9457f2"
+
+[update]
+[update.modrinth]
+mod-id = "zvNzKfGF"
+version = "7KLY8ACp"

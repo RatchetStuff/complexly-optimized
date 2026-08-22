@@ -1,0 +1,13 @@
+name = "Complexly Optimized"
+author = "Ratchet"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "1aa3cf1e86465160c682cc3d64773c35f33957873c3ae04d02cdf61da7eda9e5"
+
+[versions]
+forge = "14.23.5.2864"
+minecraft = "1.12.2"

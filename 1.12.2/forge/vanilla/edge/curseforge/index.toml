@@ -1,0 +1,66 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/alfheim-lighting-engine.pw.toml"
+hash = "5b8e138b7b21ad18dd6ebdbf6cc4b23c2d2137a7253fd968a4030487c5fb9a28"
+metafile = true
+
+[[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "6ed882cea7360c0f0189ab4dde16c95ae1a5761e3449baa92f333feecf3b25a5"
+metafile = true
+
+[[files]]
+file = "mods/chibi.pw.toml"
+hash = "6e4917e2ffeb7aafae7f2597b29f27420ac9c506d6c47f165c3d77f3ae5dc571"
+metafile = true
+
+[[files]]
+file = "mods/configanytime.pw.toml"
+hash = "defd8d7b171bb90e9ae3cc60f8c5e863346f74f7c43d90fd2a1519cc9b0e7f5f"
+metafile = true
+
+[[files]]
+file = "mods/entity-culling.pw.toml"
+hash = "05ee73a46aff36c2b6161afe66037c36b910f025ac8f22c17b852e2cbbc83ea9"
+metafile = true
+
+[[files]]
+file = "mods/gnetum.pw.toml"
+hash = "39cab30e19751a457253e27b457b44413bad65cbb6c66495fc280453c7bdd2ff"
+metafile = true
+
+[[files]]
+file = "mods/mixin-booter.pw.toml"
+hash = "558cd953d087c2c26b35d7cbf611f731874105f4439f05f1093f92a8b037dbb4"
+metafile = true
+
+[[files]]
+file = "mods/naughthirium.pw.toml"
+hash = "c2be1a59f9abab16b8988394be849509f36f8f56d8bcaa38abb782ea0265ea76"
+metafile = true
+
+[[files]]
+file = "mods/nothirium.pw.toml"
+hash = "784b7f17abe484d4db8088e65742d9e0ebdebc16132a71582c36ca50e5122f68"
+metafile = true
+
+[[files]]
+file = "mods/red-core.pw.toml"
+hash = "06969f488405c789e0312c1a09be5e51bda6eab1d7869ab934cb55289aad3860"
+metafile = true
+
+[[files]]
+file = "mods/renderlib.pw.toml"
+hash = "98185e416d24da0fa61981ad5e539a6ce987409ea70dfca55b91754449e01b6e"
+metafile = true
+
+[[files]]
+file = "mods/stellarcore.pw.toml"
+hash = "b988c8ff2e22b556951f26384b98eb3ccc9eef71434f36664383ecfbdb91caba"
+metafile = true
+
+[[files]]
+file = "mods/vintagefix.pw.toml"
+hash = "6acf78c6d7d81ab42ef4dc3e3bb53d6dd66c8f3ce6926f941b3889209c67c9fe"
+metafile = true
