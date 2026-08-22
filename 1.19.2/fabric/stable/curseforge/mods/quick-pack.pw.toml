@@ -1,0 +1,13 @@
+name = "quick pack"
+filename = "quick-pack-fabric-1.3.1+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bc62821d9e9f1472c80ea4a17518a7b9998b0d52"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7935941
+project-id = 1380888

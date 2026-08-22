@@ -1,0 +1,13 @@
+name = "Async Logger"
+filename = "asynclogger-2.2.2+1.19.2-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6ad6e586bc914c6761cf5c24aa8821f95f524b9c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8631007
+project-id = 1491426

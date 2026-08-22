@@ -1,0 +1,13 @@
+name = "Kerria"
+filename = "Kerria-1.3.2+1.19.2-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3e0f7dbd6e812d61e048c0ad5fa36a5f300b64e2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8361805
+project-id = 1503432

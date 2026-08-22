@@ -1,0 +1,13 @@
+name = "Jasione"
+filename = "jasione-1.0.7+1.20.1-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2b9e8da997486969044f66f7fe7c8c8c230e02bd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8696379
+project-id = 1595495
