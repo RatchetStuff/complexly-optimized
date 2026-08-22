@@ -30,7 +30,7 @@ Versions that get updates will have the minor version incremented by +1 (e.g. 0.
 ### Emoji?
 The above section shows which one refers to which. The variant with the most features will be given (🔼), while the variant with the least features will be given (🔽).
 
-It is recommended to use the version that starts with (🌲🔼) for the best experience. If you're feeling experimental, you can try using (🔪🔼).
+It is recommended to use the version that starts with (🌲🔼) for the smoothest experience. If you're feeling experimental and want to squeeze out more performance, you can try using (🔪🔼).
 
 ## Why?
 Because most optimization modpacks as of right now:
