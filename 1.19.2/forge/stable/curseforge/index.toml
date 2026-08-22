@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "configureddefaults/config/modernfix-mixins.properties"
+hash = "4300a74e7ef02f3911695efc2f3386e95a543c7409a25e8e622c1b0ce571f000"
+
+[[files]]
 file = "mods/asynclogger.pw.toml"
 hash = "754aa49f8c56f7e9587dab27d77b45c9b48f1b148cda961c0dd0823ef5a529e6"
 metafile = true
