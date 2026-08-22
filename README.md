@@ -14,7 +14,8 @@ There are two main levels:
 These levels are occasionally added (if they get enough support):
 
 3. Compatibility (🍫), which contains optimizations predicted to not crash at any instance, even if you are playing on a refrigerator. Recommended for mobile players.
-4. Experimental (⚠️), which contains optimizations targeted towards specific mod sets. The mods added are usually not drop-and-replace and require extensive changes to the mod list for the modpack to work correctly. Even then, it could perform better or worse. These are not what you're looking for. TLDR; not tested.
+4. Memory (🍺), which contains optimizations specifically designed to reduce memory, even if it makes the game a little slower. Based on bleeding-edge. Recommended for memory-tight setups.
+5. Experimental (⚠️), which contains optimizations targeted towards specific mod sets. The mods added are usually not drop-and-replace and require extensive changes to the mod list for the modpack to work correctly. Even then, it could perform better or worse. These are not what you're looking for. TLDR; not tested.
 
 ### Distribution
 There are currently two distributions. When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
