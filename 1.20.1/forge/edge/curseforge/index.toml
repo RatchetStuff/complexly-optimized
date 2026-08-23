@@ -1,2 +1,131 @@
 hash-format = "sha256"
-files = []
+
+[[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "e0fb0b451f5b67e72955a887a9f96eb0501e7b62f075f17c205435aceb0733df"
+metafile = true
+
+[[files]]
+file = "mods/asyncparticles.pw.toml"
+hash = "66e3a22bbacd816ba0ae44d468612cd8dc63e05542c0a0f02dc2617c611eed76"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "4cad4f50ffb8846804478936902988d6a8a5e0b781675bf3f75d4fcededafca6"
+metafile = true
+
+[[files]]
+file = "mods/brute-force-rendering-culling-revived.pw.toml"
+hash = "bee9b8b517406af17167b00327fc32cb808039060f5b9d02b344629bb9c03c11"
+metafile = true
+
+[[files]]
+file = "mods/configured-defaults.pw.toml"
+hash = "28e94fb73ed15cd65a06f9d9f456cdbe210c513d6326ab16c9d8b59d83c76b93"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "5c5689bec7092b41ff3d8b225a84e48d0ee9f25541503df35c9a406bdc4aebfb"
+metafile = true
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "37c8fd64e324fae219a25f9937dad68e2a88ab17a5cd8c3f09029a92afc47641"
+metafile = true
+
+[[files]]
+file = "mods/fast-ip-ping.pw.toml"
+hash = "a04ef61e1fbb9f123034b8016877a45ac3248f47cb53a528d0436a03924073a9"
+metafile = true
+
+[[files]]
+file = "mods/fastchunkgen.pw.toml"
+hash = "3fd523ef1c352ba5a230ec984e340007b136737b97ca8f31ec38d704d2683652"
+metafile = true
+
+[[files]]
+file = "mods/ferritecore.pw.toml"
+hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
+metafile = true
+
+[[files]]
+file = "mods/gnetum.pw.toml"
+hash = "2b77f66ae240c4b15717b897c4eb921623b4d4228ddc310176f6e132ee1d8ef8"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "88396b3f04853c2cab8b7932757a3020aa8b1d266e7ee69a2b208908d3a44ada"
+metafile = true
+
+[[files]]
+file = "mods/immersive-optimization.pw.toml"
+hash = "718c4fafb81bbf643bcf45593dea1b1f9d76ad150d127f988b57a5a4a3c486cd"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "0655701bdde19d7125d7f6716fdb57fc737f0a03711eb5e45baea997e0a412f5"
+metafile = true
+
+[[files]]
+file = "mods/jasione.pw.toml"
+hash = "2c8e74c735c45e75f1b09b890208e7765bb5ad1776164ab10e59353b33e9d241"
+metafile = true
+
+[[files]]
+file = "mods/krypton-fnp.pw.toml"
+hash = "9d6f444e277e2a90df322e69ad73329c93be60861a44aafba57f5416b255db2e"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "c7ffa2d9d6ffe6cc471e293baece3e8543ee3cadd7acf2c0c2c9bef0dc876a56"
+metafile = true
+
+[[files]]
+file = "mods/obe.pw.toml"
+hash = "647dd5d913e4e20f0c52e49502425176dc0a50607e6bd925d49018ff6e4104a4"
+metafile = true
+
+[[files]]
+file = "mods/quick-pack.pw.toml"
+hash = "6f6c9c1244d9d65ea1e81d4ef9c3f626901c65617ce44a8fa070fc6003c56616"
+metafile = true
+
+[[files]]
+file = "mods/radium-reforged.pw.toml"
+hash = "77fa86d36ada0d178545853f987f9e71128e1833c9c29ae62c436c09bdb31948"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "e242387207a2538b5ccb55697174c65e549e1eb2fef9da37e1ad3734e0372b65"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "4c1d37d3aecc6d67ce6c6a97d859345cdaefcf619a057069b0a8635f2ad551ac"
+metafile = true
+
+[[files]]
+file = "mods/starlight-with-create-fix.pw.toml"
+hash = "e5bcd9a09736995e659427655a8d2d198b930abbcfdb17943a2b1d4208e6e819"
+metafile = true
+
+[[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
+hash = "4b2933a18390fe4fc0efef26556413372a96a0f5ed639c713643ed8e49649c58"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "debf725764848c1b3c08882c7a452e3eb59078810b4918f74ae520ec371f773f"
+metafile = true
