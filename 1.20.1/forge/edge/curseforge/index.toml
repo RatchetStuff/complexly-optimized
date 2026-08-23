@@ -32,11 +32,6 @@ hash = "4cad4f50ffb8846804478936902988d6a8a5e0b781675bf3f75d4fcededafca6"
 metafile = true
 
 [[files]]
-file = "mods/brute-force-rendering-culling-revived.pw.toml"
-hash = "bee9b8b517406af17167b00327fc32cb808039060f5b9d02b344629bb9c03c11"
-metafile = true
-
-[[files]]
 file = "mods/configured-defaults.pw.toml"
 hash = "28e94fb73ed15cd65a06f9d9f456cdbe210c513d6326ab16c9d8b59d83c76b93"
 metafile = true
