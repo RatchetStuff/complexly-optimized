@@ -7,10 +7,13 @@ This is a (complex) optimization modpack based on my own philosophy! It's free, 
 Optimization mods and configs, and also guides (if you're willing to have a bit more performance). Some semi-vanilla non-breaking optimization mods (like Immersive Optimization) are added if the specific version is used mainly for modded.
 
 ### Flavors
-There are four flavors:
+There are two main flavors:
 1. Aggressive (🌶️), which is stable and contains all optimizations at the cost of some compatibility. Recommended for vanilla/light modded, may be incompatible with some mods!
 2. Normal (🍦), which is stable and contains most optimizations for use with other mods. Recommended for heavy modded, rarely incompatible!
-3. ~~Conservative (🧊), which is extremely stable, frozen and only contains major optimizations that will be compatible with everything. No beta software!~~ (I'm not that unemployed)
+
+These flavors are added on an occasional basis. Don't expect frequent updates:
+
+3. Conservative (🧊), which is extremely stable, frozen and only contains major optimizations that will be compatible with everything. No beta software!
 4. Experimental (💣), which is unstable and contains extreme bleeding-edge optimizations. Not recommended!
 
 ### Distribution
