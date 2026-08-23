@@ -1,0 +1,13 @@
+name = "RenderLib"
+filename = "RenderLib-1.12.2-1.4.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/U0xnRzCg/versions/vB2R8SDX/RenderLib-1.12.2-1.4.5.jar"
+hash-format = "sha512"
+hash = "2f766fc57e8d8336ff1b58366d1a182e0f1c7bb8df2043b8110f02d605e180429853fda065e977941d4998b4f04f9b62b766431b46e96f677b1d1e5fff40ff7c"
+
+[update]
+[update.modrinth]
+mod-id = "U0xnRzCg"
+version = "vB2R8SDX"

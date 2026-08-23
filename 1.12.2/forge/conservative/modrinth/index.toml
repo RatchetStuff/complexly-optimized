@@ -1,0 +1,55 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/crash_assistant/config.toml"
+hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
+
+[[files]]
+file = "mods/alfheim-lighting-engine.pw.toml"
+hash = "b720ead1a383bbe9167f2c4c40775940412ff7d8bcd33bd4214d87be0270b81c"
+metafile = true
+
+[[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "ddb23b69ce6132f8ca3aca12165cecebdf98b8bee60abfeb546507908692c739"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "3aecb964245da3c78412afc3577781d2bade4a280bbc57411c153184bf6911ae"
+metafile = true
+
+[[files]]
+file = "mods/entity-culling.pw.toml"
+hash = "f8ed0d0c92ba2da43837925576a19053da869c83ee72b036b0274b60075c18b8"
+metafile = true
+
+[[files]]
+file = "mods/mixinbooter.pw.toml"
+hash = "04068d74c2f28b8686a8f92001c6701b9b3d981c1ff5205a4bca398268322655"
+metafile = true
+
+[[files]]
+file = "mods/naughthirium.pw.toml"
+hash = "5c7f0086c0b91787ba1ee366d4d719df54f32990a6d8364a1b830173cf4d0b29"
+metafile = true
+
+[[files]]
+file = "mods/nothirium.pw.toml"
+hash = "81ca6579425dda762a9ae2530e605b6e5d6b2d2a44d5508e1f781fab4660f2b3"
+metafile = true
+
+[[files]]
+file = "mods/red-core.pw.toml"
+hash = "d60d1b117bc4ba3bde20607a64586f47ddabebee1557c8129a185556554c2627"
+metafile = true
+
+[[files]]
+file = "mods/renderlib.pw.toml"
+hash = "278e533a3e62a5d021540add8d01cc11814ba42fd17bbc33a3b97ee2d5b84683"
+metafile = true
+
+[[files]]
+file = "mods/vintagefix.pw.toml"
+hash = "18f08d42b72a7d9ab8f0ceed7453f147b0f5001c2b3a4fea5b9065278fe406d2"
+metafile = true

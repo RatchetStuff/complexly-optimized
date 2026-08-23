@@ -4,17 +4,13 @@
 This is a (complex) optimization modpack based on my own philosophy! It's free, open-source, and whatever problems you have with it, we will certainly not judge you![^1] Based on [Simply Optimized](https://modrinth.com/modpack/sop), which (I think) is based on the same philosophy. Licensed under Unlicense.
 
 ## How?
-Optimization mods and configs, and also guides (if you're willing to have a bit more performance). Some semi-vanilla non-breaking optimization mods (like Immersive Optimization) are added if the specific version is used mainly for modded.
+Optimization mods and configs, and also guides (if you're willing to have a bit more performance). Vanilla parity is maintained, but if it doesn't, don't hesitate to open an issue!
 
 ### Flavors
-There are two main flavors:
+There are three flavors:
 1. Aggressive (🌶️), which is stable and contains all optimizations at the cost of some compatibility. Recommended for vanilla/light modded, may be incompatible with some mods!
-2. Normal (🍦), which is stable and contains most optimizations for use with other mods. Recommended for heavy modded, rarely incompatible!
-
-These flavors are added on an occasional basis. Don't expect frequent updates:
-
-3. Conservative (🧊), which is extremely stable, frozen and only contains major optimizations that will be compatible with everything. No beta software!
-4. Experimental (💣), which is unstable and contains extreme bleeding-edge optimizations. Not recommended!
+2. Conservative (🧊), which is stable and contains most optimizations for compatibility with other mods. Recommended for heavy modded, rarely incompatible!
+3. Experimental (💣), which is unstable and contains extreme bleeding-edge optimizations. Not recommended!
 
 ### Distribution
 There are currently two distributions. When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):

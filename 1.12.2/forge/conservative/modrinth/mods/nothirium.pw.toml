@@ -1,0 +1,13 @@
+name = "Nothirium"
+filename = "Nothirium-1.12.2-0.4.9-beta.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IhV0znaZ/versions/s9WsUXE1/Nothirium-1.12.2-0.4.9-beta.jar"
+hash-format = "sha512"
+hash = "c7101c7bc166ac1a4824c038643b9052194a36d23ba492f6f1b965b8165c2214b2adb3ec57ed738b067d67c37588c54ba7309123eb8dd0edce97e7e679433941"
+
+[update]
+[update.modrinth]
+mod-id = "IhV0znaZ"
+version = "s9WsUXE1"
