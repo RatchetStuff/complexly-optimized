@@ -8,12 +8,12 @@ Optimization mods and configs, and also guides (if you're willing to have a bit 
 
 ### Flavors
 There are two main flavors:
-1. Vanilla (🍦), which is stable and contains the best optimizations at the cost of some compatibility.
-2. Modded (🍨), which is stable and contains most optimizations for maximum compatibility with other mods.
+1. Vanilla (🍦), also known as the vanilla preset. Stable and contains all optimizations at the cost of some compatibility. Not recommended for modded worlds.
+2. Modded (🍨), also known as the modded preset. Consider it a "sidegrade" of the vanilla preset. Stable and contains most optimizations (may be semi-vanilla) for use with other mods. Will not break vanilla worlds, but is still not recommended for it.
 
 These flavors are added on an occasional basis:
 
-3. Compatibility (🍫), which is stable and contains some optimizations for maximum compatibility with mobile devices.
+3. Compatibility (🍫), which is stable and contains some optimizations for maximum compatibility with mobile devices. Don't use this on your computer unless you want to cut some of your performance.
 4. Experimental (⚠️), which is unstable and contains extreme bleeding-edge optimizations. Not recommended.
 
 ### Distribution

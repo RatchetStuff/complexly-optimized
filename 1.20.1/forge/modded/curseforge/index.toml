@@ -22,7 +22,7 @@ hash = "51daf2342a12d3b6e9af2cdbcfc2764b039dc3f57775ee71b8e34da1196b155f"
 
 [[files]]
 file = "configureddefaults/config/modernfix-mixins.properties"
-hash = "9b4033fddb660df6c3118dcc8c8ca8aef1a365078625279965402753bde0af3f"
+hash = "f753ad282c4471d8b4525cb893295a9e7c1b8664076a4ce6407f13050e485a0b"
 
 [[files]]
 file = "mods/asynclogger.pw.toml"
@@ -72,11 +72,6 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
-metafile = true
-
-[[files]]
-file = "mods/gnetum.pw.toml"
-hash = "2b77f66ae240c4b15717b897c4eb921623b4d4228ddc310176f6e132ee1d8ef8"
 metafile = true
 
 [[files]]
