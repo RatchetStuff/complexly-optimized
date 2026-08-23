@@ -13,6 +13,10 @@ file = "configureddefaults/config/ixeris.toml"
 hash = "a1cba535c9e21e1618b39b4bd3d5331ccc06d0b013ffaa374eb405f208929e0b"
 
 [[files]]
+file = "configureddefaults/config/kerria.json"
+hash = "51daf2342a12d3b6e9af2cdbcfc2764b039dc3f57775ee71b8e34da1196b155f"
+
+[[files]]
 file = "configureddefaults/config/modernfix-mixins.properties"
 hash = "f753ad282c4471d8b4525cb893295a9e7c1b8664076a4ce6407f13050e485a0b"
 
@@ -88,6 +92,11 @@ metafile = true
 [[files]]
 file = "mods/jasione.pw.toml"
 hash = "a99a871dea2b499caf3508716e0bb8873d61ca50f03f2e112909f3e65f812609"
+metafile = true
+
+[[files]]
+file = "mods/kerria-opt.pw.toml"
+hash = "0aae6815cb51e2300c13fc1d0d39b31f0cb8027d49c5d5504d2cfeedf65c2ffb"
 metafile = true
 
 [[files]]
