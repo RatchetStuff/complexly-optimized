@@ -9,6 +9,10 @@ file = "configureddefaults/config/c2me.toml"
 hash = "c3509a7984beddc53dab7083bcd97e6f16d680443c58ec753f100b0aaa19f59d"
 
 [[files]]
+file = "configureddefaults/config/crash_assistant/config.toml"
+hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
+
+[[files]]
 file = "configureddefaults/config/ferritecore.mixin.properties"
 hash = "647b66c014548ee0651515c198c4765e3677d1bf3bfdb807147a8b39ee144b5f"
 

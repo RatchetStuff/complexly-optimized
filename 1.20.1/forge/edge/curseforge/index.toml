@@ -5,6 +5,10 @@ file = "config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
+file = "configureddefaults/config/crash_assistant/config.toml"
+hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
+
+[[files]]
 file = "configureddefaults/config/ferritecore.mixin.properties"
 hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
@@ -19,10 +23,6 @@ hash = "51daf2342a12d3b6e9af2cdbcfc2764b039dc3f57775ee71b8e34da1196b155f"
 [[files]]
 file = "configureddefaults/config/modernfix-mixins.properties"
 hash = "9b4033fddb660df6c3118dcc8c8ca8aef1a365078625279965402753bde0af3f"
-
-[[files]]
-file = "configureddefaults/config/moreculling.toml"
-hash = "98dac74a3de9b7d5b29dca88e01d72739208d085270fea9d3108c730079d9712"
 
 [[files]]
 file = "mods/asynclogger.pw.toml"

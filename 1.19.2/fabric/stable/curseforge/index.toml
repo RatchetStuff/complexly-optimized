@@ -5,6 +5,10 @@ file = "config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
+file = "configureddefaults/config/crash_assistant/config.toml"
+hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
+
+[[files]]
 file = "configureddefaults/config/modernfix-mixins.properties"
 hash = "4300a74e7ef02f3911695efc2f3386e95a543c7409a25e8e622c1b0ce571f000"
 
