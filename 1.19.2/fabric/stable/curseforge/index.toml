@@ -27,8 +27,8 @@ hash = "d8feef091f0f3cd8b3c515a2f8be8253199423e6479fa4795105bbdaaf55a3a9"
 metafile = true
 
 [[files]]
-file = "mods/c2me.pw.toml"
-hash = "bb58d75e11c17f5800fc9b3c2780e659c21b5668bdc23595e286243c755446e4"
+file = "mods/chunkumulator.pw.toml"
+hash = "cbdb77837d1d999d6deed64355481027aa52c6bb1adb2b4cf3f642e8df621857"
 metafile = true
 
 [[files]]
