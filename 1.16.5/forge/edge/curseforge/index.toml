@@ -5,23 +5,19 @@ file = "config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
-file = "configureddefaults/config/crash_assistant/config.toml"
-hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
-
-[[files]]
-file = "configureddefaults/config/ferritecore.mixin.properties"
+file = "config/ferritecore.mixin.properties"
 hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
 [[files]]
-file = "configureddefaults/config/ixeris.toml"
+file = "config/ixeris.toml"
 hash = "a1cba535c9e21e1618b39b4bd3d5331ccc06d0b013ffaa374eb405f208929e0b"
 
 [[files]]
-file = "configureddefaults/config/kerria.json"
+file = "config/kerria.json"
 hash = "51daf2342a12d3b6e9af2cdbcfc2764b039dc3f57775ee71b8e34da1196b155f"
 
 [[files]]
-file = "configureddefaults/config/modernfix-mixins.properties"
+file = "config/modernfix-mixins.properties"
 hash = "f753ad282c4471d8b4525cb893295a9e7c1b8664076a4ce6407f13050e485a0b"
 
 [[files]]
@@ -32,11 +28,6 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "4c6b115d52556855e391af8664796754d9313e805be51b2d63cda52922630c61"
-metafile = true
-
-[[files]]
-file = "mods/configured-defaults.pw.toml"
-hash = "c7d64d75425e40d27b787e2962e044157a238f607bc2a0de0021e2a36e419dd9"
 metafile = true
 
 [[files]]
