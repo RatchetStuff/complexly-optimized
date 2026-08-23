@@ -1,6 +1,6 @@
 name = "Chunkumulator"
 filename = "chunkumulator-1.1.1+MC1.16.5.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/NdXjQHpc/versions/LrVdatFG/chunkumulator-1.1.1%2BMC1.16.5.jar"

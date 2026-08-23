@@ -1,6 +1,6 @@
 name = "Ixeris"
 filename = "Ixeris-4.6.5+1.16.5-forge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

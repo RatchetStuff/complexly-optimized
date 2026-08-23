@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunkumulator.pw.toml"
-hash = "3d7c06da03ae387fd5038af4bcf8edde1d76c6bd770ffd550962faca89aac2d5"
+hash = "4b808f1395a58c7d6be83ddc3685e9e43d70ab56113600d81e54bccff31f628e"
 metafile = true
 
 [[files]]
@@ -107,10 +107,10 @@ metafile = true
 
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
-hash = "f6ecb4df1af071f8e879ebb7bf5bfdf5522d49092ff12c58a0dc84b77a31024e"
+hash = "3b48ee51a2e8eade9317a9b172a8cceb4e9f313b5d5fa407a5e497daeae8e887"
 metafile = true
 
 [[files]]
 file = "mods/yosbr.pw.toml"
-hash = "649c259a4777ba1b544b69d04a79f2b1b0e1a3c520033cc86a3c14d5fa53564a"
+hash = "1bb9b2e75c6934b1f18648e9b37e20abcf6a4a2547c7cdb0abe88407267e0c10"
 metafile = true

@@ -1,6 +1,6 @@
 name = "Optimized Block Entities"
 filename = "obe+1.20.1-forge-1.1.41-patch.2-srg.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

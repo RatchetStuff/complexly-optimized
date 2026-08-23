@@ -146,7 +146,7 @@ metafile = true
 
 [[files]]
 file = "mods/railoptimization.pw.toml"
-hash = "e4d7d6b3ff21e0ffb30b5a6861a22f1932adb2f5dd476cbdb15b362a0478ca9c"
+hash = "808c1f6783dd4a2e407f27d40251713b1c46a40086cebbf8dde423ee76601c30"
 metafile = true
 
 [[files]]
@@ -156,7 +156,7 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "058f62395b41a3b18121bcd961320cc8fd8460a34a5ccb4f07552e42ff19df4a"
+hash = "0201eb8dce1b66107457141c16049d6ffaf952f506b4e37129a4b4a1b8e12b1c"
 metafile = true
 
 [[files]]
@@ -171,7 +171,7 @@ metafile = true
 
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
-hash = "ab1caf459e3b803868cbf28639c9ad86e016d650ca2e1c6a78a38d2436abdafd"
+hash = "7d9d9e111901be076bcf1e7eaaaf7b7b74a09a9fe573ffee423a57057b0b02af"
 metafile = true
 
 [[files]]

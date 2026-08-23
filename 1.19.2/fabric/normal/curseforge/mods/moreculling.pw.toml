@@ -1,6 +1,6 @@
 name = "MoreCulling"
 filename = "moreculling-1.19.1-0.17.0.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "Nothirium"
 filename = "Nothirium-1.12.2-0.4.9-beta.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
