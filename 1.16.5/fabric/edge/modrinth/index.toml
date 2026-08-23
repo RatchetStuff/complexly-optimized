@@ -70,11 +70,6 @@ hash = "3cbb2927c65785d13561baa88df7c1535c69275fc822933a3c1de081b0b89f9f"
 metafile = true
 
 [[files]]
-file = "mods/hydrogen.pw.toml"
-hash = "153cda3c6d61ae9b32117fe5315ee40a0bd561b7292d9a5927773a368b52c254"
-metafile = true
-
-[[files]]
 file = "mods/ixeris.pw.toml"
 hash = "bf8eeef0f45e2bf3db39cea1203c7909b9416554392a60e8700d27b149edcfab"
 metafile = true
