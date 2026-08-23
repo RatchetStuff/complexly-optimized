@@ -1,6 +1,22 @@
 hash-format = "sha256"
 
 [[files]]
+file = "configureddefaults/config/ferritecore.mixin.properties"
+hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
+
+[[files]]
+file = "configureddefaults/config/ixeris.toml"
+hash = "a1cba535c9e21e1618b39b4bd3d5331ccc06d0b013ffaa374eb405f208929e0b"
+
+[[files]]
+file = "configureddefaults/config/modernfix-mixins.properties"
+hash = "9b4033fddb660df6c3118dcc8c8ca8aef1a365078625279965402753bde0af3f"
+
+[[files]]
+file = "configureddefaults/config/moreculling.toml"
+hash = "98dac74a3de9b7d5b29dca88e01d72739208d085270fea9d3108c730079d9712"
+
+[[files]]
 file = "mods/asynclogger.pw.toml"
 hash = "e0fb0b451f5b67e72955a887a9f96eb0501e7b62f075f17c205435aceb0733df"
 metafile = true
