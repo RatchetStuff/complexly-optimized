@@ -70,6 +70,11 @@ hash = "3cbb2927c65785d13561baa88df7c1535c69275fc822933a3c1de081b0b89f9f"
 metafile = true
 
 [[files]]
+file = "mods/indium.pw.toml"
+hash = "0b8b247b96fa28d736ce4e66500cc9e3a7021884ed29a5da0ea0b4b54f3c89cc"
+metafile = true
+
+[[files]]
 file = "mods/ixeris.pw.toml"
 hash = "bf8eeef0f45e2bf3db39cea1203c7909b9416554392a60e8700d27b149edcfab"
 metafile = true
