@@ -26,11 +26,6 @@ hash = "e0fb0b451f5b67e72955a887a9f96eb0501e7b62f075f17c205435aceb0733df"
 metafile = true
 
 [[files]]
-file = "mods/asyncparticles.pw.toml"
-hash = "66e3a22bbacd816ba0ae44d468612cd8dc63e05542c0a0f02dc2617c611eed76"
-metafile = true
-
-[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "4cad4f50ffb8846804478936902988d6a8a5e0b781675bf3f75d4fcededafca6"
 metafile = true
@@ -71,13 +66,13 @@ hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
 metafile = true
 
 [[files]]
-file = "mods/immediatelyfast.pw.toml"
-hash = "88396b3f04853c2cab8b7932757a3020aa8b1d266e7ee69a2b208908d3a44ada"
+file = "mods/fzzy-config.pw.toml"
+hash = "82c1bd758e0562f94f461b297930876b64c2e99feea47b3815efb3da02e0a059"
 metafile = true
 
 [[files]]
-file = "mods/immersive-optimization.pw.toml"
-hash = "718c4fafb81bbf643bcf45593dea1b1f9d76ad150d127f988b57a5a4a3c486cd"
+file = "mods/immediatelyfast.pw.toml"
+hash = "88396b3f04853c2cab8b7932757a3020aa8b1d266e7ee69a2b208908d3a44ada"
 metafile = true
 
 [[files]]
@@ -96,6 +91,11 @@ hash = "4d1a335ab4a4425c8ecaa0318dc6cc753c0eb5312643f940e7ff5c478d0e03f1"
 metafile = true
 
 [[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "1678327ac50408273c1828b631929128d3fdfd54cda7b2e823ce9352495a68ff"
+metafile = true
+
+[[files]]
 file = "mods/krypton-fnp.pw.toml"
 hash = "9d6f444e277e2a90df322e69ad73329c93be60861a44aafba57f5416b255db2e"
 metafile = true
@@ -108,6 +108,11 @@ metafile = true
 [[files]]
 file = "mods/obe.pw.toml"
 hash = "647dd5d913e4e20f0c52e49502425176dc0a50607e6bd925d49018ff6e4104a4"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+hash = "f2dac6ca0291f11a8f544bf38d8417fedcd25682dcc1fda2c4d6d3c9bc5f9e42"
 metafile = true
 
 [[files]]
