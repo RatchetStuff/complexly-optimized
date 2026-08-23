@@ -1,7 +1,0 @@
-[chunkSystem]
-	# (Default: false) Whether to enable low memory mode
-	# 
-	# This option will attempt to aggressively unload unused chunks.
-	# Only applies when useLegacyScheduling is disabled.
-	# 
-	lowMemoryMode=true
