@@ -9,8 +9,12 @@ file = "configureddefaults/config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
+file = "configureddefaults/config/ferritecore.mixin.properties"
+hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
+
+[[files]]
 file = "configureddefaults/config/modernfix-mixins.properties"
-hash = "4300a74e7ef02f3911695efc2f3386e95a543c7409a25e8e622c1b0ce571f000"
+hash = "f753ad282c4471d8b4525cb893295a9e7c1b8664076a4ce6407f13050e485a0b"
 
 [[files]]
 file = "configureddefaults/config/moreculling.toml"
@@ -27,8 +31,8 @@ hash = "d8feef091f0f3cd8b3c515a2f8be8253199423e6479fa4795105bbdaaf55a3a9"
 metafile = true
 
 [[files]]
-file = "mods/chunkumulator.pw.toml"
-hash = "cbdb77837d1d999d6deed64355481027aa52c6bb1adb2b4cf3f642e8df621857"
+file = "mods/c2me.pw.toml"
+hash = "bb58d75e11c17f5800fc9b3c2780e659c21b5668bdc23595e286243c755446e4"
 metafile = true
 
 [[files]]
@@ -129,4 +133,9 @@ metafile = true
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
 hash = "9010bb97c6f0a2978739205cb0963181792185e682d252417d0caecb2c8cfe40"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "6f036585b5b4fae8991ef9a9b3ad507b2da78ea2544ea0298be696a89da66e0a"
 metafile = true
