@@ -10,7 +10,7 @@ Optimization mods and configs, and also guides (if you're willing to have a bit 
 There are four flavors:
 1. Aggressive (🌶️), which is stable and contains all optimizations at the cost of some compatibility. Recommended for vanilla/light modded, may be incompatible with some mods!
 2. Normal (🍦), which is stable and contains most optimizations for use with other mods. Recommended for heavy modded, rarely incompatible!
-3. Conservative (🧊), which is extremely stable, frozen and contains some optimizations that will be compatible with everything. No beta software!
+3. ~~Conservative (🧊), which is extremely stable, frozen and only contains major optimizations that will be compatible with everything. No beta software!~~ (I'm not that unemployed)
 4. Experimental (💣), which is unstable and contains extreme bleeding-edge optimizations. Not recommended!
 
 ### Distribution
