@@ -7,14 +7,11 @@ This is a (complex) optimization modpack based on my own philosophy! It's free, 
 Optimization mods and configs, and also guides (if you're willing to have a bit more performance). Some semi-vanilla non-breaking optimization mods (like Immersive Optimization) are added if the specific version is used mainly for modded.
 
 ### Flavors
-There are two main flavors:
-1. Vanilla (🍦), also known as the vanilla preset. Stable and contains all optimizations at the cost of some compatibility. Not recommended for modded worlds.
-2. Modded (🍨), also known as the modded preset. Stable and contains most optimizations for use with other mods. This doesn't mean the optimizations aren't vanilla, it is still vanilla by itself.
-
-These flavors are added on an occasional basis:
-
-3. Compatibility (🍫), which is stable and contains some optimizations for maximum compatibility with mobile devices. Don't use this on your computer unless you want to cut some of your performance.
-4. Experimental (⚠️), which is unstable and contains extreme bleeding-edge optimizations. Not recommended.
+There are four flavors:
+1. Aggressive (🌶️), which is stable and contains all optimizations at the cost of some compatibility. Recommended for vanilla/light modded, may be incompatible with some mods!
+2. Normal (🍦), which is stable and contains most optimizations for use with other mods. Recommended for heavy modded, rarely incompatible!
+3. Conservative (🧊), which is stable and contains some optimizations that will be compatible with everything! Recommended for mobile devices!
+4. Experimental (💣), which is unstable and contains extreme bleeding-edge optimizations. Not recommended!
 
 ### Distribution
 There are currently two distributions. When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
@@ -31,7 +28,7 @@ There are currently two distributions. When making a modpack, only distribute th
 ### Emoji?
 The above section shows which one refers to which. The variant with the most features will be given (🔼), while the variant with the least features will be given (🔽).
 
-It is recommended to use the version that starts with (🍦🔼) for the smoothest experience.
+It is recommended to use the version that starts with (🍦🔼) for the smoothest experience. Use the version that starts with (🌶️🔼) if you're willing to deal with mod incompatibilities!
 
 ## Why?
 Because most optimization modpacks as of right now:
