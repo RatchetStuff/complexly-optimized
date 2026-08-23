@@ -13,10 +13,6 @@ file = "configureddefaults/config/ferritecore.mixin.properties"
 hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
 [[files]]
-file = "configureddefaults/config/ixeris.toml"
-hash = "a1cba535c9e21e1618b39b4bd3d5331ccc06d0b013ffaa374eb405f208929e0b"
-
-[[files]]
 file = "configureddefaults/config/kerria.json"
 hash = "51daf2342a12d3b6e9af2cdbcfc2764b039dc3f57775ee71b8e34da1196b155f"
 

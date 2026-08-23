@@ -1,2 +1,0 @@
-#Enable to use some experimental GLFW state cache, which may improve performance with some mods
-aggressiveCaching=true
