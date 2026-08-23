@@ -1,6 +1,6 @@
 name = "Complexly Optimized"
 author = "Ratchet"
-version = "26.2.0.1"
+version = "26.2.0.1-stable"
 pack-format = "packwiz:1.1.0"
 
 [index]
