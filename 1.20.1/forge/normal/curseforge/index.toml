@@ -66,6 +66,11 @@ hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
 metafile = true
 
 [[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "b5dfc1ed07de5e850c30f4277412ee8e85e9d21c17f168bd8adf2bfa95ae664c"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "82c1bd758e0562f94f461b297930876b64c2e99feea47b3815efb3da02e0a059"
 metafile = true
