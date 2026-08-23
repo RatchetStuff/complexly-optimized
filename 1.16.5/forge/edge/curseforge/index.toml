@@ -71,6 +71,11 @@ hash = "1da1c59393173a181d95fd5d0d5fdfa864d052cb743e2c23bf4f0fb53475df79"
 metafile = true
 
 [[files]]
+file = "mods/lazy-dfu-forge.pw.toml"
+hash = "4cbade87fef39ba34f9b459b8d238fa761901c4817db0564ef4dae1a06e4b832"
+metafile = true
+
+[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "13b02e9b6c4e5781fb93e6909d7523428c3fc34c8959ee065e56096c7226a64b"
 metafile = true
