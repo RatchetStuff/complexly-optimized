@@ -8,14 +8,9 @@ Optimization mods and configs, and also guides (if you're willing to have a bit 
 
 ### Levels
 There are two main levels:
-1. Bleeding-edge (🔪), which contains the best optimizations at the cost of some compatibility. Recommended for vanilla/light modded.
-2. Stability (🌲), which contains optimizations predicted not to crash at any mods you throw at it. Recommended for heavy modded.
-
-These levels are occasionally added (if they get enough support):
-
-3. Compatibility (🍫), which contains optimizations predicted to not crash at any instance, even if you are playing on a refrigerator. Recommended for mobile players.
-4. Memory (🍺), which contains optimizations specifically designed to reduce memory, even if it makes the game a little slower. Based on bleeding-edge. Recommended for memory-tight setups.
-5. Experimental (⚠️), which contains optimizations targeted towards specific mod sets. The mods added are usually not drop-and-replace and require extensive changes to the mod list for the modpack to work correctly. Even then, it could perform better or worse. These are not what you're looking for. TLDR; not tested.
+1. Vanilla (🍦), which contains the best optimizations at the cost of some compatibility. Recommended for vanilla/light modded.
+2. Modded (🍨), which contains optimizations predicted not to crash at any mods you throw at it. Recommended for heavy modded.
+3. Compatibility (🍫), which contains optimizations that work on a mobile device. Based on vanilla. Recommended for Android.
 
 ### Distribution
 There are currently two distributions. When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
@@ -32,7 +27,7 @@ There are currently two distributions. When making a modpack, only distribute th
 ### Emoji?
 The above section shows which one refers to which. The variant with the most features will be given (🔼), while the variant with the least features will be given (🔽).
 
-It is recommended to use the version that starts with (🌲🔼) for the smoothest experience. If you're feeling experimental and want to squeeze out more performance, you can try using (🔪🔼).
+It is recommended to use the version that starts with (🍦🔼) for the smoothest experience.
 
 ## Why?
 Because most optimization modpacks as of right now:
