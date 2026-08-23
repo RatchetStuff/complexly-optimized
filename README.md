@@ -51,4 +51,3 @@ Made by me and other contributors (if there are).
 
 [^1]: We're chill with pirates.
 [^2]: "free" as in you can do whatever you want with no restrictions.
-[^3]: You get what I mean.
