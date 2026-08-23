@@ -91,11 +91,6 @@ hash = "289599ac70b0f0a9a0055f1bd10fb7e2c38c540c3ef49db8779c5c3988a7455c"
 metafile = true
 
 [[files]]
-file = "mods/gnetum.pw.toml"
-hash = "0ec5b55e63b828d079d1d844b228813e32153008a6ea0a543e3285936ade1e47"
-metafile = true
-
-[[files]]
 file = "mods/hotbar-lag-fixer.pw.toml"
 hash = "9050c804014e591792f4dc22ce1eab9446afd75bea5411dd56e8aa412df8abd8"
 metafile = true
