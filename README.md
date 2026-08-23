@@ -7,10 +7,14 @@ This is a (complex) optimization modpack based on my own philosophy! It's free, 
 Optimization mods and configs, and also guides (if you're willing to have a bit more performance). Some semi-vanilla non-breaking optimization mods (like Immersive Optimization) are added if the specific version is used mainly for modded.
 
 ### Flavors
-There are three main flavors:
-1. Vanilla (🍦), which contains the best optimizations at the cost of some compatibility. Recommended for vanilla/light modded.
-2. Modded (🍨), which contains optimizations predicted not to crash at any mods you throw at it. Recommended for heavy modded.
-3. Compatibility (🍫), which contains optimizations that work on a mobile device. Based on vanilla. Recommended for Android.
+There are two main flavors:
+1. Vanilla (🍦), which is stable and contains the best optimizations at the cost of some compatibility.
+2. Modded (🍨), which is stable and contains most optimizations for maximum compatibility with other mods.
+
+These flavors are added on an occasional basis:
+
+3. Compatibility (🍫), which is stable and contains some optimizations for maximum compatibility with mobile devices.
+4. Experimental (⚠️), which is unstable and contains extreme bleeding-edge optimizations. Not recommended.
 
 ### Distribution
 There are currently two distributions. When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
