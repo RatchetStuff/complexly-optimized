@@ -29,6 +29,11 @@ hash = "2d1a993dace6fdd4a5628fd4138048504e4156330ca35e584e23537ec863486f"
 metafile = true
 
 [[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "af88a05bd16387c9019a5659114978f4b67720a0249cbbe975ead6466f01a71e"
+metafile = true
+
+[[files]]
 file = "mods/enhanced-block-entities.pw.toml"
 hash = "9c4271edb9c7edad90f0cd64d521a473d5ae59f283a42840f8fa9739834489ee"
 metafile = true

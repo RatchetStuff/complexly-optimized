@@ -21,6 +21,11 @@ hash = "defd8d7b171bb90e9ae3cc60f8c5e863346f74f7c43d90fd2a1519cc9b0e7f5f"
 metafile = true
 
 [[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "0f25c69b9e42d535aa4a22715d1dd0efa5c5e602316788b053f48e00953bdb10"
+metafile = true
+
+[[files]]
 file = "mods/entity-culling.pw.toml"
 hash = "05ee73a46aff36c2b6161afe66037c36b910f025ac8f22c17b852e2cbbc83ea9"
 metafile = true

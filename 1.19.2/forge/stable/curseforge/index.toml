@@ -20,6 +20,11 @@ hash = "c7d64d75425e40d27b787e2962e044157a238f607bc2a0de0021e2a36e419dd9"
 metafile = true
 
 [[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "5c5689bec7092b41ff3d8b225a84e48d0ee9f25541503df35c9a406bdc4aebfb"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "aac9d498124912bb65ca3d564732118072bb27fec5fbbfa5ea1884cd5a8f6de2"
 metafile = true
