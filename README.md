@@ -9,7 +9,7 @@ Optimization mods and configs, and also guides (if you're willing to have a bit 
 ### Flavors
 There are two main flavors:
 1. Vanilla (🍦), also known as the vanilla preset. Stable and contains all optimizations at the cost of some compatibility. Not recommended for modded worlds.
-2. Modded (🍨), also known as the modded preset. Consider it a "sidegrade" of the vanilla preset. Stable and contains most optimizations for use with other mods. This doesn't mean the optimizations aren't vanilla, it is still vanilla by itself.
+2. Modded (🍨), also known as the modded preset. Stable and contains most optimizations for use with other mods. This doesn't mean the optimizations aren't vanilla, it is still vanilla by itself.
 
 These flavors are added on an occasional basis:
 
