@@ -136,11 +136,6 @@ hash = "a7038f7260b128480f8a62b12e5583240c2a94bd782c1b60e2356ec7a3843e4c"
 metafile = true
 
 [[files]]
-file = "mods/nvidium.pw.toml"
-hash = "bdaff0978a93172ccc7bebff9fcd72ea39ec99bd0c340e55db2e7020757eaed0"
-metafile = true
-
-[[files]]
 file = "mods/obe.pw.toml"
 hash = "52f68589f67342f92c6a155f5ab4b2dbcd41b7fb5205b698256addf0f6e863db"
 metafile = true
