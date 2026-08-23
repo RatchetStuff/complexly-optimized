@@ -12,10 +12,12 @@ There are three flavors:
 2. Conservative (🧊), which is stable and contains most optimizations for compatibility with other mods. Recommended for heavy modded, rarely incompatible!
 3. Experimental (💣), which is unstable and contains extreme bleeding-edge optimizations. Not recommended!
 
+You may mix the flavors together, you don't have to use one specifically.
+
 ### Distribution
 There are currently two distributions. When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
-1. CurseForge-only, which contains all but a niche amount of the optimizations, which will be distributed on CurseForge. This was made because some of the good mods (like Accelerated Rendering) are only on CF. This may contain Modrinth mods subject to the [Approved Non-CurseForge Mods list](https://docs.google.com/spreadsheets/d/176Wv-PZUo9hFxy6oC6N8tWdquBLPRtSuLbNK-r0_byM/edit#gid=0).
-2. Modrinth-only, which contains most of the optimizations, which will be distributed on Modrinth. Despite "some" optimizations not included, this distribution contains roughly 99% of the optimizations. The only exception is in the older versions, in which case you should use CurseForge whenever you can.
+1. CurseForge-only, which contains most of the optimizations, which will be distributed on CurseForge. This was made because some of the good mods (like Accelerated Rendering) are only on CF. This may contain Modrinth mods subject to the [Approved Non-CurseForge Mods list](https://docs.google.com/spreadsheets/d/176Wv-PZUo9hFxy6oC6N8tWdquBLPRtSuLbNK-r0_byM/edit#gid=0).
+2. Modrinth-only, which contains most of the optimizations, which will be distributed on Modrinth. Treat this the same as the CurseForge distribution! The only exception is in the older versions, in which case you should use CurseForge for the optimizations.
 
 ## Which?
 
