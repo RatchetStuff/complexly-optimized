@@ -12,7 +12,7 @@ There are three flavors:
 2. Conservative (🧊), which is stable and contains most optimizations for compatibility with other mods. Recommended for heavy modded, rarely incompatible!
 3. Experimental (💣), which is unstable and contains extreme bleeding-edge optimizations. Not recommended!
 
-You may mix the flavors together, you don't have to use one specifically.
+You may manually mix the flavors together, you don't have to use one specifically. Versions are "aggressive" by default until it receives incompatibility issues.
 
 ### Distribution
 There are currently two distributions. When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
