@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "5c76a1e72c12255967cdc39636698133af73c2ac87378934a8efb42a15aaa195"
+hash = "28eb18c27957ff822c1206d9b196c2b2736636947904b61ae23382110d895dbf"
 metafile = true
 
 [[files]]
@@ -146,18 +146,13 @@ hash = "28f6aa7c1b393003fb37401b1227b267b122d5b8f84925de696f872b09d52c97"
 metafile = true
 
 [[files]]
-file = "mods/railoptimization.pw.toml"
-hash = "21229eec629e651d0235635448d046217fa1b9f64a3af7a4cf1c6f62b0ffcd71"
-metafile = true
-
-[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "a8d92e3a2cf956cfa5932d3324a219729fe549fbcc3992c75b54d6b345178389"
 metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "fda2f23dc5a311460c9a277922fbb94ccfd6adbde2b74cc395a467f51523b90f"
+hash = "8635a6f88d0f0e9487299a0da5507bb9f1685969a8b02772efdba6df3d9c0afa"
 metafile = true
 
 [[files]]
