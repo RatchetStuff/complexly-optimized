@@ -51,7 +51,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "8c547f1e4ca090a7ca4e4a690d6296ef245f41f10851860319ea1b1066b82e73"
+hash = "d738fe51b20c8da621e36a0d65e15d7f4f9f8e2e8162670a2798610079790ee3"
 metafile = true
 
 [[files]]
@@ -151,17 +151,17 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "80449d5aca8411de1cd373e9117fb4ff3962e902d023d651b134851883a05f6e"
+hash = "645be5d20d755e83c986014b768abbf473d3bf31da5dcd197af63c8b200cc141"
 metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "e2b6540e0f7c6a728d575235084f50c6398e23924f4a4fa4e8d5182aeffe803c"
+hash = "bb46896816463124ea003dbf41579b8f50dfb7b2df4c0f1cf895843248025736"
 metafile = true
 
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
-hash = "6801adb48ee85a21c7c4992625c34a751197382cb952dd25082d145a37de84fb"
+hash = "0a492579cdfcaa2033d698315ce3b9c1959b10841e38e1a0bb874a9e648838f1"
 metafile = true
 
 [[files]]

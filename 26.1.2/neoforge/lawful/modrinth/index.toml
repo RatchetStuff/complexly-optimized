@@ -136,7 +136,7 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "d1734ae135e8975c8f1aeff1284e82a53af6de1c5c2a262bafcd41cf58246b7e"
+hash = "b0abccec2bf7b3a02496e950421e9012d50ddaa8a6fe1d0446cd2570cf0ef7a2"
 metafile = true
 
 [[files]]
@@ -146,7 +146,7 @@ metafile = true
 
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
-hash = "70e819939a4479c70844653422905e40735d57575d59cbba28e32e9afb698707"
+hash = "4de8c31fbdc7293fe328935f8511fc86eb247558d590ea2d5634a07a634f7a0c"
 metafile = true
 
 [[files]]
