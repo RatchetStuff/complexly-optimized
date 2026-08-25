@@ -6,13 +6,22 @@ This is a (complex) optimization modpack based on my own philosophy! It's free, 
 ## How?
 Optimization mods and configs, and also some minimal polish (like Crash Assistant, no chat signing). Vanilla parity is maintained, but if it doesn't, don't hesitate to open an issue!
 
-### Flavors
-There are three flavors:
-1. Aggressive (🌶️), which is stable and contains all optimizations at the cost of some compatibility. Recommended for vanilla/light modded, may be incompatible with some mods!
-2. Conservative (🧊), which is stable and contains most optimizations for compatibility with other mods. Recommended for heavy modded, rarely incompatible!
-3. Experimental (💣), which is unstable and contains extreme bleeding-edge optimizations. Not recommended!
+### Presets
+There are two presets:
+1. Anarchy (🧨), which is stable and contains all optimizations at the cost of some compatibility. Sometimes incompatible!
+2. Lawful (📜), which is stable and contains most optimizations for compatibility with a majority of mods. Major optimizations that are incompatible (such as ModernFix's dynamic resources) will be kept. Rarely incompatible!
 
-You may manually mix the flavors together, you don't have to use one specifically. Versions are "aggressive" by default until it receives incompatibility issues.
+You may manually mix the presets together, you don't have to use one specifically. Versions use the anarchy preset by default until it receives incompatibility issues.
+
+### Flavors
+Here are a list of flavors:
+#### Flattening/Modern Era (1.13+)
+1. Sodium (🍦), which is the default flavor on modern versions. Not listed unless other flavors exist for the version.
+2. Embeddium (🥧), which is the default flavor on modern Forge versions. Not listed unless other flavors exist for this version.
+3. VulkanMod (🌋), which may have better performance for severe incompatibility.
+
+#### Vintage Era (1.8-1.12)
+1. Nothirium (🌿), which is the default flavor on versions it supports (1.12). Not listed unless other flavors exist for this version. Made compatible with OptiFine through Naughthirium.
 
 ### Distribution
 There are currently two distributions. When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
