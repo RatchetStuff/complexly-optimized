@@ -25,6 +25,10 @@ file = "configureddefaults/config/moreculling.toml"
 hash = "98dac74a3de9b7d5b29dca88e01d72739208d085270fea9d3108c730079d9712"
 
 [[files]]
+file = "configureddefaults/config/quick-pack.json"
+hash = "e65c63c2505fd2cc619109e62f7149518e6f95b4a9a50ad33533d118ba84d1b0"
+
+[[files]]
 file = "mods/async-pack-scan.pw.toml"
 hash = "46673e544c95c25c9900fe7c11dcf1e3cb5970a5ac3bae4a43e15b3f2c411994"
 metafile = true
@@ -142,11 +146,6 @@ metafile = true
 [[files]]
 file = "mods/quick-pack.pw.toml"
 hash = "69a80ceff0bd222ccf03db25defdae4c9318b68019a2181b44bf3bf3f49f1a1b"
-metafile = true
-
-[[files]]
-file = "mods/railoptimization.pw.toml"
-hash = "808c1f6783dd4a2e407f27d40251713b1c46a40086cebbf8dde423ee76601c30"
 metafile = true
 
 [[files]]

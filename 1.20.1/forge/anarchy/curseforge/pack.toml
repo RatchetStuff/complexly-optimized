@@ -1,0 +1,16 @@
+name = "Complexly Optimized"
+author = "Ratchet"
+version = "20.1.1-forge+anarchy"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "39891068a039b3283c9b4abdfb82afdd2a5d0595500d650562897a96ac3ea8d7"
+
+[versions]
+forge = "47.4.23"
+minecraft = "1.20.1"
+
+[options]
+acceptable-game-versions = ["1.20"]
