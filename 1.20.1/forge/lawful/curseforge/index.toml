@@ -25,6 +25,16 @@ file = "configureddefaults/config/quick-pack.json"
 hash = "e65c63c2505fd2cc619109e62f7149518e6f95b4a9a50ad33533d118ba84d1b0"
 
 [[files]]
+file = "mods/accelerated-rendering.pw.toml"
+hash = "28ab481e34a4088ee8b52aa0f5aaab32fe871ca0190d44cf8d0dd59f6bb712d0"
+metafile = true
+
+[[files]]
+file = "mods/alltheleaks.pw.toml"
+hash = "40bab1828ae2b4d755db64f1c887a2fe06171fad6ab54d4a1863ca5c30ff9b55"
+metafile = true
+
+[[files]]
 file = "mods/asynclogger.pw.toml"
 hash = "62798c2a05d10071c8251491d6daa96d0f5dc61458691b5c70e31f8ac402da57"
 metafile = true
