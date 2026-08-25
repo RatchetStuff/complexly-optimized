@@ -139,6 +139,11 @@ hash = "0d438cc5a467aae6a9aa439a4547f990dfbaa4dc4e7bf5dbabf6d6e839411e83"
 metafile = true
 
 [[files]]
+file = "mods/modmenu.pw.toml"
+hash = "d7145fd1bd8b4bb6a3b84652a96a68870fb3ab32230f27520bb9362fd17ec39f"
+metafile = true
+
+[[files]]
 file = "mods/moreculling.pw.toml"
 hash = "c48a49756bb02d601878be749bce3279ce71522ecb9d7a6c3e1eca9649045142"
 metafile = true
@@ -151,6 +156,11 @@ metafile = true
 [[files]]
 file = "mods/quick-pack.pw.toml"
 hash = "69a80ceff0bd222ccf03db25defdae4c9318b68019a2181b44bf3bf3f49f1a1b"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "4a7d1e46795d2d83b18db85d8dbc63740a1d337e12d2b9e550378de59f2b23ab"
 metafile = true
 
 [[files]]
