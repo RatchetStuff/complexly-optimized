@@ -1,0 +1,13 @@
+name = "Optimized Block Entities"
+filename = "obe+1.21.5-1.1.40-hotfix.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/AtOSAunf/versions/SPXXYoLG/obe%2B1.21.5-1.1.40-hotfix.2.jar"
+hash-format = "sha512"
+hash = "6573f21feb2e6f1213bd5bd8b020f6d982ea3c81b67fc044762b714d0f1237373852dc99154c9541015a577ca2cc2bd4bdb2b1ef2c5971d03912de8c8b9cc6a3"
+
+[update]
+[update.modrinth]
+mod-id = "AtOSAunf"
+version = "SPXXYoLG"
