@@ -21,6 +21,10 @@ file = "configureddefaults/config/modernfix-mixins.properties"
 hash = "f753ad282c4471d8b4525cb893295a9e7c1b8664076a4ce6407f13050e485a0b"
 
 [[files]]
+file = "configureddefaults/config/modmenu.json"
+hash = "e5152697f05b84c47725f1f1a8f5a4bf7787fa635de4bae9958c530f6b9aa662"
+
+[[files]]
 file = "configureddefaults/config/moreculling.toml"
 hash = "98dac74a3de9b7d5b29dca88e01d72739208d085270fea9d3108c730079d9712"
 

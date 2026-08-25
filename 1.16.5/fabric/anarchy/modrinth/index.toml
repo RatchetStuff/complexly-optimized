@@ -21,6 +21,10 @@ file = "config/yosbr/config/modernfix-mixins.properties"
 hash = "f753ad282c4471d8b4525cb893295a9e7c1b8664076a4ce6407f13050e485a0b"
 
 [[files]]
+file = "config/yosbr/config/modmenu.json"
+hash = "e5152697f05b84c47725f1f1a8f5a4bf7787fa635de4bae9958c530f6b9aa662"
+
+[[files]]
 file = "mods/asynclogger.pw.toml"
 hash = "283eea3dddb1fb9dee0a629159e92f4acfb4833f3dfd312e98034afd1ebddd5f"
 metafile = true
