@@ -1,10 +1,10 @@
 # Complexly Optimized
 
 ## What?
-This is a (complex) optimization modpack based on my own philosophy! It's free, open-source, and whatever problems you have with it, we will certainly not judge you![^1] Based on [Simply Optimized](https://modrinth.com/modpack/sop), which (I think) is based on the same philosophy. Licensed under Unlicense.
+This is a (complex) optimization modpack based on my own philosophy! It's free, open-source, and whatever problems you have with it, we will certainly not judge you! Based on [Simply Optimized](https://modrinth.com/modpack/sop), which (I think) is based on the same philosophy. Licensed under Unlicense.
 
 ## How?
-Optimization mods and configs, and also guides (if you're willing to have a bit more performance). Vanilla parity is maintained, but if it doesn't, don't hesitate to open an issue!
+Optimization mods and configs, and also some minimal polish (like Crash Assistant, no chat signing). Vanilla parity is maintained, but if it doesn't, don't hesitate to open an issue!
 
 ### Flavors
 There are three flavors:
@@ -29,22 +29,19 @@ There are currently two distributions. When making a modpack, only distribute th
 ### Emoji?
 The above section shows which one refers to which. The variant with the most features will be given (🔼), while the variant with the least features will be given (🔽).
 
-It is recommended to use the version that starts with (🍦🔼) for the smoothest experience. Use the version that starts with (🌶️🔼) if you're willing to deal with mod incompatibilities!
+It is recommended to use the version that starts with (🧊🔼) for the smoothest experience. Use the version that starts with (🌶️🔼) if you're willing to deal with mod incompatibilities!
 
 ## Why?
-Because most optimization modpacks as of right now:
+Because some optimization modpacks as of right now:
 
-### Are not technically free.[^2]
+### Are not technically free.
 Most of them are licensed under MIT, which is fair, but it prevents commercial modpacks from closing their source. This I personally dislike because I want to be able to do anything with my modpack without facing licensing issues.
 
 ### Don't have a clear sense of direction.
-There are modpacks like Adrenaline which knows what they're doing, but they center their modpack around everyone (vanilla players and modpack makers, which cannot be mixed together), which creates a frankenstein-sort of mod set.
+There are modpacks which knows what they're doing, but they center their modpack around everyone (vanilla players and modpack makers, which cannot be mixed together), which creates a frankenstein-sort of mod set.
 
-### Don't help specific people.
-They refuse to help players that have a problem just because of unrelated reasons.[^1] This is unprofessional practice in my opinion, and prevents a fraction of the player base. Mind you, these limitations serve no purpose, because these problems are usually not related to whatever they're thinking of.
+### Are judgmental.
+Few refuse to help players that have a problem just because of unrelated reasons (e.g. for using a specific launcher). This is unprofessional practice in my opinion, and prevents a fraction of the player base from receiving support. These barriers are stripped from this modpack.
 
 ## Who?
 Made by me and other contributors (if there are).
-
-[^1]: We're chill with pirates.
-[^2]: "free" as in you can do whatever you want with no restrictions.
