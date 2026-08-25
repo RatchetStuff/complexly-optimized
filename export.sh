@@ -1,5 +1,6 @@
 #!/bin/bash
 BIN_DIR="$(pwd)/bin"
+find "$BIN_DIR" -mindepth 1 -delete
 find . -type d \( -name "modrinth" -o -name "curseforge" \) -print0 | while IFS= read -r -d '' dir; do
     (
         cd "$dir" || exit 1
