@@ -1,0 +1,13 @@
+name = "Jasione"
+filename = "jasione-1.0.7+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "050f50a4f2fae0e394ba72f2428dfab4d950e3de"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8696381
+project-id = 1595495
