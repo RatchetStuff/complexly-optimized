@@ -1,0 +1,13 @@
+name = "Cloth Config API (Fabric/Forge/NeoForge)"
+filename = "cloth-config-6.5.133-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8e57dc117fd0e36df3951ae7f975823bf84f0229"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5729090
+project-id = 348521
