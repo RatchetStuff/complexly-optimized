@@ -45,11 +45,6 @@ hash = "8e6033c2642308835d119a073fdf24306394cdb6985c482a08e67b8087f6e90d"
 metafile = true
 
 [[files]]
-file = "mods/blazesdl.pw.toml"
-hash = "baa5f2efe0ce2e8eda4f12a15e28c7c2916d21490ceebdef0c992e54fb36e94d"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "262ec6d798650ff75511bc7e5bbbfa7c5b002ae7db8cf2427a818520b1bcb641"
 metafile = true
