@@ -1,0 +1,13 @@
+name = "BlazeSDL"
+filename = "blazesdl-0.0.20.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/QDgSARKw/versions/r4oOieGC/blazesdl-0.0.20.jar"
+hash-format = "sha512"
+hash = "c9782be9e2f047b8f14dc9fe5fdb0e404c44349f530ce5bff23b6590c8862a3c5f0213d2709cbaaaec0b09b42734376ca50a264371d030a7dbdb4c1b5fccbd76"
+
+[update]
+[update.modrinth]
+mod-id = "QDgSARKw"
+version = "r4oOieGC"

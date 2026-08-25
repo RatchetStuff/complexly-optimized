@@ -1,0 +1,13 @@
+name = "Configured Defaults"
+filename = "ConfiguredDefaults-v26.1.0-mc26.1.x-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SISoSFPP/versions/uYcO46HZ/ConfiguredDefaults-v26.1.0-mc26.1.x-NeoForge.jar"
+hash-format = "sha512"
+hash = "76d93eaf2eecfc9f069477aaa6f4c83f967999f3c8181100c7d2b60eb0e8859b6cda308a7e6edb43c9673d8114af9927f46c04c71f4f0d7566585286e791b8aa"
+
+[update]
+[update.modrinth]
+mod-id = "SISoSFPP"
+version = "uYcO46HZ"

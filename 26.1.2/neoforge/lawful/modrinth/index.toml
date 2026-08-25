@@ -1,0 +1,131 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "365945a2480c5c81ed29958035b807fad82e4ed0611c7fc7412ac2a28729369d"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "23ae742803c31b4c03add35d3481eead4e01db57df5f25356214d0c0cf57888d"
+metafile = true
+
+[[files]]
+file = "mods/better-block-entities.pw.toml"
+hash = "ab18ee4c427abb1927186856566bb3bf2bcf8b140ad1326b48dc928761ef000b"
+metafile = true
+
+[[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "00ce18653b4f2932567130cebb29ae448e20202a73b9bdf8f7c5f5a536759745"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "7c258846d69d70699d01ece8be13df4bfa70da6da9059eb1c653ade05b3ed7dd"
+metafile = true
+
+[[files]]
+file = "mods/configured-defaults.pw.toml"
+hash = "eae149d5c5eddafb69f0bbef8e44fcf7e340c29bcdb64df01d83ada5ccec0c27"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "b0a12f17f33662b4f36cb9c746c6416562b6d0f7adda5597823a796fc60c84ba"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "e5e870e6af57706933a549c62a60d1caa4fad10636354c48abf183275391e5c4"
+metafile = true
+
+[[files]]
+file = "mods/fast-ip-ping.pw.toml"
+hash = "d483b69d05922629fddfbfdbe3a9bf6c9730cdba333e0a9b610ee33b118f8781"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "ecd9e70faca5584f8cb488905c333f9eeef03193674f03692a7bb32f1283fcdc"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "10e22962fe3a5ee6bf9c4cf8d4fd7c82eae1a2f1a17e5647cb4f3c660e53be9b"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "f1762e0e539220ad17b1f938afaf351a77c31a451177a7960de138fd028dfb00"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "08e8ecee2374e1fadfdb14ec7f36d963e1dce33347f37caa9beacf383c2372bb"
+metafile = true
+
+[[files]]
+file = "mods/jasione.pw.toml"
+hash = "aa3e8f1c72d0682d774fd8d9fa8b68a2bc7f3b5a89a977b631b127ec0daef074"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "2f40fedf04718ccd5d016841f0c0ca47c8885a2ba627bbe6c8a380d6a427111e"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "adb2963a56af6b46da4c101abbc3225e4c0ec82b17f1cc1fd543765fb9ebe631"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "1fcd2380c14979a02cdf62e87407294a1424cf1a30bb5b678d3a563fca802535"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "0084d4134c8d15ac0b2fa0f0f3bf8791373a6c6efe49c860b9f64bc34666235a"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+hash = "e1c414c13a28e3ab1f2f13f0b14cae120e654b7c0f62a0bcd5a1f0a0a891e6de"
+metafile = true
+
+[[files]]
+file = "mods/quick-pack.pw.toml"
+hash = "216880714735f3df2b305f8c0fcc69644230a40d0aa30b6b8bafdc5ea85572fb"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "dd2bac170a3a403930c93f886fd3c172f22fc1b01dc5c39622969603b93eb7cf"
+metafile = true
+
+[[files]]
+file = "mods/scalablelux.pw.toml"
+hash = "9df76241a059af37897b0fb88d4beeaca1796bb0c78fea2b0750b16c3ad96844"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "d1734ae135e8975c8f1aeff1284e82a53af6de1c5c2a262bafcd41cf58246b7e"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "624ba40aea06b451d8867b04ba3f0b2d174c11afa24d4a6acd278d2b2377493c"
+metafile = true
+
+[[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
+hash = "70e819939a4479c70844653422905e40735d57575d59cbba28e32e9afb698707"
+metafile = true
+
+[[files]]
+file = "mods/zfastnoise.pw.toml"
+hash = "29c6132f62c6e39d6d418f17834415ecf40732efd64128e1fc2f4778f66166f5"
+metafile = true
