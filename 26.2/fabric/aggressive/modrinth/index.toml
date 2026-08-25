@@ -152,7 +152,7 @@ metafile = true
 
 [[files]]
 file = "mods/railoptimization.pw.toml"
-hash = "f3b12f4fcfec5d5e9bd75d8bca95d351192ec3bebbbbe1b00d4b7c4336a8f4d4"
+hash = "bfdda3ef43e14f2bafb0b76b3cbae04c8057a428edeaf763edf9ba9abcda1998"
 metafile = true
 
 [[files]]
