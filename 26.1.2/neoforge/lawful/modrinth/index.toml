@@ -41,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
-hash = "00ce18653b4f2932567130cebb29ae448e20202a73b9bdf8f7c5f5a536759745"
+hash = "84b9533e93b11b3a033e1a92cc594b0783812feb69817dede5860284ea92ba4b"
 metafile = true
 
 [[files]]
@@ -91,7 +91,7 @@ metafile = true
 
 [[files]]
 file = "mods/jasione.pw.toml"
-hash = "aa3e8f1c72d0682d774fd8d9fa8b68a2bc7f3b5a89a977b631b127ec0daef074"
+hash = "c50af47707b13ed9514ec76753d4a45df4bf78b70ee13e98604cda1e477785f9"
 metafile = true
 
 [[files]]
@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "9df76241a059af37897b0fb88d4beeaca1796bb0c78fea2b0750b16c3ad96844"
+hash = "ddf90a34143650370c8ba322465f339942fbbae23df4e9ce82b1e4391fa2a0b3"
 metafile = true
 
 [[files]]
@@ -141,7 +141,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "624ba40aea06b451d8867b04ba3f0b2d174c11afa24d4a6acd278d2b2377493c"
+hash = "9a35d3bd208407f3371945d4b82d92f60f5d1593ddefced16988d218a4b5972d"
 metafile = true
 
 [[files]]

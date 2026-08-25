@@ -46,7 +46,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "d738fe51b20c8da621e36a0d65e15d7f4f9f8e2e8162670a2798610079790ee3"
+hash = "262ec6d798650ff75511bc7e5bbbfa7c5b002ae7db8cf2427a818520b1bcb641"
 metafile = true
 
 [[files]]
@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/jasione.pw.toml"
-hash = "d913cc1ac97421c5faf8106acce3360bf977eec448b838818c375415c1479322"
+hash = "eb8647b69a908f1ffdcd173c1c0470f8ef614b08b214069a927bc0f6b15feea8"
 metafile = true
 
 [[files]]
@@ -151,7 +151,7 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "645be5d20d755e83c986014b768abbf473d3bf31da5dcd197af63c8b200cc141"
+hash = "f85135159fd040c8a81ba178882190d22e04be7ec18d90aa130c1b39bcde74b3"
 metafile = true
 
 [[files]]
@@ -161,7 +161,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "c75f5e9a285cf6195065ba85e73081990f990de6efc7e2262a6eafe12d3dc277"
+hash = "626f5984826fcebdcaab0ba4e8b21568d7b32fe5233039e3884c3c9ea2058c6b"
 metafile = true
 
 [[files]]
