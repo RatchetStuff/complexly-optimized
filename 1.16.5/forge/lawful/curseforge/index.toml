@@ -89,3 +89,8 @@ metafile = true
 file = "mods/structure-layout-optimizer.pw.toml"
 hash = "1884554f5bc3923e5aab14eab98d59ca6985d3fc287e293ed08b59eec524664f"
 metafile = true
+
+[[files]]
+file = "mods/textrues-embeddium-options.pw.toml"
+hash = "daac2f20552e57e397c01a6a61d32538dd436358e2f242bfc6f688084dc5b71e"
+metafile = true
