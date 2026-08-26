@@ -22,14 +22,6 @@ jobs:
         with:
           fetch-depth: 0
       
-      - name: Setup Go
-        uses: actions/setup-go@v7
-        with:
-          go-version: 'stable'
-      
-      - name: Setup packwiz
-        run: go install github.com/packwiz/packwiz@latest
-      
       - name: Setup files
         run: mkdir -p bin/curseforge bin/modrinth
       
@@ -78,6 +70,26 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: bump versions"
+      
+      - name: Setup Go
+        uses: actions/setup-go@v7
+        with:
+          go-version: 'stable'
+      
+      - name: Setup packwiz
+        run: go install github.com/packwiz/packwiz@latest
+      
+      - name: Refresh index
+        run: |
+          TOPLEVEL="$(git rev-parse --show-toplevel)"
+          find versions -type f -name "pack.toml" | while read -r filepath; do
+              DIR=$(dirname "$filepath")
+              DISTRIBUTION=$(basename "$DIR")
+              (
+                  cd "$DIR" || exit 1
+                  packwiz refresh
+              )
+          done
       
       - name: Create assets
         run: |
