@@ -1,6 +1,7 @@
 name = "Sodium"
 filename = "sodium-neoforge-0.8.12+mc1.21.1.jar"
 side = "client"
+pin = true
 
 [download]
 hash-format = "sha1"
