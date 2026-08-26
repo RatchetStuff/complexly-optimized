@@ -1,7 +1,11 @@
 #!/bin/bash
-find . -type d \( -name "modrinth" -o -name "curseforge" \) -print0 | while IFS= read -r -d '' dir; do
+TOPLEVEL="$(git rev-parse --show-toplevel)"
+cd $TOPLEVEL || exit 1
+find versions -type f -name "pack.toml" | while read -r filepath; do
+    DIR=$(dirname "$filepath")
+    DISTRIBUTION=$(basename "$DIR")
     (
-        cd "$dir" || exit 1
+        cd "$DIR" || exit 1
         packwiz refresh
     )
 done

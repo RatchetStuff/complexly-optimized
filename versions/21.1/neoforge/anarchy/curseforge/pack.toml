@@ -1,0 +1,13 @@
+name = "Complexly Optimized"
+author = "Ratchet"
+version = "2026.08.152-dev+mc21.1.neoforge.anarchy"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "054b8ed82b159c1e082144ad62e63bc36994f1f702ca2d5484a147a808a523ad"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.248"

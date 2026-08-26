@@ -1,0 +1,13 @@
+name = "Complexly Optimized"
+author = "Ratchet"
+version = "2026.08.142-dev+mc21.11.fabric.lawful"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7878ddc6c96a1c7f92bf97028e13fa30f020334704a07ea9eba855c94c02caec"
+
+[versions]
+fabric = "0.19.3"
+minecraft = "1.21.11"

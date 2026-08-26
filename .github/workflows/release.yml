@@ -1,0 +1,111 @@
+name: Release
+
+on:
+  push:
+    branches: [ "main", "dev" ]
+    paths:
+      - 'versions/**'
+  pull_request:
+    branches: [ "main", "dev" ]
+    paths:
+      - 'versions/**'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Go
+        uses: actions/setup-go@v7
+        with:
+          go-version: 'stable'
+      
+      - name: Setup packwiz
+        run: go install github.com/packwiz/packwiz@latest
+      
+      - name: Setup files
+        run: mkdir -p bin/curseforge bin/modrinth
+      
+      - name: List changed packs
+        run: |
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD || git diff-tree --no-commit-id --name-only -r HEAD)
+          
+          echo "CHANGED_DIRS<<EOF" >> "$GITHUB_ENV"
+          find versions -type f -name "pack.toml" | while read -r filepath; do
+            DIR=$(dirname "$filepath")
+            if [[ "$CHANGED_FILES" == *"$DIR/"* ]]; then
+              echo "$DIR" >> "$GITHUB_ENV"
+            fi
+          done
+          echo "EOF" >> "$GITHUB_ENV"
+
+      - name: Bump version
+        run: |
+          YEAR=$(date -u +"%Y")
+          MONTH=$(date -u +"%m")
+
+          COMMIT_COUNT=$(git log --since "${YEAR}-${MONTH}-01T00:00:00" --oneline | wc -l)
+          PATCH=$(( COMMIT_COUNT > 0 ? COMMIT_COUNT - 1 : 0 ))
+
+          DEV_SUFFIX=""
+          if [ "$GITHUB_REF_NAME" = "dev" ]; then
+            DEV_SUFFIX="-dev"
+          fi
+
+          find versions -type f -name "pack.toml" | while read -r filepath; do
+            DIR=$(dirname "$filepath")
+            if [[ "$CHANGED_DIRS" != *"$DIR"* ]]; then
+              continue
+            fi
+
+            IFS='/' read -ra PARTS <<< "$filepath"
+            MC_VERSION="${PARTS[1]}"
+            LOADER="${PARTS[2]}"
+            FLAVOR="${PARTS[3]}"
+            
+            FULL_VERSION="${YEAR}.${MONTH}.${PATCH}${DEV_SUFFIX}+mc${MC_VERSION}.${LOADER}.${FLAVOR}"
+            sed -i -E "s/^version\s*=\s*\".*\"/version = \"${FULL_VERSION}\"/" "$filepath"
+          done
+      
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: bump versions"
+      
+      - name: Create assets
+        run: |
+          TOPLEVEL="$(git rev-parse --show-toplevel)"
+          mkdir -p bin/curseforge bin/modrinth
+          find versions -type f -name "pack.toml" | while read -r filepath; do
+            DIR=$(dirname "$filepath")
+            if [[ "$CHANGED_DIRS" != *"$DIR"* ]]; then
+              continue
+            fi
+
+            DISTRIBUTION=$(basename "$DIR")
+            (
+              cd "$DIR" || exit 1
+              case "$DISTRIBUTION" in
+                curseforge)
+                  packwiz cf export
+                  mv *.zip "$TOPLEVEL/bin/curseforge"
+                  ;;
+                modrinth)
+                  packwiz mr export
+                  mv *.mrpack "$TOPLEVEL/bin/modrinth"
+                  ;;
+              esac
+            )
+          done
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          path: bin

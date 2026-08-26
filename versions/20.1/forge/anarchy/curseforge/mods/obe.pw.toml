@@ -1,0 +1,13 @@
+name = "Optimized Block Entities"
+filename = "obe+1.20.1-forge-1.1.41-patch.3-srg.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "01471a327c570ee8e05da71a5db61cae3ecd3bf4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8734323
+project-id = 1575743
