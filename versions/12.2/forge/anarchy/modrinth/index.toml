@@ -5,10 +5,6 @@ file = "config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
-file = "config/test.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "mods/alfheim-lighting-engine.pw.toml"
 hash = "b720ead1a383bbe9167f2c4c40775940412ff7d8bcd33bd4214d87be0270b81c"
 metafile = true
