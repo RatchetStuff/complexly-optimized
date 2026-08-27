@@ -75,12 +75,10 @@ jobs:
             sed -i -E "s/^version\s*=\s*\".*\"/version = \"${full_version}\"/" "$filepath"
           done
 
-      - name: Commit changes
+      - name: Commit release
         uses: stefanzweifel/git-auto-commit-action@v7
-        env:
-          version: ${{ inputs.version }}
         with:
-          commit_message: "chore: release ${version}"
+          commit_message: "chore: release ${{ inputs.version }}"
       
       - name: Create tag
         env:
