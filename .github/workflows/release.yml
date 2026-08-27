@@ -19,7 +19,7 @@ jobs:
         env:
           tag: ${{ github.ref_name }}
         run: |
-          find versions -type f -name pack.toml -print0 | while IFS= read -r pack; do
+          find versions -type f -name "pack.toml" -print0 | while read -r pack; do
             relative="${pack#versions/}"
             dir="$(dirname "$relative")"
 
