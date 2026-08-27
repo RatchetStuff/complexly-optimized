@@ -7,21 +7,14 @@ This is a (complex) optimization modpack based on my own philosophy! It's free, 
 Optimization mods and configs, and also some minimal polish (like Crash Assistant, no chat signing). Vanilla parity is maintained, but if it doesn't, don't hesitate to open an issue!
 
 ### Presets
-There are two presets:
+There are two main presets:
 1. Anarchy (🧨), which is stable and contains all optimizations at the cost of some compatibility. Sometimes incompatible!
 2. Lawful (📜), which is stable and contains most optimizations for compatibility with a majority of mods. Major optimizations that are incompatible (such as ModernFix's dynamic resources) will be kept. Rarely incompatible!
 
-You may manually mix the presets together, you don't have to use one specifically. Versions use the anarchy preset by default until it receives incompatibility issues.
+Some additional presets may be created, including but not limited to:
+- VulkanMod (🌋)
 
-### Flavors
-Here are a list of flavors:
-#### Flattening/Modern Era (1.13+)
-1. Sodium (🍦), which is the default flavor on modern versions. Not listed unless other flavors exist for the version.
-2. Embeddium (🥧), which is the default flavor on modern Forge versions. Not listed unless other flavors exist for this version.
-3. VulkanMod (🌋), which may have better performance for severe incompatibility.
-
-#### Vintage Era (1.8-1.12)
-1. Nothirium (🌿), which is the default flavor on versions it supports (1.12). Not listed unless other flavors exist for this version. Made compatible with OptiFine through Naughthirium.
+Due to the limitations of the current system, these presets are not decoupled from the main presets, and will be assigned the anarchy preset by default.
 
 ### Distribution
 There are currently two distributions. When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
@@ -31,14 +24,15 @@ There are currently two distributions. When making a modpack, only distribute th
 ## Which?
 
 ### Version?
-- Versions follow the NeoForge version naming scheme (e.g. "26.2.0.1" for the first release of version 26.2, and "26.1.2.2" for the second release of version 26.1.2).
-- Any version before 26.1 will have the "1." prefix omitted (e.g. "12.2.3" for the third release of 1.12.2).
-- Non-release versions will also have the "1." prefix omitted (e.g. "b7.3.4" for the fourth release of beta 1.7.3).
+- Versions follow this format: {YEAR}.{MONTH}.{PATCH}+mc{MC_VERSION}.{LOADER}.{PRESET}.{DISTRIBUTION}
+- Year uses the short format (omitting the first two digits)
+- Minecraft version emits the "1." prefix (if it exists)
+- Loader and preset are limited to three characters.
+- Distribution is limited to two characters.
+- Example: 26.1.0+mc12.2.frg.ana.mr
 
-### Emoji?
-The above section shows which one refers to which. The variant with the most features will be given (🔼), while the variant with the least features will be given (🔽).
-
-It is recommended to use the version that starts with (🧊🔼) for the smoothest experience. Use the version that starts with (🌶️🔼) if you're willing to deal with mod incompatibilities!
+### To choose?
+Choose what you need! The difference between these presets are compatibility sacrifices, not instability. You may also manually mix the presets together.
 
 ## Why?
 Because some optimization modpacks as of right now:
