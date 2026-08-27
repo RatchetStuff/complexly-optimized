@@ -19,18 +19,14 @@ jobs:
         env:
           tag: ${{ github.ref_name }}
         run: |
-          find versions -type f -name "pack.toml" -print0 | while read -r pack; do
-            relative="${pack#versions/}"
-            dir="$(dirname "$relative")"
-
-            IFS='/' read -ra parts <<< "$dir"
-
+          find versions -type f -name "pack.toml" -print0 | while read -r filepath; do
+            IFS='/' read -ra parts <<< "$filepath"
             mc_version="${parts[0]}"
             loader="${parts[1]}"
             flavor="${parts[2]}"
 
             full_version="${tag}+mc${mc_version}.${loader}.${flavor}"
-            sed -i -E "s/^version\s*=\s*\".*\"/version = \"${full_version}\"/" "$pack"
+            sed -i -E "s/^version\s*=\s*\".*\"/version = \"${full_version}\"/" "$filepath"
           done
       
       - name: Commit changes
