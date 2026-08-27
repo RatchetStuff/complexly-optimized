@@ -27,7 +27,7 @@ jobs:
       
       - name: Bump pack.toml version
         env:
-          tag: ${{ github.ref_name }}
+          tag: ${{ inputs.version }}
         run: |
           find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
             IFS='/' read -ra parts <<< "$filepath"
