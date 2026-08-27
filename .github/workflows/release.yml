@@ -26,6 +26,7 @@ jobs:
             flavor="${parts[2]}"
 
             full_version="${tag}+mc${mc_version}.${loader}.${flavor}"
+            echo full_version
             sed -i -E "s/^version\s*=\s*\".*\"/version = \"${full_version}\"/" "$filepath"
           done
       
