@@ -23,10 +23,6 @@ jobs:
             relative="${pack#version/}"
             dir="$(dirname "$relative")"
 
-            if [ "${#parts[@]}" -ne 4 ]; then
-              exit 1
-            fi
-
             IFS='/' read -ra parts <<< "$dir"
 
             mc_version="${parts[0]}"
