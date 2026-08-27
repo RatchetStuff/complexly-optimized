@@ -15,12 +15,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
       
-      - name: Setup Go
-        uses: actions/setup-go@v7
-      
-      - name: Setup packwiz
-        run: go install github.com/packwiz/packwiz@latest
-      
       - name: Bump pack.toml version
         env:
           tag: ${{ github.ref_name }}
@@ -44,3 +38,15 @@ jobs:
             "s/^version[[:space:]]*=.*/version = \"$VERSION\"/" \
             "$PACK"
           done
+      
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: bump versions"
+      
+      # Placed below to make commit changes faster (for impatient people like me)
+      - name: Setup Go
+        uses: actions/setup-go@v7
+      
+      - name: Setup packwiz
+        run: go install github.com/packwiz/packwiz@latest
