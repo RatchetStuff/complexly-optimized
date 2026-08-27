@@ -30,7 +30,7 @@ jobs:
             flavor="${parts[2]}"
 
             full_version="${tag}+mc${mc_version}.${loader}.${flavor}"
-            sed -i "s/^version = .*/version = \"$full_version\"/" "$pack"
+            sed -i -E "s/^version\s*=\s*\".*\"/version = \"${full_version}\"/" "$pack"
           done
       
       - name: Commit changes
