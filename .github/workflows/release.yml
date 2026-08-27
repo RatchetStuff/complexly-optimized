@@ -14,18 +14,16 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
-        with:
-          ref: ${{ github.ref_name }}
       
       - name: Bump pack.toml version
         env:
           tag: ${{ github.ref_name }}
         run: |
-          find versions -type f -name "pack.toml" -print0 | while read -r filepath; do
+          find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
             IFS='/' read -ra parts <<< "$filepath"
-            mc_version="${parts[0]}"
-            loader="${parts[1]}"
-            flavor="${parts[2]}"
+            mc_version="${parts[1]}"
+            loader="${parts[2]}"
+            flavor="${parts[3]}"
 
             full_version="${tag}+mc${mc_version}.${loader}.${flavor}"
             sed -i -E "s/^version\s*=\s*\".*\"/version = \"${full_version}\"/" "$filepath"
