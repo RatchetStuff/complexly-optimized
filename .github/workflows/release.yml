@@ -9,7 +9,7 @@ on:
           type: string
 
 jobs: 
-  build:
+  release:
     runs-on: ubuntu-latest
 
     steps:
@@ -66,10 +66,7 @@ jobs:
               continue
             fi
 
-            IFS='/' read -ra parts <<< "${filepath#versions/}"
-            mc_version="${parts[0]}"
-            loader="${parts[1]}"
-            flavor="${parts[2]}"
+            IFS='/' read -r mc_version loader flavor <<< "${filepath#versions/}"
 
             full_version="${tag}+mc${mc_version}.${loader}.${flavor}"
             sed -i -E "s/^version = .*/version = \"${full_version}\"/" "$filepath"
@@ -124,62 +121,9 @@ jobs:
           name: packs
           path: bin
       
-      - name: Generate matrix
-        id: matrix
-        run: |
-          matrix='{"include":['
-          first=true
-          while IFS= read -r -d '' file; do
-            filename=$(basename "$file")
-            metadata="${filename#*+mc}"
-            metadata="${metadata%.*}"
-            IFS='.' read -r mc_version loader flavor <<< "$metadata"
-
-            if [ "$first" = false ]; then
-              matrix+=','
-            fi
-            first=false
-
-            matrix+=$(jq -nc \
-              --arg file "$file" \
-              --arg minecraft "$mc_version" \
-              --arg loader "$loader" \
-              '{file:$file, minecraft:$minecraft, loader:$loader}')
-          done < <(find bin -type f -print0)
-
-          matrix+=']}'
-          echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
-          echo "$matrix"
-    
-    outputs:
-      matrix: ${{ steps.matrix.outputs.matrix }}
-
-  publish:
-    needs: build
-
-    runs-on: ubuntu-latest
-    
-    strategy:
-      matrix: ${{ fromJson(needs.build.outputs.matrix) }}
-
-    steps:
-      - name: Download artifacts
-        uses: actions/download-artifact@v8
-        with:
-          name: packs
-          path: bin
-      
       - name: Release modpack
         uses: Kira-NT/mc-publish@v3
         with:
           version: ${{ inputs.version }}
-          
-          loaders: ${{ matrix.loader }}
-          game-versions: ${{ matrix.minecraft }}
-
-          github-files: ${{ matrix.file }}
+          files: bin/*
           github-token: ${{ secrets.GITHUB_TOKEN }}
-
-          modrinth-id: C5YzQQgW
-          modrinth-files: ${{ endsWith(matrix.file, '.mrpack') && matrix.file || '' }}
-          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
