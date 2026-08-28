@@ -104,7 +104,7 @@ jobs:
                   ;;
                 mr)
                   packwiz mr export
-                  mv ./*.zip "$bin_dir"
+                  mv ./*.mrpack "$bin_dir"
                   ;;
                 *)
                   echo "Unknown distribution: $distribution"
