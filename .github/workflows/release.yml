@@ -115,8 +115,9 @@ jobs:
           done
           echo $(ls)
       
-      - name: Release modpack to GitHub
+      - name: Release modpack
         uses: Kira-NT/mc-publish@v3
         with:
+          version: ${{ inputs.version }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           github-files: bin/*
