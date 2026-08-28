@@ -127,4 +127,5 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           
           modrinth-files: bin/*.mrpack
+          modrinth-id: C5YzQQgW
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
