@@ -66,7 +66,10 @@ jobs:
               continue
             fi
 
-            IFS='/' read -r mc_version loader flavor <<< "${filepath#versions/}"
+            IFS='/' read -ra parts <<< "${filepath#versions/}"
+            mc_version="${parts[0]}"
+            loader="${parts[1]}"
+            flavor="${parts[2]}"
 
             full_version="${tag}+mc${mc_version}.${loader}.${flavor}"
             sed -i -E "s/^version = .*/version = \"${full_version}\"/" "$filepath"
@@ -114,12 +117,6 @@ jobs:
               esac
             )
           done
-      
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v7
-        with:
-          name: packs
-          path: bin
       
       - name: Release modpack
         uses: Kira-NT/mc-publish@v3
