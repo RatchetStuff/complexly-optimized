@@ -122,5 +122,9 @@ jobs:
         uses: Kira-NT/mc-publish@v3
         with:
           version: ${{ inputs.version }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+
           github-files: bin/*
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          
+          modrinth-files: bin/*.mrpack
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
