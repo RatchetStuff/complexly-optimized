@@ -149,6 +149,7 @@ jobs:
 
           matrix+=']}'
           echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
+          echo "$matrix"
     
     outputs:
       matrix: ${{ steps.matrix.outputs.matrix }}
@@ -179,5 +180,6 @@ jobs:
           github-files: ${{ matrix.file }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
+          modrinth-id: C5YzQQgW
           modrinth-files: ${{ endsWith(matrix.file, '.mrpack') && matrix.file || '' }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
