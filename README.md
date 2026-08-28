@@ -6,13 +6,19 @@ This is a (complex) optimization modpack based on my own philosophy! It's free, 
 ## How?
 Optimization mods and configs, and also some minimal polish (like Crash Assistant, no chat signing). Vanilla parity is maintained, but if it doesn't, don't hesitate to open an issue!
 
+## Loaders
+There are a few loaders:
+- Fabric (🧶), shortened to `fab`.
+- Forge (🔨), shortened to `frg`.
+- NeoForge (🦊), shortened to `neo`.
+
 ### Presets
 There are two main presets:
-1. Anarchy (🧨), which is stable and contains all optimizations at the cost of some compatibility. Sometimes incompatible!
-2. Lawful (📜), which is stable and contains most optimizations for compatibility with a majority of mods. Major optimizations that are incompatible (such as ModernFix's dynamic resources) will be kept. Rarely incompatible!
+1. Anarchy (🧨), shortened to `ana`, which is stable and contains all optimizations at the cost of some compatibility. Sometimes incompatible!
+2. Lawful (📜), shortened to `law`, which is stable and contains most optimizations for compatibility with a majority of mods. Major optimizations that are incompatible (such as ModernFix's dynamic resources) will be kept. Rarely incompatible!
 
 Some additional presets may be created, including but not limited to:
-- VulkanMod (🌋)
+- VulkanMod (🌋), shortened to `vkn`.
 
 Due to the limitations of the current system, these presets are not decoupled from the main presets, and will be assigned the anarchy preset by default.
 
