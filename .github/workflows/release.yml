@@ -86,3 +86,35 @@ jobs:
         run: |
           git tag "$version"
           git push origin "$version"
+      
+      - name: Export modpack
+        run: |
+          mkdir -p bin
+          bin_dir="$(git rev-parse --show-toplevel)/bin"
+          find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
+            dir=$(dirname "$filepath")
+            distribution=$(basename "$dir")
+            (
+              cd "$dir" || exit 1
+              case "$distribution" in
+                cf)
+                  packwiz cf export
+                  mv *.zip "$bin_dir"
+                  ;;
+                mr)
+                  packwiz mr export
+                  mv *.zip "$bin_dir"
+                  ;;
+                *)
+                  echo "Unknown distribution: $distribution"
+                  exit 1
+                  ;;
+              esac
+            )
+          done
+      
+      - name: Release modpack to GitHub
+        uses: Kira-NT/mc-publish@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          files: bin/*
