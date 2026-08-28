@@ -124,7 +124,9 @@ jobs:
           loaders: |
             fabric
             forge
+            liteloader
             neoforge
+            quilt
           version: ${{ inputs.version }}
 
           github-files: bin/*
