@@ -24,12 +24,13 @@ There are currently two distributions. When making a modpack, only distribute th
 ## Which?
 
 ### Version?
-- Versions follow this format: {YEAR}.{MONTH}.{PATCH}+mc{MC_VERSION}.{LOADER}.{PRESET}.{DISTRIBUTION}
+- Versions follow this format: {YEAR}.{MONTH}.{PATCH}+mc{MC_VERSION}.{LOADER}.{PRESET}
 - Year uses the short format (omitting the first two digits)
+- Patch starts from 0 every month.
 - Minecraft version emits the "1." prefix (if it exists)
 - Loader and preset are limited to three characters.
-- Distribution is limited to two characters.
-- Example: 26.1.0+mc12.2.frg.ana.mr
+- Distribution is already included in the file extension.
+- Example: 26.1.0+mc12.2.frg.ana.mrpack
 
 ### To choose?
 Choose what you need! The difference between these presets are compatibility sacrifices, not instability. You may also manually mix the presets together.
