@@ -100,11 +100,11 @@ jobs:
               case "$distribution" in
                 cf)
                   packwiz cf export
-                  mv *.zip "$bin_dir"
+                  mv ./*.zip "$bin_dir"
                   ;;
                 mr)
                   packwiz mr export
-                  mv *.zip "$bin_dir"
+                  mv ./*.zip "$bin_dir"
                   ;;
                 *)
                   echo "Unknown distribution: $distribution"
