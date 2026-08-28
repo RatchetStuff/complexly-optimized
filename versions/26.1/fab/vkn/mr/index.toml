@@ -25,6 +25,14 @@ file = "configureddefaults/config/quick-pack.json"
 hash = "e65c63c2505fd2cc619109e62f7149518e6f95b4a9a50ad33533d118ba84d1b0"
 
 [[files]]
+file = "configureddefaults/config/vulkanmod_settings.json"
+hash = "4038954929fc8352d67032f7e957dafd6d3834ee59204b8c6ba4079c3a6ede0b"
+
+[[files]]
+file = "configureddefaults/options.txt"
+hash = "a37201e9f54d5a2827780ccfabf407c8fa5800a69fecf5a3b0e01c2196f6749c"
+
+[[files]]
 file = "mods/async-pack-scan.pw.toml"
 hash = "f211021a879363b00f09aaf419dcc33b54b6f77b23661154117281a9624d0039"
 metafile = true
