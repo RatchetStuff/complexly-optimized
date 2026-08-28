@@ -2,9 +2,11 @@ name: Build
 
 on:
   push:
-    branches: [ "main" ]
+    paths:
+      - "versions/**"
   pull_request:
-    branches: [ "main" ]
+    paths:
+      - "versions/**"
 
 jobs:
   build:
