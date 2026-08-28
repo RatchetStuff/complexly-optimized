@@ -8,7 +8,7 @@ on:
           required: true
           type: string
 
-jobs:
+jobs: 
   build:
     runs-on: ubuntu-latest
 
@@ -66,10 +66,10 @@ jobs:
               continue
             fi
 
-            IFS='/' read -ra parts <<< "$filepath"
-            mc_version="${parts[1]}"
-            loader="${parts[2]}"
-            flavor="${parts[3]}"
+            IFS='/' read -ra parts <<< "${filepath#versions/}"
+            mc_version="${parts[0]}"
+            loader="${parts[1]}"
+            flavor="${parts[2]}"
 
             full_version="${tag}+mc${mc_version}.${loader}.${flavor}"
             sed -i -E "s/^version = .*/version = \"${full_version}\"/" "$filepath"
@@ -98,17 +98,17 @@ jobs:
             if [ -n "$previous_tag" ] && git diff --quiet "$previous_tag" HEAD -- "$dir"; then
               continue
             fi
-            distribution=$(basename "$dir")
+            distribution="$(basename "$dir")"
             (
               cd "$dir" || exit 1
               case "$distribution" in
                 cf)
                   packwiz cf export
-                  mv ./*.zip "$bin_dir"
+                  mv *.zip "$bin_dir"
                   ;;
                 mr)
                   packwiz mr export
-                  mv ./*.mrpack "$bin_dir"
+                  mv *.mrpack "$bin_dir"
                   ;;
                 *)
                   echo "Unknown distribution: $distribution"
@@ -118,20 +118,66 @@ jobs:
             )
           done
       
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: packs
+          path: bin
+      
+      - name: Generate matrix
+        id: matrix
+        run: |
+          matrix='{"include":['
+          first=true
+          while IFS= read -r -d '' file; do
+            filename=$(basename "$file")
+            metadata="${filename#*+mc}"
+            metadata="${metadata%.*}"
+            IFS='.' read -r mc_version loader flavor <<< "$metadata"
+
+            if [ "$first" = false ]; then
+              matrix+=','
+            fi
+            first=false
+
+            matrix+=$(jq -nc \
+              --arg file "$file" \
+              --arg minecraft "$mc_version" \
+              --arg loader "$loader" \
+              '{file:$file, minecraft:$minecraft, loader:$loader}')
+          done < <(find bin -type f -print0)
+
+          matrix+=']}'
+          echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
+    
+    outputs:
+      matrix: ${{ steps.matrix.outputs.matrix }}
+
+  publish:
+    needs: build
+
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix: ${{ fromJson(needs.build.outputs.matrix) }}
+
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v8
+        with:
+          name: packs
+          path: bin
+      
       - name: Release modpack
         uses: Kira-NT/mc-publish@v3
         with:
-          loaders: |
-            fabric
-            forge
-            liteloader
-            neoforge
-            quilt
           version: ${{ inputs.version }}
-
-          github-files: bin/*
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           
-          modrinth-files: bin/*.mrpack
-          modrinth-id: C5YzQQgW
+          loaders: ${{ matrix.loader }}
+          game-versions: ${{ matrix.minecraft }}
+
+          github-files: ${{ matrix.file }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+          modrinth-files: ${{ endsWith(matrix.file, '.mrpack') && matrix.file || '' }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
