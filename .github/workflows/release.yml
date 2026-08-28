@@ -73,7 +73,7 @@ jobs:
             distribution="${parts[4]}"
 
             full_version="${tag}+mc${mc_version}.${loader}.${flavor}.${distribution}"
-            sed -iE "s/^version = .*/version = \"${full_version}\"/" "$filepath"
+            sed -i -E "s/^version = .*/version = \"${full_version}\"/" "$filepath"
           done
 
       - name: Commit release
@@ -118,7 +118,6 @@ jobs:
               esac
             )
           done
-          echo $(ls)
       
       - name: Release modpack
         uses: Kira-NT/mc-publish@v3
