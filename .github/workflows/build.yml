@@ -11,4 +11,43 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v7
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Setup Go
+        uses: actions/setup-go@v7
+      
+      - name: Setup packwiz
+        run: go install github.com/packwiz/packwiz@latest
+      
+      - name: Export modpack
+        run: |
+          mkdir -p bin
+          bin_dir="$(git rev-parse --show-toplevel)/bin"
+          find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
+            dir=$(dirname "$filepath")
+            distribution="$(basename "$dir")"
+            (
+              cd "$dir" || exit 1
+              case "$distribution" in
+                cf)
+                  packwiz cf export
+                  mv *.zip "$bin_dir"
+                  ;;
+                mr)
+                  packwiz mr export
+                  mv *.mrpack "$bin_dir"
+                  ;;
+                *)
+                  echo "Unknown distribution: $distribution"
+                  exit 1
+                  ;;
+              esac
+            )
+          done
+      
+      - name: Upload artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: pack
+          path: bin/*
