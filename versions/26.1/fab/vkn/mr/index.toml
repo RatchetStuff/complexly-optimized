@@ -173,12 +173,12 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "e2b6540e0f7c6a728d575235084f50c6398e23924f4a4fa4e8d5182aeffe803c"
+hash = "bb46896816463124ea003dbf41579b8f50dfb7b2df4c0f1cf895843248025736"
 metafile = true
 
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
-hash = "6801adb48ee85a21c7c4992625c34a751197382cb952dd25082d145a37de84fb"
+hash = "0a492579cdfcaa2033d698315ce3b9c1959b10841e38e1a0bb874a9e648838f1"
 metafile = true
 
 [[files]]
