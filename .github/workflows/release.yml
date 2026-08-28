@@ -121,6 +121,10 @@ jobs:
       - name: Release modpack
         uses: Kira-NT/mc-publish@v3
         with:
+          loaders: |
+            fabric
+            forge
+            neoforge
           version: ${{ inputs.version }}
 
           github-files: bin/*
