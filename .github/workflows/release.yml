@@ -113,9 +113,10 @@ jobs:
               esac
             )
           done
+          echo $(ls)
       
       - name: Release modpack to GitHub
         uses: Kira-NT/mc-publish@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          files: bin/*
+          github-files: bin/*
