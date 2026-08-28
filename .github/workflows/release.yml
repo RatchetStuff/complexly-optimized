@@ -95,9 +95,6 @@ jobs:
           bin_dir="$(git rev-parse --show-toplevel)/bin"
           find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
             dir=$(dirname "$filepath")
-            if [ -n "$previous_tag" ] && git diff --quiet "$previous_tag" HEAD -- "$dir"; then
-              continue
-            fi
             distribution="$(basename "$dir")"
             (
               cd "$dir" || exit 1
