@@ -70,9 +70,8 @@ jobs:
             mc_version="${parts[1]}"
             loader="${parts[2]}"
             flavor="${parts[3]}"
-            distribution="${parts[4]}"
 
-            full_version="${tag}+mc${mc_version}.${loader}.${flavor}.${distribution}"
+            full_version="${tag}+mc${mc_version}.${loader}.${flavor}"
             sed -i -E "s/^version = .*/version = \"${full_version}\"/" "$filepath"
           done
 
