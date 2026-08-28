@@ -73,7 +73,7 @@ jobs:
             distribution="${parts[4]}"
 
             full_version="${tag}+mc${mc_version}.${loader}.${flavor}.${distribution}"
-            sed -i -E "s/^version\s*=\s*\".*\"/version = \"${full_version}\"/" "$filepath"
+            sed -i -E "s/^version[[:space:]]*=[[:space:]]*\"[^\"]*\"/version = \"${full_version}\"/" "$filepath"
           done
 
       - name: Commit release
