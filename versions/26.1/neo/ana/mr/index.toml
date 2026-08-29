@@ -48,6 +48,11 @@ hash = "23ae742803c31b4c03add35d3481eead4e01db57df5f25356214d0c0cf57888d"
 metafile = true
 
 [[files]]
+file = "mods/blazesdl.pw.toml"
+hash = "baa5f2efe0ce2e8eda4f12a15e28c7c2916d21490ceebdef0c992e54fb36e94d"
+metafile = true
+
+[[files]]
 file = "mods/c2me-neoforge.pw.toml"
 hash = "00ce18653b4f2932567130cebb29ae448e20202a73b9bdf8f7c5f5a536759745"
 metafile = true
