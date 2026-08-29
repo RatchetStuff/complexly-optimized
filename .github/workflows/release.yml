@@ -52,7 +52,10 @@ jobs:
       - name: Find previous tag
         id: previous_tag
         run: |
-          previous_tag=$(git describe --tags --abbrev=0 || true)
+          previous_tag=$(git tag --sort=-version:refname | head -n 1)
+          if [ -z "$previous_tag" ]; then
+            echo "No previous tag found" && exit 1
+          fi
           echo "tag=$previous_tag" >> "$GITHUB_OUTPUT"
       
       - name: Bump pack.toml version
