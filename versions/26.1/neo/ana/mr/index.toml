@@ -1,12 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/crash_assistant/config.toml"
-hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
+file = "config/asyncparticles/asyncparticles.json"
+hash = "a4fc03cdc630eea8906fdc8e151098e571894e1b11b4de11af33889b0afde5f9"
 
 [[files]]
-file = "configureddefaults/config/asyncparticles/asyncparticles.json"
-hash = "a4fc03cdc630eea8906fdc8e151098e571894e1b11b4de11af33889b0afde5f9"
+file = "config/crash_assistant/config.toml"
+hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
 file = "configureddefaults/config/crash_assistant/config.toml"
