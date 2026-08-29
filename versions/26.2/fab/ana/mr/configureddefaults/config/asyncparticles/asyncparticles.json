@@ -1,0 +1,8 @@
+{
+    "particle": {
+        "parallelQueueRemoval": true
+    },
+    "tick": {
+        "particleAsyncMode": "SPLIT"
+    }
+}
