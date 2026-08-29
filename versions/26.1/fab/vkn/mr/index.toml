@@ -34,7 +34,7 @@ hash = "4038954929fc8352d67032f7e957dafd6d3834ee59204b8c6ba4079c3a6ede0b"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "a37201e9f54d5a2827780ccfabf407c8fa5800a69fecf5a3b0e01c2196f6749c"
+hash = "4e2c8f9943c7f46af59fadc7d9cdac763c6adb3137f89de034b24f27e3776498"
 
 [[files]]
 file = "mods/async-pack-scan.pw.toml"
