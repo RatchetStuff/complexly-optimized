@@ -17,6 +17,10 @@ file = "configureddefaults/config/ferritecore.mixin.properties"
 hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
 [[files]]
+file = "configureddefaults/config/fml.toml"
+hash = "5be202f958443e50a4d99badcbfcdd1401d62c37025d99be5d2b3115567e95b1"
+
+[[files]]
 file = "configureddefaults/config/modernfix-mixins.properties"
 hash = "f753ad282c4471d8b4525cb893295a9e7c1b8664076a4ce6407f13050e485a0b"
 

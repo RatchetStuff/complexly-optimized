@@ -1,0 +1,2 @@
+#Shows an early loading screen for mod loading which improves the user experience with early feedback about mod loading.
+earlyWindowControl = false
