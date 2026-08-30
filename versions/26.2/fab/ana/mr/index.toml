@@ -55,7 +55,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "2026e0b9aaafbd64bd8700e21831515576249191abe90e9368e31e25066ba8b1"
+hash = "28eb18c27957ff822c1206d9b196c2b2736636947904b61ae23382110d895dbf"
 metafile = true
 
 [[files]]
@@ -175,7 +175,7 @@ metafile = true
 
 [[files]]
 file = "mods/scalablelux.pw.toml"
-hash = "152ee12036a869e88b9aab78fe5d414c3d5187b57265d45c12a14ffb14d559d3"
+hash = "8635a6f88d0f0e9487299a0da5507bb9f1685969a8b02772efdba6df3d9c0afa"
 metafile = true
 
 [[files]]
