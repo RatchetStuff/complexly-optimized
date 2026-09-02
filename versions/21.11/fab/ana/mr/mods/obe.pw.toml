@@ -1,13 +1,13 @@
 name = "Optimized Block Entities"
-filename = "obe+1.21.11-1.1.40-hotfix.2.jar"
+filename = "obe+1.21.11-1.1.45.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/AtOSAunf/versions/XIwfV8Rl/obe%2B1.21.11-1.1.40-hotfix.2.jar"
+url = "https://cdn.modrinth.com/data/AtOSAunf/versions/XBowngJ1/obe%2B1.21.11-1.1.45.jar"
 hash-format = "sha512"
-hash = "c79fd715688115e90adb89b3897c1e98d47a39615f4fffe6980e74870c8940019356514d190188e86c1d6c4cc7fe5b47b2ec2adc5d2ad2e42467d66b07bf3d3f"
+hash = "a5a12200af2a395457101adaa527ba8b879e222a86aba58abf9d707cead17ab4a9dcd4fec749b7ae07cdbaa0a427c9f5853a3113b7c36ca55602100960c7dd49"
 
 [update]
 [update.modrinth]
 mod-id = "AtOSAunf"
-version = "XIwfV8Rl"
+version = "XBowngJ1"
