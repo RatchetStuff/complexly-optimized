@@ -1,0 +1,75 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/crash_assistant/config.toml"
+hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
+
+[[files]]
+file = "mods/alfheim-lighting-engine.pw.toml"
+hash = "5b8e138b7b21ad18dd6ebdbf6cc4b23c2d2137a7253fd968a4030487c5fb9a28"
+metafile = true
+
+[[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "6ed882cea7360c0f0189ab4dde16c95ae1a5761e3449baa92f333feecf3b25a5"
+metafile = true
+
+[[files]]
+file = "mods/chibi.pw.toml"
+hash = "6e4917e2ffeb7aafae7f2597b29f27420ac9c506d6c47f165c3d77f3ae5dc571"
+metafile = true
+
+[[files]]
+file = "mods/configanytime.pw.toml"
+hash = "defd8d7b171bb90e9ae3cc60f8c5e863346f74f7c43d90fd2a1519cc9b0e7f5f"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "0f25c69b9e42d535aa4a22715d1dd0efa5c5e602316788b053f48e00953bdb10"
+metafile = true
+
+[[files]]
+file = "mods/entity-culling.pw.toml"
+hash = "b840a6d3d2852151e9e0ae534bf5ffeb6233deade47a4ecbf4259f68c65f025a"
+metafile = true
+
+[[files]]
+file = "mods/gnetum.pw.toml"
+hash = "39cab30e19751a457253e27b457b44413bad65cbb6c66495fc280453c7bdd2ff"
+metafile = true
+
+[[files]]
+file = "mods/mixin-booter.pw.toml"
+hash = "558cd953d087c2c26b35d7cbf611f731874105f4439f05f1093f92a8b037dbb4"
+metafile = true
+
+[[files]]
+file = "mods/naughthirium.pw.toml"
+hash = "53d34bdc43c5649e4ce0838a22d5b307c927f4f2836cd14d26a8bb0d5a30c78d"
+metafile = true
+
+[[files]]
+file = "mods/nothirium.pw.toml"
+hash = "11e3e018194fd646d311c77611f0f4667e67c3d2a191db644f47c88d8cb18ae8"
+metafile = true
+
+[[files]]
+file = "mods/red-core.pw.toml"
+hash = "06969f488405c789e0312c1a09be5e51bda6eab1d7869ab934cb55289aad3860"
+metafile = true
+
+[[files]]
+file = "mods/renderlib.pw.toml"
+hash = "c3dc965e7f98972b40bd70f7c946d0a72b99fbad10273d089ddf90deaee092cd"
+metafile = true
+
+[[files]]
+file = "mods/stellarcore.pw.toml"
+hash = "b988c8ff2e22b556951f26384b98eb3ccc9eef71434f36664383ecfbdb91caba"
+metafile = true
+
+[[files]]
+file = "mods/vintagefix.pw.toml"
+hash = "6acf78c6d7d81ab42ef4dc3e3bb53d6dd66c8f3ce6926f941b3889209c67c9fe"
+metafile = true
