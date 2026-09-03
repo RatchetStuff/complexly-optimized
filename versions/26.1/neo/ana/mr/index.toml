@@ -64,7 +64,7 @@ metafile = true
 
 [[files]]
 file = "mods/configmanager.pw.toml"
-hash = "8a3c8fb49282e94b8be0c1f171b2923627898a1888c229a1883a69c1c4ff7e94"
+hash = "8ca1b26869321849e183e65a8cec0578a70599aaf59d97d5fdbb1bf6c539f73c"
 metafile = true
 
 [[files]]
