@@ -5,31 +5,31 @@ file = "config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
-file = "configureddefaults/config/crash_assistant/config.toml"
+file = "config/modpack_defaults/config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
-file = "configureddefaults/config/ferritecore.mixin.properties"
+file = "config/modpack_defaults/config/ferritecore.mixin.properties"
 hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
 [[files]]
-file = "configureddefaults/config/fml.toml"
+file = "config/modpack_defaults/config/fml.toml"
 hash = "5be202f958443e50a4d99badcbfcdd1401d62c37025d99be5d2b3115567e95b1"
 
 [[files]]
-file = "configureddefaults/config/modernfix-mixins.properties"
+file = "config/modpack_defaults/config/modernfix-mixins.properties"
 hash = "f753ad282c4471d8b4525cb893295a9e7c1b8664076a4ce6407f13050e485a0b"
 
 [[files]]
-file = "configureddefaults/config/moreculling.toml"
+file = "config/modpack_defaults/config/moreculling.toml"
 hash = "98dac74a3de9b7d5b29dca88e01d72739208d085270fea9d3108c730079d9712"
 
 [[files]]
-file = "configureddefaults/config/quick-pack.json"
+file = "config/modpack_defaults/config/quick-pack.json"
 hash = "e65c63c2505fd2cc619109e62f7149518e6f95b4a9a50ad33533d118ba84d1b0"
 
 [[files]]
-file = "configureddefaults/options.txt"
+file = "config/modpack_defaults/options.txt"
 hash = "4e2c8f9943c7f46af59fadc7d9cdac763c6adb3137f89de034b24f27e3776498"
 
 [[files]]
