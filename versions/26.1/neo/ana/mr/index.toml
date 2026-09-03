@@ -63,8 +63,8 @@ hash = "7c258846d69d70699d01ece8be13df4bfa70da6da9059eb1c653ade05b3ed7dd"
 metafile = true
 
 [[files]]
-file = "mods/configured-defaults.pw.toml"
-hash = "eae149d5c5eddafb69f0bbef8e44fcf7e340c29bcdb64df01d83ada5ccec0c27"
+file = "mods/configmanager.pw.toml"
+hash = "8a3c8fb49282e94b8be0c1f171b2923627898a1888c229a1883a69c1c4ff7e94"
 metafile = true
 
 [[files]]
