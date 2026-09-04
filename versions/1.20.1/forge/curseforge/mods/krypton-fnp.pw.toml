@@ -1,0 +1,13 @@
+name = "Krypton Reno"
+filename = "Krypton Reno-forge-1.20.1-26.1.1-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bfa957bfa1f477f2cba4bd7fdf0e803095f80621"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8210948
+project-id = 1269169
