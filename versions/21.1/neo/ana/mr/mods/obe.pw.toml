@@ -1,0 +1,13 @@
+name = "Optimized Block Entities [OBE]"
+filename = "obe+1.21.1-neoforge-1.1.45.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/AtOSAunf/versions/igHVZdS1/obe%2B1.21.1-neoforge-1.1.45.jar"
+hash-format = "sha512"
+hash = "ccaf9a12a5b640fde17708b9e9b2e3d73d4fa4c0f448cd84a7d00a1bd7e58711dce6c70dead90f21db5c2aaf0a194d9d12ae5494208ed24af9cfa6cfbc542171"
+
+[update]
+[update.modrinth]
+mod-id = "AtOSAunf"
+version = "igHVZdS1"
