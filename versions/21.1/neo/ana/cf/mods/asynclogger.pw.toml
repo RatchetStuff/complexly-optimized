@@ -1,6 +1,6 @@
 name = "Async Logger"
 filename = "asynclogger-2.2.2+1.21.1-neoforge.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
