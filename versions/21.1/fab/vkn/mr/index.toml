@@ -97,11 +97,6 @@ hash = "1d5799cd3b6ea714602c18546b99ba894e7511835b77803304792468fb7ee187"
 metafile = true
 
 [[files]]
-file = "mods/immediatelyfast.pw.toml"
-hash = "3e0eba292b6a2031f8ed10f8d38ba1ebab274ae0ff32151530dfd831afcd46b9"
-metafile = true
-
-[[files]]
 file = "mods/ixeris.pw.toml"
 hash = "118e817308a89de04cd589f1ee0faa50b41a4956b157008576f49428cda6d93d"
 metafile = true
