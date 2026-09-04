@@ -3,11 +3,9 @@ name: Build
 on:
   push:
     paths:
-      - ".github/workflows/build.yml"
       - "versions/**"
   pull_request:
     paths:
-      - ".github/workflows/build.yml"
       - "versions/**"
 
 jobs:
@@ -22,7 +20,7 @@ jobs:
         uses: actions/setup-go@v7
       
       - name: Setup packwiz
-        run: go install github.com/packwiz/packwiz@main
+        run: go install github.com/packwiz/packwiz@latest
       
       - name: Export modpack
         run: |

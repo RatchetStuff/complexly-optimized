@@ -22,7 +22,7 @@ jobs:
         uses: actions/setup-go@v7
       
       - name: Setup packwiz
-        run: go install github.com/packwiz/packwiz@main
+        run: go install github.com/packwiz/packwiz@latest
       
       - name: Update mod versions
         run: |
