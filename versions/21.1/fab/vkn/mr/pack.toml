@@ -1,12 +1,12 @@
 name = "Complexly Optimized"
 author = "Ratchet"
-version = "26.9.1+mc21.1.fab.ana"
+version = "26.9.2-SNAPSHOT+mc21.1.fab.vkn"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "da875a62129fb7986ede4cd3756857aece99e99328ab104d9879b4fae7f5a9d3"
+hash = "2b58a681c9d4beacf227b3fa4bab79d532d9491b888bf3df853925e767bb819e"
 
 [versions]
 fabric = "0.19.5"
