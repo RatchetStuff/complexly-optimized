@@ -153,6 +153,11 @@ hash = "33ee06060874af3d4419071746ba8fd12b5a03dd4995b7b6ff13de9f1636dc61"
 metafile = true
 
 [[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "55a727cabdd9d6e84fb0232b49d0dfa207751002e7f1f63b959baa35e2f29868"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "c569d915bc4f3c483d222b9088bd62fecd4cd05c9095716d8766ead359747813"
 metafile = true
