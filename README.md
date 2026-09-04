@@ -1,3 +1,5 @@
+https://raw.githubusercontent.com/RatchetStuff/complexly-optimized/refs/heads/main/icon.png
+
 # Complexly Optimized
 
 ## What?
