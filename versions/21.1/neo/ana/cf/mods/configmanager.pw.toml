@@ -1,0 +1,13 @@
+name = "Config Manager"
+filename = "ConfigManager-neoforge-1.21.x-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4d9071cbb997b28c81215e16cf70eb430276f5d3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7009857
+project-id = 1340480
