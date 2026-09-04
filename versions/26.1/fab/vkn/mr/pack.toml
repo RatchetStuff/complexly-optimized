@@ -1,6 +1,6 @@
 name = "Complexly Optimized"
 author = "Ratchet"
-version = "26.9.1-SNAPSHOT+mc26.1.fab.vkn"
+version = "26.9.1+mc26.1.fab.vkn"
 pack-format = "packwiz:1.1.0"
 
 [index]
