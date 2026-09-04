@@ -72,9 +72,8 @@ jobs:
             IFS='/' read -ra parts <<< "${filepath#versions/}"
             mc_version="${parts[0]}"
             loader="${parts[1]}"
-            flavor="${parts[2]}"
 
-            full_version="${tag}+mc${mc_version}.${loader}.${flavor}"
+            full_version="${tag}+mc${mc_version}.${loader}"
             sed -i -E "s/^version = .*/version = \"${full_version}\"/" "$filepath"
           done
 
@@ -92,19 +91,19 @@ jobs:
       
       - name: Export modpack
         run: |
-          mkdir -p bin
           bin_dir="$(git rev-parse --show-toplevel)/bin"
+          mkdir -p "$bin_dir"
           find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
             dir=$(dirname "$filepath")
             distribution="$(basename "$dir")"
             (
               cd "$dir" || exit 1
               case "$distribution" in
-                cf)
+                curseforge)
                   packwiz cf export
                   mv *.zip "$bin_dir"
                   ;;
-                mr)
+                modrinth)
                   packwiz mr export
                   mv *.mrpack "$bin_dir"
                   ;;

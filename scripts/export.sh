@@ -8,11 +8,11 @@ find "$toplevel/versions" -type f -name "pack.toml" -print0 | while IFS= read -r
     (
         cd "$dir" || exit 1
         case "$distribution" in
-        cf)
+        curseforge)
             packwiz cf export
             mv *.zip "$bin_dir"
             ;;
-        mr)
+        modrinth)
             packwiz mr export
             mv *.mrpack "$bin_dir"
             ;;
