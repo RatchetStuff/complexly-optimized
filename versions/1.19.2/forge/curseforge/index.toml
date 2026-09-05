@@ -90,6 +90,11 @@ hash = "82d5ebbb290a1a9b647c6b27c28c9522f9565aef134f570d5394d0d65ea1c332"
 metafile = true
 
 [[files]]
+file = "mods/lazy-dfu-forge.pw.toml"
+hash = "4197e21b90ffc991b42fb07a8e2c55824ba30f66185688a1e63ddbbecd10937e"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "d5ebd6a072c380a9872729df7c48021f5f187329f51afbfcee43e952c49f6d08"
 metafile = true
