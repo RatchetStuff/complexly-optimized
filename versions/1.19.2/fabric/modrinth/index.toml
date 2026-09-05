@@ -137,6 +137,11 @@ hash = "26a6c62dd5e1b6812ffdf82fa05d64513100661704a3b247e7e88f10a8143923"
 metafile = true
 
 [[files]]
+file = "mods/moreculling.pw.toml"
+hash = "cc0a9916c4079d5f9df4833087ea3613af0b8df035badd61dfbeda1413bac32f"
+metafile = true
+
+[[files]]
 file = "mods/quick-pack.pw.toml"
 hash = "2a3d5d669ae94174a5dd51e3da6079214894832e976d8190928ca5fa14bc7862"
 metafile = true
