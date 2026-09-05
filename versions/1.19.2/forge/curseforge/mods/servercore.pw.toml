@@ -1,0 +1,13 @@
+name = "ServerCore"
+filename = "servercore-forge-1.3.6+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2c5469f38162fff07ad84f335dfcd2cb4e791939"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5652361
+project-id = 550579

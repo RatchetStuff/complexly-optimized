@@ -1,0 +1,13 @@
+name = "Krypton Reno"
+filename = "Krypton FNP-forge-1.19.2-0.2.23-lite.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "295e4928c79f0de330882e172d8223c17d264708"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6991287
+project-id = 1269169
