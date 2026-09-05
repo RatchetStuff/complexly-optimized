@@ -1,0 +1,124 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/crash_assistant/config.toml"
+hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
+
+[[files]]
+file = "configureddefaults/config/crash_assistant/config.toml"
+hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
+
+[[files]]
+file = "configureddefaults/config/embeddium-options.json"
+hash = "0e255d3c8be3e7e63110a72b69d64e962ffcdb264e342a507a3ad10bc0356be5"
+
+[[files]]
+file = "configureddefaults/config/ferritecore.mixin.properties"
+hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
+
+[[files]]
+file = "configureddefaults/config/modernfix-mixins.properties"
+hash = "f753ad282c4471d8b4525cb893295a9e7c1b8664076a4ce6407f13050e485a0b"
+
+[[files]]
+file = "configureddefaults/config/quick-pack.json"
+hash = "e65c63c2505fd2cc619109e62f7149518e6f95b4a9a50ad33533d118ba84d1b0"
+
+[[files]]
+file = "configureddefaults/options.txt"
+hash = "4e2c8f9943c7f46af59fadc7d9cdac763c6adb3137f89de034b24f27e3776498"
+
+[[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "a35c5baab993a507ed5d7d3795c016d83cefc5fa6039559248e734937d0bc902"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "542bb3224271f1ef60b3bcbf957dd668913bbac0de3038b41c51dcc8522712a5"
+metafile = true
+
+[[files]]
+file = "mods/configured-defaults.pw.toml"
+hash = "c7d64d75425e40d27b787e2962e044157a238f607bc2a0de0021e2a36e419dd9"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "a8c25d6cd3babbc5eb9d87f50ad4c080422e057115cde65a6ed7907a7582f84e"
+metafile = true
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+hash = "9bebf06ad9d18399cfb737e6491a17cb6842b57b217476488ab8b9ab41a07ee5"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "93071784752076db5358d72c7da676272f72c008d95b1bf23f5152641c39d67e"
+metafile = true
+
+[[files]]
+file = "mods/fast-ip-ping.pw.toml"
+hash = "fbc3a9de56696fb8cd8fa2f6e585aa4fbe753dcded4650a75e8cc9442b42d65c"
+metafile = true
+
+[[files]]
+file = "mods/ferritecore.pw.toml"
+hash = "3086f596aebd6826fae8aef103c18b12776670fc34020f0de8edff471f8cb4a9"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "d489c8619db923579a219b54f9061236f4a47a1833854a01fc2ebd935c74323c"
+metafile = true
+
+[[files]]
+file = "mods/jasione.pw.toml"
+hash = "fbcbd3b5ba35aff35fd889b3ff00e5d9b044a254162a46846caa4c3fa03c8af3"
+metafile = true
+
+[[files]]
+file = "mods/krypton-fnp.pw.toml"
+hash = "9b71f9b82766aa75b6948c4f2e59a8bd7135f27c0ee22910f6f0fab7e8e5c22c"
+metafile = true
+
+[[files]]
+file = "mods/lazy-dfu-forge.pw.toml"
+hash = "ebb19e9c7a826f2d820671cdb8fc3aebb45cccf0751235b46a20701b9a6772b4"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "e8ea1ed24c1b1acbf78409861fe031e5b65fb1164f9ba3bd73973a863432ba5a"
+metafile = true
+
+[[files]]
+file = "mods/quick-pack.pw.toml"
+hash = "b97e2a85704a8a735ffd30d6bcd6b8d0917c5cc417f1f39db3d53ac5f11c0a5f"
+metafile = true
+
+[[files]]
+file = "mods/radium-reforged.pw.toml"
+hash = "7e7f52b898a62041d50f7ae2d9b1b639aabc1facd23f23795e99bf210574f9b1"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "62a7477fd50e59d7cea0d50f30ae7fc3b3d817972eb3625bd7638dca9350bab6"
+metafile = true
+
+[[files]]
+file = "mods/starlight-forge.pw.toml"
+hash = "cf0274e0db473a80ea8d8442362d3e7e76639018504b9ff37fa61aa6044b8a60"
+metafile = true
+
+[[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
+hash = "15ac653b54fae9eab71e95207858027c492b4bded35306b3f6da0826fdaf1d85"
+metafile = true
+
+[[files]]
+file = "mods/textrues-embeddium-options.pw.toml"
+hash = "f258fd494d275fd23ca2315749927be1b626e7092d886a69dda943ba9da3b1a6"
+metafile = true
