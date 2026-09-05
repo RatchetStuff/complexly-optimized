@@ -1,6 +1,6 @@
 name = "Complexly Optimized"
 author = "Ratchet"
-version = "26.9.10+mc1.16.5.fabric"
+version = "26.9.12+mc1.16.5.fabric"
 pack-format = "packwiz:1.1.0"
 
 [index]
