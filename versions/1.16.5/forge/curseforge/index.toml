@@ -1,0 +1,92 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/crash_assistant/config.toml"
+hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
+
+[[files]]
+file = "config/embeddium-options.json"
+hash = "0e255d3c8be3e7e63110a72b69d64e962ffcdb264e342a507a3ad10bc0356be5"
+
+[[files]]
+file = "config/ferritecore.mixin.properties"
+hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+hash = "f753ad282c4471d8b4525cb893295a9e7c1b8664076a4ce6407f13050e485a0b"
+
+[[files]]
+file = "mods/asynclogger.pw.toml"
+hash = "ab9b32097488e99beda6c6a3db0367ba21ada5d4641f58e6446cb0cde5e1bc8b"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "4c6b115d52556855e391af8664796754d9313e805be51b2d63cda52922630c61"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "a43a1aad0129a0418e696d2469ae39c62785826eac910b7a6a4551051a2e2f3d"
+metafile = true
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+hash = "75927708b55c8d6248df720d96580df83837b17814e8d37119640d759373514b"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "c4ed3f35492aacfb016f07498c0f373a9a242a38a1d042216d84ac7648754174"
+metafile = true
+
+[[files]]
+file = "mods/fast-ip-ping.pw.toml"
+hash = "a4438b9e342f7c860783dc321a780623dcb1d279a89e9ff0330d61e3015f3bca"
+metafile = true
+
+[[files]]
+file = "mods/ferritecore.pw.toml"
+hash = "d31e0d7a5de682cf8456af67efcfb0443a0f5295da54db4f357cba6932c6069c"
+metafile = true
+
+[[files]]
+file = "mods/ixeris.pw.toml"
+hash = "4ebc36410df22c53fd716a78193b71bb0b3283cd499bb94e29816567040de61d"
+metafile = true
+
+[[files]]
+file = "mods/krypton-reforged.pw.toml"
+hash = "1da1c59393173a181d95fd5d0d5fdfa864d052cb743e2c23bf4f0fb53475df79"
+metafile = true
+
+[[files]]
+file = "mods/lazy-dfu-forge.pw.toml"
+hash = "4cbade87fef39ba34f9b459b8d238fa761901c4817db0564ef4dae1a06e4b832"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "ee5b37e159080483d86b3c691fd522ee037720f0303d4e5f003af0aa6b9d6ce4"
+metafile = true
+
+[[files]]
+file = "mods/radon.pw.toml"
+hash = "7af12b6b6ed93d5d4c262b355a6f4f865440ddc1a87bcf392998eb21cd2ebc51"
+metafile = true
+
+[[files]]
+file = "mods/roadrunner.pw.toml"
+hash = "3a0536ab6c0089a820b8bc6fe0ddcc7bdd9be6c21d7943d5101184848797f33a"
+metafile = true
+
+[[files]]
+file = "mods/structure-layout-optimizer.pw.toml"
+hash = "1884554f5bc3923e5aab14eab98d59ca6985d3fc287e293ed08b59eec524664f"
+metafile = true
+
+[[files]]
+file = "mods/textrues-embeddium-options.pw.toml"
+hash = "e867829d3c484c7d5b146f54a8c09d15f13d96a00bea48588fb6040a63256f08"
+metafile = true
