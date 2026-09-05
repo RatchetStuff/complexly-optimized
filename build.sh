@@ -1,4 +1,4 @@
-TOPLEVEL=$(git rev-parse --show-toplevel)
+TOPLEVEL=$(git rev-parse --show-toplevel) || exit 1
 BIN="$TOPLEVEL/bin"
 rm -r "$BIN"
 mkdir -p "$BIN"
