@@ -5,10 +5,10 @@
 ## What?
 This is a (complex) optimization modpack based on my own philosophy! It's free, open-source, and whatever problems you have with it, we will certainly not judge you! Based on [Simply Optimized](https://modrinth.com/modpack/sop), which (I think) is based on the same philosophy. Licensed under Unlicense.
 
-## How?
+## Features
 Optimization mods and configs, and also some minimal polish (like Crash Assistant, no chat signing). Vanilla parity is maintained, but if it doesn't, don't hesitate to open an issue!
 
-## Loaders
+### Loaders
 Due to limitations in packwiz, some mod loaders are not supported.
 
 Mods made for different loaders are not cross-compatible, including Forge and NeoForge (despite coming from the same roots)! (Excluding Fabric and Quilt, maintaining parity with each other with slight incompatibilities.)
