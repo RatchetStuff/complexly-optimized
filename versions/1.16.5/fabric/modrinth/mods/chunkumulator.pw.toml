@@ -1,0 +1,13 @@
+name = "Chunkumulator"
+filename = "chunkumulator-1.1.1+MC1.16.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NdXjQHpc/versions/LrVdatFG/chunkumulator-1.1.1%2BMC1.16.5.jar"
+hash-format = "sha512"
+hash = "f2296ed4c8c0ea72a1b5db6fec2be18fa79bfa0845d12d62bcc58abf8f94b5b7fab68aa3a40d993f888d52d9975f1e0224e3f4fb56db76d08bdd0053ed244523"
+
+[update]
+[update.modrinth]
+mod-id = "NdXjQHpc"
+version = "LrVdatFG"
