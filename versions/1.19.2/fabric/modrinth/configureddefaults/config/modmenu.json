@@ -1,3 +1,4 @@
 {
-    "mods_button_style": "shrink"
+    "mods_button_style": "shrink",
+    "update_channel": "alpha"
 }

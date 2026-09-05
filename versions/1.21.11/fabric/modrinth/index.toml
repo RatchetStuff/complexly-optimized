@@ -18,7 +18,7 @@ hash = "f753ad282c4471d8b4525cb893295a9e7c1b8664076a4ce6407f13050e485a0b"
 
 [[files]]
 file = "config/modpack_defaults/config/modmenu.json"
-hash = "e5152697f05b84c47725f1f1a8f5a4bf7787fa635de4bae9958c530f6b9aa662"
+hash = "5397a33a9af8eef231e14db8e69f778a41dc3e54164ccfc6bf49d37614b1cd75"
 
 [[files]]
 file = "config/modpack_defaults/config/moreculling.toml"
