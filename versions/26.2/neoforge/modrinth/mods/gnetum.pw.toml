@@ -1,0 +1,13 @@
+name = "Gnetum"
+filename = "Gnetum-4.5.4+26.2-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7MoE34WK/versions/k32l6uHA/Gnetum-4.5.4%2B26.2-neoforge.jar"
+hash-format = "sha512"
+hash = "391725e2090a4fbee97b19e6d344d64d2ef239c1586007e821ad5640eb0929bdccd7f4c77192ddf3f8b665a54cab5a19a745424c34033e368d370c9e96c81bc1"
+
+[update]
+[update.modrinth]
+mod-id = "7MoE34WK"
+version = "k32l6uHA"

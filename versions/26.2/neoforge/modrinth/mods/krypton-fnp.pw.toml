@@ -1,0 +1,13 @@
+name = "Krypton Reno"
+filename = "kreno-neoforge-26.2-26.3.2-26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JkxWVYwU/versions/LZhWw0t7/kreno-neoforge-26.2-26.3.2-26.2.jar"
+hash-format = "sha512"
+hash = "3d3d9a9960d9b165bbe3558950384f6c9780d106e8f3867e1b713cba822aadb995545772bd868361a4a82cf3aeef0f95c79441b84b1579aa1713e5bdf8267e06"
+
+[update]
+[update.modrinth]
+mod-id = "JkxWVYwU"
+version = "LZhWw0t7"
