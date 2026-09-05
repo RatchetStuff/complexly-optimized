@@ -29,6 +29,10 @@ file = "configureddefaults/config/quick-pack.json"
 hash = "e65c63c2505fd2cc619109e62f7149518e6f95b4a9a50ad33533d118ba84d1b0"
 
 [[files]]
+file = "configureddefaults/config/sodium-options.json"
+hash = "0e255d3c8be3e7e63110a72b69d64e962ffcdb264e342a507a3ad10bc0356be5"
+
+[[files]]
 file = "configureddefaults/options.txt"
 hash = "4e2c8f9943c7f46af59fadc7d9cdac763c6adb3137f89de034b24f27e3776498"
 
