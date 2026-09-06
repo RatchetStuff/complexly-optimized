@@ -14,7 +14,7 @@ hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "f278631d7f20161c5ef1a3f1376ad0f27eaa58e1f22447b188751808c25344e2"
+hash = "1d85f8774a899a06134a9dcd308b30255761cbaf6b8c555dcd2fce62addcc063"
 
 [[files]]
 file = "mods/asynclogger.pw.toml"
