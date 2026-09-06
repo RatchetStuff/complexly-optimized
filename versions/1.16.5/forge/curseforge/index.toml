@@ -58,7 +58,7 @@ metafile = true
 
 [[files]]
 file = "mods/krypton-reforged.pw.toml"
-hash = "1da1c59393173a181d95fd5d0d5fdfa864d052cb743e2c23bf4f0fb53475df79"
+hash = "7ed95ce2e25c99972b00e353b56dca158d4bed013880a94e4a33aae8930d308f"
 metafile = true
 
 [[files]]

@@ -54,7 +54,7 @@ metafile = true
 
 [[files]]
 file = "mods/blazesdl.pw.toml"
-hash = "7acbc88bfc3a345c70310b27711eb59150f939c8d3daa58cb62121075b11758d"
+hash = "1e9b1fec443940b37f243189ff87031b088e0f4a2ec6ce26c4466ea50e2c34b6"
 metafile = true
 
 [[files]]
@@ -124,7 +124,7 @@ metafile = true
 
 [[files]]
 file = "mods/krypton.pw.toml"
-hash = "e922d7300eba8cfbd9aa31ba475cf6fcbcf11d74e89a0314ada18d58f08a2634"
+hash = "dcf1c3492b173538421fdb14175c7a180bcb6ee06964c0594abe025af6b21550"
 metafile = true
 
 [[files]]
