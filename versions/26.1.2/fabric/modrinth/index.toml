@@ -9,6 +9,10 @@ file = "config/modpack_defaults/config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
+file = "config/modpack_defaults/config/dynamic_fps.json"
+hash = "f568582aab69df4e2c62eb6bd5ef1809bc4d946617aab4fe528e2a917e98dbca"
+
+[[files]]
 file = "config/modpack_defaults/config/ferritecore.mixin.properties"
 hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
@@ -53,11 +57,6 @@ hash = "8e6033c2642308835d119a073fdf24306394cdb6985c482a08e67b8087f6e90d"
 metafile = true
 
 [[files]]
-file = "mods/blazesdl.pw.toml"
-hash = "51a4c3706b86b7857bb3aded82c700c0db0fb2acbafe3478798ccce0b7c9b89f"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "8c547f1e4ca090a7ca4e4a690d6296ef245f41f10851860319ea1b1066b82e73"
 metafile = true
@@ -75,6 +74,11 @@ metafile = true
 [[files]]
 file = "mods/crash-assistant.pw.toml"
 hash = "216dfbe4277304e632a6803502b0f33e4cdb7dd6fde8f6f2f6e5c9e44c9b1e2d"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "42f5637a87150687969d64b172ce8ef91bc3a92ee2eb68a2a17153350ff92b4b"
 metafile = true
 
 [[files]]

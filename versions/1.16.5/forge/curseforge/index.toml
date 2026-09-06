@@ -5,6 +5,10 @@ file = "config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
+file = "config/dynamic_fps.json"
+hash = "f568582aab69df4e2c62eb6bd5ef1809bc4d946617aab4fe528e2a917e98dbca"
+
+[[files]]
 file = "config/embeddium-options.json"
 hash = "0e255d3c8be3e7e63110a72b69d64e962ffcdb264e342a507a3ad10bc0356be5"
 
@@ -29,6 +33,11 @@ metafile = true
 [[files]]
 file = "mods/crash-assistant.pw.toml"
 hash = "a43a1aad0129a0418e696d2469ae39c62785826eac910b7a6a4551051a2e2f3d"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "f1c2e878ceaa7108dfa27c66f41b3d25d16f2016e36ec2e43d9dd7cb91da4dba"
 metafile = true
 
 [[files]]

@@ -9,6 +9,10 @@ file = "config/modpack_defaults/config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
+file = "config/modpack_defaults/config/dynamic_fps.json"
+hash = "f568582aab69df4e2c62eb6bd5ef1809bc4d946617aab4fe528e2a917e98dbca"
+
+[[files]]
 file = "config/modpack_defaults/config/ferritecore.mixin.properties"
 hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
@@ -61,6 +65,11 @@ metafile = true
 [[files]]
 file = "mods/crash-assistant.pw.toml"
 hash = "b0a12f17f33662b4f36cb9c746c6416562b6d0f7adda5597823a796fc60c84ba"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "8fc9632e9c5dfa183fe0327b441c8b4ad52f3f553921553b231fed7de34b4ef5"
 metafile = true
 
 [[files]]

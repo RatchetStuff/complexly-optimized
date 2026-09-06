@@ -9,6 +9,10 @@ file = "configureddefaults/config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
+file = "configureddefaults/config/dynamic_fps.json"
+hash = "f568582aab69df4e2c62eb6bd5ef1809bc4d946617aab4fe528e2a917e98dbca"
+
+[[files]]
 file = "configureddefaults/config/embeddium-options.json"
 hash = "0e255d3c8be3e7e63110a72b69d64e962ffcdb264e342a507a3ad10bc0356be5"
 
@@ -51,6 +55,11 @@ metafile = true
 [[files]]
 file = "mods/culllessleaves-reforged.pw.toml"
 hash = "73d3c614223f6b3ae93f314c220b5ea11384260ca92e208b4300b9642051a952"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "968a6298543b9dfc50a3ff4b06fcf2ba682532df1d5466aba6af476603c8b58b"
 metafile = true
 
 [[files]]

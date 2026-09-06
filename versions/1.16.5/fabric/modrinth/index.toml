@@ -9,6 +9,10 @@ file = "config/yosbr/config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
+file = "config/yosbr/config/dynamic_fps.json"
+hash = "f568582aab69df4e2c62eb6bd5ef1809bc4d946617aab4fe528e2a917e98dbca"
+
+[[files]]
 file = "config/yosbr/config/ferritecore.mixin.properties"
 hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
@@ -38,6 +42,11 @@ metafile = true
 [[files]]
 file = "mods/crash-assistant.pw.toml"
 hash = "4ed427d1bbe886fe9890bf37adec4952b9c8bc111a258fb6b3f2f1b07b49a3dc"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "5632949aeb7f7470db71d33872d0a1359bb211ca4d5d21fadedc5cdd1f77cfd0"
 metafile = true
 
 [[files]]
