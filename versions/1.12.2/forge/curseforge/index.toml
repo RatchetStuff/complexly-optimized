@@ -5,6 +5,10 @@ file = "config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
+file = "config/fpsreducer/fpsreducer.cfg"
+hash = "f85acfdefc9b8407c42c8f1677edced2bc9205aec8ed5a64de1511ba2dcf3110"
+
+[[files]]
 file = "mods/alfheim-lighting-engine.pw.toml"
 hash = "5b8e138b7b21ad18dd6ebdbf6cc4b23c2d2137a7253fd968a4030487c5fb9a28"
 metafile = true
@@ -32,6 +36,11 @@ metafile = true
 [[files]]
 file = "mods/entity-culling.pw.toml"
 hash = "b840a6d3d2852151e9e0ae534bf5ffeb6233deade47a4ecbf4259f68c65f025a"
+metafile = true
+
+[[files]]
+file = "mods/fps-reducer.pw.toml"
+hash = "2571263ec4228ca6c6d2cdbf677bbb7b07622382163f606630304696ba5d4abc"
 metafile = true
 
 [[files]]
