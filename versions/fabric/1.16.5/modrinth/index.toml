@@ -17,6 +17,10 @@ file = "config/yosbr/config/ferritecore.mixin.properties"
 hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
 [[files]]
+file = "config/yosbr/config/kerria.json"
+hash = "51daf2342a12d3b6e9af2cdbcfc2764b039dc3f57775ee71b8e34da1196b155f"
+
+[[files]]
 file = "config/yosbr/config/modernfix-mixins.properties"
 hash = "1d85f8774a899a06134a9dcd308b30255761cbaf6b8c555dcd2fce62addcc063"
 
@@ -77,6 +81,11 @@ metafile = true
 [[files]]
 file = "mods/ixeris.pw.toml"
 hash = "bf8eeef0f45e2bf3db39cea1203c7909b9416554392a60e8700d27b149edcfab"
+metafile = true
+
+[[files]]
+file = "mods/kerria-opt.pw.toml"
+hash = "8bd18b30f3b5836ccb288cb8d912702f8ce329046048cd8822b13efc00823527"
 metafile = true
 
 [[files]]

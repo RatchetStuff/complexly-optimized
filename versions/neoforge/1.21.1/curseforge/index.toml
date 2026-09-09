@@ -17,6 +17,10 @@ file = "config/modpack_defaults/config/ferritecore.mixin.properties"
 hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
 [[files]]
+file = "config/modpack_defaults/config/kerria.json"
+hash = "51daf2342a12d3b6e9af2cdbcfc2764b039dc3f57775ee71b8e34da1196b155f"
+
+[[files]]
 file = "config/modpack_defaults/config/modernfix-mixins.properties"
 hash = "1d85f8774a899a06134a9dcd308b30255761cbaf6b8c555dcd2fce62addcc063"
 
@@ -110,6 +114,11 @@ metafile = true
 [[files]]
 file = "mods/jasione.pw.toml"
 hash = "8f8bb8ed771239f00ee3ae5049a0164ed62a6a5ea41752ffa4a99687cd9b8a77"
+metafile = true
+
+[[files]]
+file = "mods/kerria.pw.toml"
+hash = "bbb99817c317bbc1c6e15ccba4fc00316681b5a9e747c35f5adb20dd74150401"
 metafile = true
 
 [[files]]

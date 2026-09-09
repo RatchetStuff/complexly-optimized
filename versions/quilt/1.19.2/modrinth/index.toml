@@ -17,6 +17,10 @@ file = "configureddefaults/config/ferritecore.mixin.properties"
 hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
 [[files]]
+file = "configureddefaults/config/kerria.json"
+hash = "51daf2342a12d3b6e9af2cdbcfc2764b039dc3f57775ee71b8e34da1196b155f"
+
+[[files]]
 file = "configureddefaults/config/modernfix-mixins.properties"
 hash = "1d85f8774a899a06134a9dcd308b30255761cbaf6b8c555dcd2fce62addcc063"
 
