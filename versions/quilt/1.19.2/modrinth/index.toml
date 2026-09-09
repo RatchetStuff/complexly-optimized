@@ -41,11 +41,6 @@ file = "configureddefaults/options.txt"
 hash = "4e2c8f9943c7f46af59fadc7d9cdac763c6adb3137f89de034b24f27e3776498"
 
 [[files]]
-file = "mods/asynclogger.pw.toml"
-hash = "4acce3e676075c04d49428e9e7371ab845686509b49952daeb08bb2ef5033e52"
-metafile = true
-
-[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "7a49bd7ce2fc30617b19d139700b8003e336f77334ac46ed00e9decb89188670"
 metafile = true
