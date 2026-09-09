@@ -149,7 +149,7 @@ metafile = true
 
 [[files]]
 file = "mods/springlotus.pw.toml"
-hash = "362f3802766b38db3dcec33f5481ffc68cc3dfd6bd946e74da52880bfc2fd5e8"
+hash = "43c6f227569bf525d16a7d3a98c156a387da3c3d4ca780e861238a7ae834cf01"
 metafile = true
 
 [[files]]

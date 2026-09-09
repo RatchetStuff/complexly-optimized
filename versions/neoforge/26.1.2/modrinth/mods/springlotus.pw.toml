@@ -1,13 +1,13 @@
 name = "Spring Lotus"
-filename = "springlotus-neoforge-1.2.1+26.1.2.jar"
+filename = "springlotus-neoforge-1.2.2+26.1.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/3ExQTm0u/versions/iMBSqhef/springlotus-neoforge-1.2.1%2B26.1.2.jar"
+url = "https://cdn.modrinth.com/data/3ExQTm0u/versions/eP3xw6Tj/springlotus-neoforge-1.2.2%2B26.1.2.jar"
 hash-format = "sha512"
-hash = "d20bbcbcbc7877e1519bfe558278b797672bea28a13a7160e26b2613bbba0471ae616703ff6cc3f3e24037f8b60d60e5e8143281651068a58559feddca2f0e07"
+hash = "eb093889dc7719558069cc05fb407b17decac771e89b90dc43f5c2bef3181022f5ce72f4304e708ab9a29281dbb783ae5997bccfe174d10a6a6a35ef0d3c557c"
 
 [update]
 [update.modrinth]
 mod-id = "3ExQTm0u"
-version = "iMBSqhef"
+version = "eP3xw6Tj"
