@@ -1,0 +1,13 @@
+name = "Gnetum"
+filename = "gnetum-2.5.0+1.20.1-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7MoE34WK/versions/p5JeCmwz/gnetum-2.5.0%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "d1038dfdb33a393ec2fc6fc195974bbe8d324b2bc3f4c6f6f818c2d77604a34edd28a52b1bad2edb1176155995c518b3505e20f0ad2004690c383e286b31ab3b"
+
+[update]
+[update.modrinth]
+mod-id = "7MoE34WK"
+version = "p5JeCmwz"
