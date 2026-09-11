@@ -7,22 +7,22 @@ Yet another optimization modpack based on my own philosophy. It's FOSS!
 <a href="https://discord.gg/bV3wRykjbg">Discord</a>
 </div>
 
-## What?
-This is a (complex) optimization modpack based on my own philosophy! It's free, open-source, and whatever problems you have with it, we will certainly not judge you! Inspired by [Simply Optimized](https://modrinth.com/modpack/sop), which (I think) is based on the same philosophy. Licensed under Unlicense.
+## What's This?
+This is a (complex) optimization modpack based on my own philosophy! It's free, open-source, and whatever problems you have with it, we will certainly not judge you! Inspired by [Simply Optimized](https://modrinth.com/modpack/sop), which (I think) is based on the same philosophy.
 
 ## Features
-Optimization mods and configs, and also some minimal polish (like Crash Assistant, no chat signing). Vanilla parity is maintained, but if it doesn't, don't hesitate to open an issue!
+- Vetted performance mods with full vanilla parity.
+- Specific configs for better performance.
+- Minimal polish.
+- Curated wiki pages, including presets and renderers.
+- Distributions for different platforms.
 
-### Presets
-Presets can be found in the wiki page. The default preset may be incompatible with some mods, check to see what fits.
-
-### Renderers
-Renderers can be found in the wiki page. Sodium all the way.
-
-### Distribution
-There are currently two distributions. When making a modpack, only distribute the specified distributions (e.g. CurseForge-only for CurseForge-distributed modpacks):
-1. CurseForge-only, which will be distributed on CurseForge. More Forge and old mods in general, including performance mods. CurseForge-exclusive performance mods, like AllTheLeaks, are included here.
-2. Modrinth-only, which will be distributed on Modrinth. More Fabric and new mods in general, including performance mods.
+### Extras
+QOL features are specifically chosen to provide the best experience, including:
+- Config Manager, to provide configs that will not replace user-made configs on update. Supports updating configs to the latest provided by the modpack.
+- Crash Assistant (without restrictions), to make crashes easier to understand and debug.
+- Dynamic FPS, to reduce usage in the background and uncap menu FPS.
+- No chat signing, without adding extra mods.
 
 ## Why?
 Because some optimization modpacks as of right now:
