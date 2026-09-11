@@ -3,6 +3,8 @@
 Yet another optimization modpack based on my own philosophy. It's FOSS!
 <br />
 <br />
+<a href="https://github.com/RatchetStuff/complexly-optimized">GitHub</a>
+|
 <a href="https://modrinth.com/project/C5YzQQgW">Modrinth</a>
 |
 <a href="https://discord.gg/bV3wRykjbg">Discord</a>
