@@ -3,7 +3,7 @@
 # Complexly Optimized
 
 ## What?
-This is a (complex) optimization modpack based on my own philosophy! It's free, open-source, and whatever problems you have with it, we will certainly not judge you! Based on [Simply Optimized](https://modrinth.com/modpack/sop), which (I think) is based on the same philosophy. Licensed under Unlicense.
+This is a (complex) optimization modpack based on my own philosophy! It's free, open-source, and whatever problems you have with it, we will certainly not judge you! Inspired by [Simply Optimized](https://modrinth.com/modpack/sop), which (I think) is based on the same philosophy. Licensed under Unlicense.
 
 ## Features
 Optimization mods and configs, and also some minimal polish (like Crash Assistant, no chat signing). Vanilla parity is maintained, but if it doesn't, don't hesitate to open an issue!
