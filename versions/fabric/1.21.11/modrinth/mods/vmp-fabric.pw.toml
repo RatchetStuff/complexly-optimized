@@ -1,6 +1,6 @@
 name = "Very Many Players (Fabric)"
 filename = "vmp-fabric-mc1.21.11-0.2.0+beta.7.227-all.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/wnEe9KBa/versions/7Cxc2cAR/vmp-fabric-mc1.21.11-0.2.0%2Bbeta.7.227-all.jar"
