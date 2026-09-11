@@ -1,0 +1,13 @@
+name = "Brute Force Rendering Culling Revived"
+filename = "Brute Force Culling Revived-forge-1.20.1-2.2.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "affff7f403ed0c1a3788afd716018f7865d1e97f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8842942
+project-id = 1519201
