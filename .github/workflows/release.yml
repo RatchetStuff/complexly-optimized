@@ -162,6 +162,8 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: Kira-NT/mc-publish@v3
         with:
-          version: ${{ inputs.version }}
-          files: bin/*
+          github-draft: true
           github-token: ${{ secrets.GITHUB_TOKEN }}
+
+          files: bin/*
+          version: ${{ inputs.version }}
