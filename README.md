@@ -1,6 +1,11 @@
-![icon](https://raw.githubusercontent.com/RatchetStuff/complexly-optimized/refs/heads/main/icon.png)
-
-# Complexly Optimized
+<div align="center">
+<h1>Complexly Optimized</h1>
+Yet another optimization modpack based on my own philosophy. It's FOSS!
+<br />
+<a href="https://modrinth.com/project/C5YzQQgW">Modrinth</a>
+|
+<a href="https://discord.gg/bV3wRykjbg">Discord</a>
+</div>
 
 ## What?
 This is a (complex) optimization modpack based on my own philosophy! It's free, open-source, and whatever problems you have with it, we will certainly not judge you! Inspired by [Simply Optimized](https://modrinth.com/modpack/sop), which (I think) is based on the same philosophy. Licensed under Unlicense.
