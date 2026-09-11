@@ -124,6 +124,7 @@ jobs:
           commit_message: "chore: release ${{ inputs.version }}"
       
       - name: Create tag
+        if: github.ref == 'refs/heads/main'
         env:
           version: ${{ inputs.version }}
         run: |
@@ -131,6 +132,7 @@ jobs:
           git push origin "$version"
       
       - name: Export modpack
+        if: github.ref == 'refs/heads/main'
         run: |
           bin_dir="$(git rev-parse --show-toplevel)/bin"
           mkdir -p "$bin_dir"
@@ -157,6 +159,7 @@ jobs:
           done
       
       - name: Release modpack
+        if: github.ref == 'refs/heads/main'
         uses: Kira-NT/mc-publish@v3
         with:
           version: ${{ inputs.version }}
