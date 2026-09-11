@@ -27,7 +27,7 @@ jobs:
       - name: Setup packwiz
         run: go install github.com/packwiz/packwiz@dfd8b68a4796c763e25bad50265ea1f1233e24f1
       
-      - name: Update mod versions
+      - name: Update mods
         run: |
           find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
             dir=$(dirname "$filepath")
@@ -37,7 +37,24 @@ jobs:
             )
           done
       
-      - name: Refresh versions
+      - name: Migrate loaders
+        run: |
+          find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
+            dir=$(dirname "$filepath")
+
+            IFS='/' read -ra parts <<< "${filepath#versions/}"
+            loader="${parts[0]}"
+
+            if [ "$loader" = "quilt" ]; then
+              continue
+            fi
+            (
+              cd "$dir" || exit 1
+              packwiz migrate loader latest
+            )
+          done
+      
+      - name: Refresh packs
         run: |
           find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
             dir=$(dirname "$filepath")
