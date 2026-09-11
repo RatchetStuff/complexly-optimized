@@ -10,6 +10,16 @@ on:
           description: "Release version (e.g. 26.1.0)"
           required: true
           type: string
+        
+        fabric_version:
+          description: "Fabric version (e.g. 0.19.3)"
+          required: false
+          type: string
+        
+        quilt_version:
+          description: "Quilt version (e.g. 0.30.1)"
+          required: false
+          type: string
 
 jobs: 
   release:
@@ -45,12 +55,23 @@ jobs:
             IFS='/' read -ra parts <<< "${filepath#versions/}"
             loader="${parts[0]}"
 
-            if [ "$loader" = "quilt" ]; then
-              continue
-            fi
             (
               cd "$dir" || exit 1
-              packwiz migrate loader latest
+              case "$loader" in
+                fabric)
+                  if [ -n "${{ inputs.fabric_version }}" ]; then
+                    packwiz migrate loader "${{ inputs.fabric_version }}"
+                  fi
+                  ;;
+                quilt)
+                  if [ -n "${{ inputs.quilt_version }}" ]; then
+                    packwiz migrate loader "${{ inputs.quilt_version }}"
+                  fi
+                  ;;
+                *)
+                  packwiz migrate loader latest
+                  ;;
+              esac
             )
           done
       
