@@ -3,9 +3,11 @@ name: Build
 on:
   push:
     paths:
+      - ".github/workflows/build.yml"
       - "versions/**"
   pull_request:
     paths:
+      - ".github/workflows/build.yml"
       - "versions/**"
 
 jobs:
