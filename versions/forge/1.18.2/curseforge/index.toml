@@ -9,6 +9,10 @@ file = "configureddefaults/config/crash_assistant/config.toml"
 hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
 
 [[files]]
+file = "configureddefaults/config/cull-less-leaves.json"
+hash = "9e566abf86eef2b7dd3e5cf99a117cb0fe2e9c98ef18ef264c5beb3ec7dec2da"
+
+[[files]]
 file = "configureddefaults/config/dynamic_fps.json"
 hash = "f568582aab69df4e2c62eb6bd5ef1809bc4d946617aab4fe528e2a917e98dbca"
 
