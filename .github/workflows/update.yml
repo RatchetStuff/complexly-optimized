@@ -1,86 +1,15 @@
 name: Update
 
-permissions:
-  contents: write
-
 on:
-  workflow_dispatch:
-    inputs:
-        fabric_version:
-          description: "Fabric version (e.g. 0.19.3)"
-          required: false
-          type: string
-        
-        quilt_version:
-          description: "Quilt version (e.g. 0.30.1)"
-          required: false
-          type: string
+  push:
+    branches: [ "*" ]
+  pull_request:
+    branches: [ "*" ]
 
-jobs: 
-  update:
+jobs:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
-        with:
-          fetch-depth: 0
-      
-      - name: Setup Go
-        uses: actions/setup-go@v7
-      
-      - name: Setup packwiz
-        run: go install github.com/packwiz/packwiz@latest
-      
-      - name: Update mods
-        run: |
-          find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
-            dir=$(dirname "$filepath")
-            (
-              cd "$dir" || exit 1
-              packwiz update -ay
-            )
-          done
-      
-      - name: Migrate loaders
-        run: |
-          find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
-            dir=$(dirname "$filepath")
-
-            IFS='/' read -ra parts <<< "${filepath#versions/}"
-            loader="${parts[0]}"
-
-            (
-              cd "$dir" || exit 1
-              case "$loader" in
-                fabric)
-                  if [ -n "${{ inputs.fabric_version }}" ]; then
-                    packwiz migrate loader "${{ inputs.fabric_version }}"
-                  fi
-                  ;;
-                quilt)
-                  if [ -n "${{ inputs.quilt_version }}" ]; then
-                    packwiz migrate loader "${{ inputs.quilt_version }}"
-                  fi
-                  ;;
-                *)
-                  packwiz migrate loader latest
-                  ;;
-              esac
-            )
-          done
-      
-      - name: Refresh packs
-        run: |
-          find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
-            dir=$(dirname "$filepath")
-            (
-              cd "$dir" || exit 1
-              packwiz refresh
-            )
-          done
-      
-      - name: Commit updates
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: "chore: update packs"
