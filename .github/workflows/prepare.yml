@@ -4,6 +4,8 @@ permissions:
   contents: write
 
 on:
+  push:
+    branches: [ "feature/workflow" ]
   workflow_dispatch:
     inputs:
         fabric_version:
