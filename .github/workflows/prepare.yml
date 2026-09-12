@@ -4,8 +4,6 @@ permissions:
   contents: write
 
 on:
-  push:
-    branches: [ "feature/workflow" ]
   workflow_dispatch:
     inputs:
         fabric_version:
@@ -122,7 +120,7 @@ jobs:
             loader="${parts[0]}"
             mc_version="${parts[1]}"
 
-            full_version="${version}+mc${mc_version}.${loader}-SNAPSHOT"
+            full_version="${version}+mc${mc_version}.${loader}"
             sed -i -E "s/^version = .*/version = \"${full_version}\"/" "$filepath"
           done
 
