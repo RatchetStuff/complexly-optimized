@@ -5,11 +5,7 @@ permissions:
 
 on:
   workflow_dispatch:
-    inputs:
-        version:
-          description: "Release version (e.g. 26.1.0)"
-          required: true
-          type: string
+
 
 jobs:
   publish:
@@ -32,10 +28,21 @@ jobs:
             echo "No previous tag found" && exit 1
           fi
           echo "tag=$previous_tag" >> "$GITHUB_OUTPUT"
+
+      - name: Create version
+        id: version
+        run: |
+          year=$(date -u +'%y')
+          month=$(date -u +'%-m')
+
+          patch=$(git tag -l "${year}.${month}.*" | wc -l)
+          version="${year}.${month}.${patch}"
+
+          echo "version=$version" >> "$GITHUB_OUTPUT"
       
       - name: Bump pack.toml version
         env:
-          tag: ${{ inputs.version }}
+          tag: ${{ steps.version.outputs.version }}
           previous_tag: ${{ steps.previous_tag.outputs.tag }}
         run: |
           find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
@@ -55,12 +62,12 @@ jobs:
       - name: Commit release
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "chore: release ${{ inputs.version }}"
+          commit_message: "chore: release ${{ steps.version.outputs.version }}"
 
       - name: Create tag
         if: github.ref == 'refs/heads/main'
         env:
-          version: ${{ inputs.version }}
+          version: ${{ steps.version.outputs.version }}
         run: |
           git tag "$version"
           git push origin "$version"
@@ -100,4 +107,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
           files: bin/*
-          version: ${{ inputs.version }}
+          version: ${{ steps.version.outputs.version }}
