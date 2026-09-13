@@ -124,7 +124,7 @@ jobs:
             sed -i -E "s/^version = .*/version = \"${full_version}\"/" "$filepath"
           done
 
-      - name: Commit snapshots
+      - name: Commit snapshot
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "chore: prepare ${{ steps.version.outputs.version }}"
+          commit_message: "chore: prepare snapshot"
