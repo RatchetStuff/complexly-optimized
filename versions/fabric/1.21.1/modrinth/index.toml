@@ -107,12 +107,12 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "a003485e1a140124dafd80ab1a296fd532c49006aac6643a58064773fc756cce"
+hash = "6ac3e0aa179beafe6f0d1db0bd31f288bc60910446ccfa5382c698bda2062ff4"
 metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "3e0eba292b6a2031f8ed10f8d38ba1ebab274ae0ff32151530dfd831afcd46b9"
+hash = "10930324bc5d409d8d557b003a1b7eaf1af00dc336db8f7aea877335f0748aa1"
 metafile = true
 
 [[files]]
