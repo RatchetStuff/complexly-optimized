@@ -10,6 +10,9 @@ Yet another optimization modpack based on my own philosophy. It's FOSS!
 <a href="https://discord.gg/bV3wRykjbg">Discord</a>
 </div>
 
+## Notice
+This is not as stable of an optimization modpack as it tries to be. Breaking changes may occur, so backup your worlds when using or updating the modpack. Here be dragons!
+
 ## What's This?
 This is a (complex) optimization modpack based on my own philosophy! It's free, open-source, and whatever problems you have with it, we will certainly not judge you! Inspired by [Simply Optimized](https://modrinth.com/modpack/sop), which (I think) is based on the same philosophy.
 
