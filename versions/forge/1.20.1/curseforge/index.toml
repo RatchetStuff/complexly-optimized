@@ -53,7 +53,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "010943a876783eeb27bbf5e1658e49423ef614ca5da870970e7c59b460d6188a"
+hash = "5d8b481ab94521b23e987c054acc9cedf42a736f5dcefc5f877746fab70db75a"
 metafile = true
 
 [[files]]
