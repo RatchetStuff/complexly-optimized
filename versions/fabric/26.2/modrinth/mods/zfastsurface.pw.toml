@@ -1,13 +1,13 @@
 name = "Fast Surface"
-filename = "zfastsurface-1.0.0-beta.4+26.2.jar"
+filename = "zfastsurface-1.0.0-beta.5+26.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/FRSaEVFk/versions/gJqV5TF2/zfastsurface-1.0.0-beta.4%2B26.2.jar"
+url = "https://cdn.modrinth.com/data/FRSaEVFk/versions/jX39WwtA/zfastsurface-1.0.0-beta.5%2B26.2.jar"
 hash-format = "sha512"
-hash = "9dcc8f78e4c39ca54da079dd53a15ec8548daf40f11f396f3a81e52f299fea38a3a82e221def6d68509aa6966ccf524e0e1cf614d9b3f3d5798e628c458ca54d"
+hash = "3f7102c63dc6a0542edadc74a0a8337cfb031a128677fee95a307842c64db937f9e54e5a339ff86ecc172a3217526d31628873fa6e60d64fa26a2c33b45484b4"
 
 [update]
 [update.modrinth]
 mod-id = "FRSaEVFk"
-version = "gJqV5TF2"
+version = "jX39WwtA"
