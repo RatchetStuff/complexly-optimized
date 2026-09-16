@@ -1,0 +1,13 @@
+name = "ScalableLux"
+filename = "ScalableLux-fabric-0.3.0-alpha.0.4-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ps1zyz6x/versions/z2JqNJyJ/ScalableLux-fabric-0.3.0-alpha.0.4-all.jar"
+hash-format = "sha512"
+hash = "4684717bc68f78ddf4166edd7fa78746b5e1770573f1eb15acfd696736b7a96ec2adcb49bc24ce02281e6e2ccb6003a565849fe91ed3a9f7ff686f55f65d35de"
+
+[update]
+[update.modrinth]
+mod-id = "Ps1zyz6x"
+version = "z2JqNJyJ"

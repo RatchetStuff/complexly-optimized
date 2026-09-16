@@ -1,0 +1,13 @@
+name = "Async Pack Scan"
+filename = "async-pack-scan-26.3.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/FuRR0tKd/versions/jAHQFrry/async-pack-scan-26.3.0.jar"
+hash-format = "sha512"
+hash = "a72d8026d82ef00ea386e838a46f2cef458f54aecd724a0d1994431653dbd0e62acaebb50695b864b66bf06da13d32e20cc92b86c239d9573fa1cfdf061632c7"
+
+[update]
+[update.modrinth]
+mod-id = "FuRR0tKd"
+version = "jAHQFrry"
