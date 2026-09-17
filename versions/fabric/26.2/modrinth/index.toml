@@ -73,7 +73,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "26df46292aa3a6195a25d641c22930f7ef6f23cf9c6061354fdb8edffc7c167f"
+hash = "de893e3ffe8c044bebbd37e7f3b1f1c51fab05c5765dd587494b19e0529ea5e0"
 metafile = true
 
 [[files]]
@@ -218,10 +218,10 @@ metafile = true
 
 [[files]]
 file = "mods/zfastsurface.pw.toml"
-hash = "db5b86c0b14f86ee81827758d17dc428c3fed2eac44ebfed4d23d00b6c40a609"
+hash = "eefb86aa25654279290fed21b70d802dbe8c30ca98784bde8f202a175c86ff84"
 metafile = true
 
 [[files]]
 file = "mods/zmaterial-rule-compiler.pw.toml"
-hash = "84333c721b6fa40f4329676ee63a6bb25cfb253d93f0b410811b0021e4c9887e"
+hash = "5fe7cb5edf9a4a0772b3f249189bad1ac9116c2d1340375c639990ee1086d90b"
 metafile = true
