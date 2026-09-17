@@ -80,5 +80,5 @@ metafile = true
 
 [[files]]
 file = "mods/vintagefix.pw.toml"
-hash = "6acf78c6d7d81ab42ef4dc3e3bb53d6dd66c8f3ce6926f941b3889209c67c9fe"
+hash = "b8ec8c2a7ab187a925c8fc8faadea89ac803f8061e7e7e27116cdd05afd59e5c"
 metafile = true

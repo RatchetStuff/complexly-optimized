@@ -103,7 +103,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastchunkgen.pw.toml"
-hash = "da1ba6f6c70a76f62ed3d08749f28c9178410dc383e52a4fbc17d0d07803785c"
+hash = "d5f01873c5c0f6c32d4ef45217532bf76bc3be4a85ba4f8ab233b369d737edb2"
 metafile = true
 
 [[files]]

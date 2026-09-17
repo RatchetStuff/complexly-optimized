@@ -94,12 +94,12 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "4a3e9037baa520944edf378e91e4a0476b97852aa0632c59e00a2bb232c5b6be"
+hash = "7b7e53d7f8ae3974d88c90ca97f1ffcc742e78f947afd46345748b0c3a311e2e"
 metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "669475eebe3f884b50d36dbab652bed924bbbfbc4ac5c7e608c3bbe59dd902b8"
+hash = "b1f54b4d28a0d0180484f3da8aa2a8f8e9956bf7b2910ea4be770c402306d5e1"
 metafile = true
 
 [[files]]
@@ -119,7 +119,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "103ed27580de895f420d4e9ff4cc0057abe145897d38300367ac110c71a39107"
+hash = "6bd5bf68626de3216d0bd0fc377e5bab2d3cd37c3edbe393d4078eaeb1f8fb4e"
 metafile = true
 
 [[files]]
