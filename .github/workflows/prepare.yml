@@ -80,12 +80,6 @@ jobs:
             )
           done
       
-      - name: Commit updates
-        if: github.ref == 'refs/heads/main'
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: "chore: update packs"
-      
       - name: Find previous tag
         id: previous_tag
         run: |
@@ -113,7 +107,7 @@ jobs:
         run: |
           find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
             dir=$(dirname "$filepath")
-            if [ -n "$previous_tag" ] && git diff --quiet "$previous_tag" HEAD -- "$dir"; then
+            if [ -n "$previous_tag" ] && git diff --quiet "$previous_tag" -- "$dir"; then
               continue
             fi
 
@@ -129,4 +123,4 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "chore: prepare snapshot"
+          commit_message: "chore: update & prepare snapshot"
