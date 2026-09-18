@@ -88,12 +88,12 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "1c50c1f347b63837550fb615baa12dc8b6229cc00d21c4257fa2902c1957b557"
+hash = "a7f6a1543f41198911a8b1e5e059fa0c8003365ebd6c2314e2dfa0806aff300a"
 metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "99963103e833ee3164c5b39c37d07d2d6287396b6640d3b2727cdf2d3e51e5c2"
+hash = "e053cf9bd42c32218490ff47f691d1688a05fd0a095e67418098f6b000738926"
 metafile = true
 
 [[files]]

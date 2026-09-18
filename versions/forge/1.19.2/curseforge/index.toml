@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-ip-ping.pw.toml"
-hash = "6da587a8e21eddbcba4d84439361f9df0ce0604f57684c5ee42148b0b8d24ce2"
+hash = "432e4b2c10f1d21c39d104e0a19552c8732188d09136ffc5db9f13e25bca0b84"
 metafile = true
 
 [[files]]
@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "0959c459b2af8cc2ca8e27b8e369b2d8955de586632e00ca322dd064159199a6"
+hash = "26767ed8235190b9d349f90e92422f24b3c23e7ee46f48e4a39a583d6e5783c1"
 metafile = true
 
 [[files]]

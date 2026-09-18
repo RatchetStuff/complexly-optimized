@@ -53,7 +53,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
-hash = "8eeaf5023a8c5978f68ecd71d09ac46516167111ab2f46ab2c3909b8f9283f92"
+hash = "b29065f7eb51b2fa53043366d0df737483b600c2f549d31c783fe52c4d72bfb5"
 metafile = true
 
 [[files]]
@@ -98,7 +98,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "c82344480d1ff51e6f0804e753689cf41423e312fca2dc167734bbfdf7004c54"
+hash = "211e85081c9c7cbbb400359b15b6a374e4ef8c768b3c54621e3cf4301c2afc46"
 metafile = true
 
 [[files]]
