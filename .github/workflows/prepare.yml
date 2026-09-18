@@ -81,6 +81,7 @@ jobs:
           done
       
       - name: Commit updates
+        if: github.ref == 'refs/heads/main'
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: update packs"
@@ -125,6 +126,7 @@ jobs:
           done
 
       - name: Commit snapshot
+        if: github.ref == 'refs/heads/main'
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: prepare snapshot"

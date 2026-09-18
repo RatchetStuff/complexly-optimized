@@ -63,6 +63,7 @@ jobs:
           done
 
       - name: Commit release
+        if: github.ref == 'refs/heads/main'
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: release ${{ steps.version.outputs.version }}"
@@ -76,31 +77,7 @@ jobs:
           git push origin "$version"
       
       - name: Export modpack
-        if: github.ref == 'refs/heads/main'
-        run: |
-          bin_dir="$(git rev-parse --show-toplevel)/bin"
-          mkdir -p "$bin_dir"
-          find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
-            dir=$(dirname "$filepath")
-            distribution="$(basename "$dir")"
-            (
-              cd "$dir" || exit 1
-              case "$distribution" in
-                curseforge)
-                  packwiz cf export
-                  mv *.zip "$bin_dir"
-                  ;;
-                modrinth)
-                  packwiz mr export
-                  mv *.mrpack "$bin_dir"
-                  ;;
-                *)
-                  echo "Unknown distribution: $distribution"
-                  exit 1
-                  ;;
-              esac
-            )
-          done
+        run: ./build.sh
       
       - name: Release modpack
         if: github.ref == 'refs/heads/main'
