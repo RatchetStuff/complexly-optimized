@@ -1,6 +1,6 @@
 name = "Complexly Optimized"
 author = "Ratchet"
-version = "26.9.31+mc1.21.1.neoforge"
+version = "26.9.32-SNAPSHOT+mc1.21.1.neoforge"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -10,7 +10,7 @@ hash = "e54fa3edab576522c82629c531b98ace5a6608a704f8586e82acd1b587f21b5d"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.250"
+neoforge = "21.1.251"
 
 [options]
 acceptable-game-versions = ["1.21"]
