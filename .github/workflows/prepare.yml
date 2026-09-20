@@ -44,9 +44,9 @@ jobs:
                 if ! grep -q '^Failed to check updates for ' <<< "$output"; then
                   break
                 else
-                  echo 'Retrying...'
+                  echo "Update check failed! Retrying..."
                 fi
-                sleep 5
+                sleep 30
               done
             )
           done
@@ -94,7 +94,8 @@ jobs:
         run: |
           previous_tag=$(git tag --sort=-version:refname | head -n 1)
           if [ -z "$previous_tag" ]; then
-            echo "No previous tag found" && exit 1
+            echo "No previous tag found."
+            exit 1
           fi
           echo "tag=$previous_tag" >> "$GITHUB_OUTPUT"
 
@@ -114,7 +115,7 @@ jobs:
           pack_version: ${{ steps.version.outputs.version }}
           previous_tag: ${{ steps.previous_tag.outputs.tag }}
         run: |
-          find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
+          find versions -type f -name 'pack.toml' -print0 | while IFS= read -r -d '' filepath; do
             dir=$(dirname "$filepath")
             if [ -n "$previous_tag" ] && git diff --quiet "$previous_tag" -- "$dir"; then
               continue

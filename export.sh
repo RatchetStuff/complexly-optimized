@@ -1,7 +1,10 @@
 TOPLEVEL=$(git rev-parse --show-toplevel) || exit 1
 BIN="$TOPLEVEL/bin"
-rm -r "$BIN"
+if [ -d "$BIN" ]; then
+    rm -r "$BIN"
+fi
 mkdir -p "$BIN"
+
 find "$TOPLEVEL/versions" -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
     dir=$(dirname "$filepath")
     distribution="$(basename "$dir")"
