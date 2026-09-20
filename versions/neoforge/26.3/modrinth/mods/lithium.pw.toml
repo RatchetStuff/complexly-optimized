@@ -1,0 +1,13 @@
+name = "Lithium"
+filename = "lithium-neoforge-0.26.1+mc26.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gvQqBUqZ/versions/efIED0FC/lithium-neoforge-0.26.1%2Bmc26.3.jar"
+hash-format = "sha512"
+hash = "7cb306c5a8ce0068752f216928bfb5e948b1b0482cc0c8ba6c9319217b11c97f16a326bf8f8f0ee949fb29dd8b7a9023d066f59385772092d10632642dedc42a"
+
+[update]
+[update.modrinth]
+mod-id = "gvQqBUqZ"
+version = "efIED0FC"
