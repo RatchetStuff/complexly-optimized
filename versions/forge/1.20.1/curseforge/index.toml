@@ -116,6 +116,11 @@ hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
 metafile = true
 
 [[files]]
+file = "mods/flerovium.pw.toml"
+hash = "559c18d3b5f90f2fd0e4f236d87471a4b21888cc46837ad6c0e78e1f6200f3cc"
+metafile = true
+
+[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "b5dfc1ed07de5e850c30f4277412ee8e85e9d21c17f168bd8adf2bfa95ae664c"
 metafile = true

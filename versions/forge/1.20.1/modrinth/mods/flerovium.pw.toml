@@ -1,0 +1,13 @@
+name = "Flerovium"
+filename = "flerovium-forge-1.20.1-1.2.19-all.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4Rh1Mobu/versions/nBTmGp0v/flerovium-forge-1.20.1-1.2.19-all.jar"
+hash-format = "sha512"
+hash = "a137aed55fc3a845df7a7b8dfa3c59107bcb1aa0490f2d5f442b2b21a40fdf0fdddd43da2a3d80417e7eb8dc701e6e1cded341889a69dc5ca45356c7417101b7"
+
+[update]
+[update.modrinth]
+mod-id = "4Rh1Mobu"
+version = "nBTmGp0v"

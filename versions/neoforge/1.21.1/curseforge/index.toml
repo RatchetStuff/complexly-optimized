@@ -101,6 +101,11 @@ hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
 metafile = true
 
 [[files]]
+file = "mods/flerovium.pw.toml"
+hash = "d3d081a0de2c25dda8bd96fad8b3c46dc4c264d8c6bdd1749baeeb610e11d58d"
+metafile = true
+
+[[files]]
 file = "mods/gnetum.pw.toml"
 hash = "dbfaef6b523d20768a843ca28f0de41912c6d0dc20a124e3bde35b304c0b1ead"
 metafile = true
