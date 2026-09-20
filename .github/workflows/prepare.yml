@@ -43,6 +43,8 @@ jobs:
                 echo "$output"
                 if ! grep -q '^Failed to check updates for ' <<< "$output"; then
                   break
+                else
+                  echo 'Retrying...'
                 fi
                 sleep 5
               done
