@@ -39,9 +39,13 @@ and this project adheres to [Calendar Versioning](https://calver.org/).
 
 ## [26.9.28]
 
-### Fixed
+### Changed
 
 - Disable worldgen allocation in ModernFix (26.2.fabric)
+
+### Fixed
+
+- Fast Surface crashing with ModernFix's worldgen allocation. (26.2.fabric)
 
 ## [26.9.27]
 
