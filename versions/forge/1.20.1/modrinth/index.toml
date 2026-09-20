@@ -17,10 +17,6 @@ file = "configureddefaults/config/dynamic_fps.json"
 hash = "f568582aab69df4e2c62eb6bd5ef1809bc4d946617aab4fe528e2a917e98dbca"
 
 [[files]]
-file = "configureddefaults/config/entityculling.json"
-hash = "1c6b2a1d0e0ead67e7d4ac486c771a238103c12938fcbf68c6826003a9561fbe"
-
-[[files]]
 file = "configureddefaults/config/ferritecore.mixin.properties"
 hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
