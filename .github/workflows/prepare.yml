@@ -38,7 +38,14 @@ jobs:
             dir=$(dirname "$filepath")
             (
               cd "$dir" || exit 1
-              packwiz update -ay
+              while true; do
+                output=$(packwiz update -ay)
+                echo "$output"
+                if ! grep -q '^Failed to check updates for ' <<< "$output"; then
+                  break
+                fi
+                sleep 15
+              done
             )
           done
       
