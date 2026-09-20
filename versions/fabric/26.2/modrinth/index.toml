@@ -83,7 +83,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "c1bf0b279f43d32a93ae861ef00b7e83ec65918c81900366066ce6d0487002ce"
+hash = "08228bff1c68171d2466bb0657deb1747f0c3b25ce6aab6ca27753f4cf988acf"
 metafile = true
 
 [[files]]
@@ -223,5 +223,5 @@ metafile = true
 
 [[files]]
 file = "mods/zmaterial-rule-compiler.pw.toml"
-hash = "5fe7cb5edf9a4a0772b3f249189bad1ac9116c2d1340375c639990ee1086d90b"
+hash = "7409535fa5538276e9fcada48043252c283bf1525d772cea54b9dd906c4ac67f"
 metafile = true
