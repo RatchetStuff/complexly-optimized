@@ -67,14 +67,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: release ${{ steps.version.outputs.version }}"
-
-      - name: Create tag
-        if: github.ref == 'refs/heads/main'
-        env:
-          version: ${{ steps.version.outputs.version }}
-        run: |
-          git tag "$version"
-          git push origin "$version"
+          tag_name: ${{ steps.version.outputs.version }}
       
       - name: Export modpack
         run: ./build.sh
