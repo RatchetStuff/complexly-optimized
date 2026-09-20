@@ -78,7 +78,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "502887ffcbc61146d96662765857806076d30a8b6e7a833818efeb785f1effd8"
+hash = "800b6813a4e585b88132921308577c7f1b81fcebdfd03273986be38c5b2fb290"
 metafile = true
 
 [[files]]
@@ -89,6 +89,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
+metafile = true
+
+[[files]]
+file = "mods/flerovium.pw.toml"
+hash = "7e26a34d801aec5b79cfeda3a998660739caae6f2fd3ddf1ea845e19cf7902fb"
 metafile = true
 
 [[files]]

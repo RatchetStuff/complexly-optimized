@@ -6,7 +6,6 @@ permissions:
 on:
   workflow_dispatch:
 
-
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -48,7 +47,7 @@ jobs:
           pack_version: ${{ steps.version.outputs.version }}
           previous_tag: ${{ steps.previous_tag.outputs.tag }}
         run: |
-          find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
+          find versions -type f -name 'pack.toml' -print0 | while IFS= read -r -d '' filepath; do
             dir=$(dirname "$filepath")
             if [ -n "$previous_tag" ] && git diff --quiet "$previous_tag" HEAD -- "$dir"; then
               continue
@@ -67,17 +66,10 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: release ${{ steps.version.outputs.version }}"
-
-      - name: Create tag
-        if: github.ref == 'refs/heads/main'
-        env:
-          version: ${{ steps.version.outputs.version }}
-        run: |
-          git tag "$version"
-          git push origin "$version"
+          tag_name: ${{ steps.version.outputs.version }}
       
       - name: Export modpack
-        run: ./build.sh
+        run: ./export.sh
       
       - name: Release modpack
         if: github.ref == 'refs/heads/main'
