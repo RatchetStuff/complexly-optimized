@@ -45,10 +45,9 @@ Few refuse to help players that have a problem just because of unrelated reasons
 ## Technical Information
 
 ### Version
-- Versions follow this format: {YEAR}.{MONTH}.{PATCH}+mc{MC_VERSION}.{LOADER}
-- Year uses the short format (omitting the first two digits)
-- Patch starts from 0 every month.
-- Distribution is already included in the file extension.
+- Versions follow this format: YY.MM.PATCH+mcVERSION.LOADER
+- Versions adhere to Calendar Versioning.
+- Platforms are already included in the file extension.
 - Example: 26.1.0+mc1.12.2.forge.zip
 
 ### Release

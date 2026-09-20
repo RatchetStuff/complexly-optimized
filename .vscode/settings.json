@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "CHANGELOG.md"
+        "CHANGELOG.md",
+        "README.md"
     ]
 }
