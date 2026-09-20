@@ -1,12 +1,12 @@
 name = "Complexly Optimized"
 author = "Ratchet"
-version = "26.9.31+mc1.20.1.forge"
+version = "26.9.32-SNAPSHOT+mc1.20.1.forge"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1c39ef44290f05f8cf7f387cf205ad6c330114cb108d9adf002472d32516ff48"
+hash = "84a9a0f4112b2efb5d42c940c0700bb0b75ceb4304d24befcfcfa119fa1341a5"
 
 [versions]
 forge = "47.4.23"

@@ -93,7 +93,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "37c8fd64e324fae219a25f9937dad68e2a88ab17a5cd8c3f09029a92afc47641"
+hash = "4d996018400a9ba39958d9c950ee33b2ac220a7466c6e4c3cc75a7d87e0d60f6"
 metafile = true
 
 [[files]]
@@ -103,7 +103,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastchunkgen.pw.toml"
-hash = "d5f01873c5c0f6c32d4ef45217532bf76bc3be4a85ba4f8ab233b369d737edb2"
+hash = "2033493816f883f3fc8c05bd3f265e7be95d1aa88c8a1f021d355ef5fc54f1e7"
 metafile = true
 
 [[files]]
