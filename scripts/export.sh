@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-TOPLEVEL=$(git rev-parse --show-toplevel) || exit 1
+set -euo pipefail
+
+TOPLEVEL=$(git rev-parse --show-toplevel)
 BIN="$TOPLEVEL/bin"
 if [[ -d "$BIN" ]]; then
   rm -r "$BIN"
@@ -10,7 +12,7 @@ find "$TOPLEVEL/versions" -type f -name "pack.toml" -print0 | while IFS= read -r
   dir=$(dirname "$filepath")
   distribution="$(basename "$dir")"
   (
-    cd "$dir" || exit 1
+    cd "$dir"
     case "$distribution" in
       curseforge)
         packwiz cf export
