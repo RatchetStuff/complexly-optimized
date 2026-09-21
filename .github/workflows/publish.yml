@@ -69,7 +69,7 @@ jobs:
           tag_name: ${{ steps.version.outputs.version }}
       
       - name: Export modpack
-        run: ./export.sh
+        run: scripts/export.sh
       
       - name: Release modpack
         if: github.ref == 'refs/heads/main'
