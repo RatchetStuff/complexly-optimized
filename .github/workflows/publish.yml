@@ -6,6 +6,11 @@ permissions:
 on:
   workflow_dispatch:
 
+concurrency:
+  group: packwiz-${{ github.ref }}
+  cancel-in-progress: false
+  queue: max
+
 jobs:
   publish:
     runs-on: ubuntu-26.04
