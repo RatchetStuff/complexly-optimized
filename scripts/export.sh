@@ -8,7 +8,7 @@ if [[ -d "$BIN" ]]; then
 fi
 mkdir -p "$BIN"
 
-find "$REPOSITORY/versions" -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
+find "$REPOSITORY/versions" -type f -name 'pack.toml' -print0 | while IFS= read -r -d '' filepath; do
   dir=$(dirname "$filepath")
   distribution="$(basename "$dir")"
   (
