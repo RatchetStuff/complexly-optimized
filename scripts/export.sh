@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-TOPLEVEL=$(git rev-parse --show-toplevel)
-BIN="$TOPLEVEL/bin"
+REPOSITORY=$(git rev-parse --show-toplevel)
+BIN="$REPOSITORY/bin"
 if [[ -d "$BIN" ]]; then
   rm -r "$BIN"
 fi
 mkdir -p "$BIN"
 
-find "$TOPLEVEL/versions" -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
+find "$REPOSITORY/versions" -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
   dir=$(dirname "$filepath")
   distribution="$(basename "$dir")"
   (
