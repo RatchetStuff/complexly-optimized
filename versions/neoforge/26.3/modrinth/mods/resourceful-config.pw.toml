@@ -1,0 +1,13 @@
+name = "Resourceful Config"
+filename = "ResourcefulConfig-6.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/M1953qlQ/versions/WEYdpGaO/ResourcefulConfig-6.0.1.jar"
+hash-format = "sha512"
+hash = "1efae0481b7e7b0cbde0ee35fa2a16f859190ba48a49e5fc447999c8c123b4e94c3090c4c447072721eca100ffbe88e4129f0fa8d2c3cb128b4200e8c3ef34a3"
+
+[update]
+[update.modrinth]
+mod-id = "M1953qlQ"
+version = "WEYdpGaO"
