@@ -75,7 +75,7 @@ metafile = true
 
 [[files]]
 file = "mods/stellarcore.pw.toml"
-hash = "7867c116dd66b8ae5b5ad144538002aa77be94b7011b4b4785479c62a099b219"
+hash = "2a67dbf29682f771822faa091b283f412971ca699b927b2cdaac2cd807267b2f"
 metafile = true
 
 [[files]]

@@ -1,6 +1,15 @@
 {
-    "conventionalCommits.scopes": [
-        "CHANGELOG.md",
-        "README.md"
-    ]
+    "editor.detectIndentation": false,
+    "[github-actions-workflow]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[shellscript]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    }
 }

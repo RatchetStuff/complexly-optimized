@@ -16,9 +16,14 @@ on:
           required: false
           type: string
 
+concurrency:
+  group: packwiz-${{ github.ref }}
+  cancel-in-progress: false
+  queue: max
+
 jobs:
   prepare:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
 
     steps:
       - name: Checkout repository
@@ -76,16 +81,6 @@ jobs:
                   packwiz migrate loader latest
                   ;;
               esac
-            )
-          done
-      
-      - name: Refresh packs
-        run: |
-          find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
-            dir=$(dirname "$filepath")
-            (
-              cd "$dir" || exit 1
-              packwiz refresh
             )
           done
       

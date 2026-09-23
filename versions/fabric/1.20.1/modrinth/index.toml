@@ -87,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "ee9e5f9dc1953f7bc2630b48b4b5a53c7bb5e4fab17450a889cabf6d478a4b7b"
+hash = "de259590ef75e88d285feab2d695a2cfe25403d1f14f5ac7679766e9c8a98dac"
 metafile = true
 
 [[files]]
@@ -117,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "9fd2e42d188d3afbebfbf1c94c5020a04acce2eb625ba9db6809b83dfc8580fc"
+hash = "313e815b70a8429ca22d3e87699b93d39f86cab357aebce27a3f8d43241fb6bf"
 metafile = true
 
 [[files]]

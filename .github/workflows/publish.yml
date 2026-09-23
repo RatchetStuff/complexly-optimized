@@ -6,9 +6,14 @@ permissions:
 on:
   workflow_dispatch:
 
+concurrency:
+  group: packwiz-${{ github.ref }}
+  cancel-in-progress: false
+  queue: max
+
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     
     steps:
       - name: Checkout repository
@@ -69,7 +74,7 @@ jobs:
           tag_name: ${{ steps.version.outputs.version }}
       
       - name: Export modpack
-        run: ./export.sh
+        run: scripts/export.sh
       
       - name: Release modpack
         if: github.ref == 'refs/heads/main'
