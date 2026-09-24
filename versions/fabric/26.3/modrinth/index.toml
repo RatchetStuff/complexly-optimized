@@ -58,12 +58,12 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "8ba9eca8ecfc65ba84a33c320f993eab6a3514d5366385d4222499e5101311d9"
+hash = "67cd707b00e8a67a867a53bfb4da7a596ac80f3ff4bcbcd76fbfd40780600453"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "55554bc0f0370f38eea13d1cc9ef2a8cbe253f3c1b837a08e733300b478ea266"
+hash = "2b9727522c90a979eb9671ad7c5421443d91391b0697d1772146e6bfa19cb3c1"
 metafile = true
 
 [[files]]
@@ -133,7 +133,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "85475cc5c63e9e38695503a70847582ca21f8ba46f7465979d92dff22b009fd2"
+hash = "cd05db76d670773ace1184abdd46126e7b7c75c2b70da82e1764cff9544c4269"
 metafile = true
 
 [[files]]
@@ -143,7 +143,7 @@ metafile = true
 
 [[files]]
 file = "mods/obe.pw.toml"
-hash = "e4b21a3fe95d396f8e6675806cc68286c624e7f36f5f6721e96affbe0e121897"
+hash = "6085a1524b3992e4caf884266228d06f7f93d4f001ae84fb79d5a39e1eef6dc1"
 metafile = true
 
 [[files]]
@@ -203,5 +203,5 @@ metafile = true
 
 [[files]]
 file = "mods/zmaterial-rule-compiler.pw.toml"
-hash = "4813d7e57c730a6f7865ba24c4f931b6227be044eb44d693c736714ab0f73e8f"
+hash = "a3f1dbe663bc02050d4a52b077cc7271693bc334fc87b5ebeb3c980d85e4d703"
 metafile = true
