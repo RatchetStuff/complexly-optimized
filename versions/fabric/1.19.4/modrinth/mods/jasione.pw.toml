@@ -1,0 +1,13 @@
+name = "Jasione"
+filename = "jasione-1.0.8+1.20.1-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qlDkBPij/versions/cme2nsCA/jasione-1.0.8%2B1.20.1-fabric.jar"
+hash-format = "sha512"
+hash = "045d9148277b190c813091e8605819e17b8cc9a61f13e1e5f63d40e56a1f1fcb987a18f519e7cc53ef4fafc706ff644cd20ea4e89993aa7ca095c4560714a360"
+
+[update]
+[update.modrinth]
+mod-id = "qlDkBPij"
+version = "cme2nsCA"
