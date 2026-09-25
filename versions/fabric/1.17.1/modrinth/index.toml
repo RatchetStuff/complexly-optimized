@@ -1,0 +1,129 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/crash_assistant/config.toml"
+hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
+
+[[files]]
+file = "config/yosbr/config/crash_assistant/config.toml"
+hash = "543f89833bf99ab262984c27d6bf2a8188f6adb9e9b0741106fba1d328dc9d46"
+
+[[files]]
+file = "config/yosbr/config/dynamic_fps.json"
+hash = "f568582aab69df4e2c62eb6bd5ef1809bc4d946617aab4fe528e2a917e98dbca"
+
+[[files]]
+file = "config/yosbr/config/ferritecore.mixin.properties"
+hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
+
+[[files]]
+file = "config/yosbr/config/modmenu.json"
+hash = "5397a33a9af8eef231e14db8e69f778a41dc3e54164ccfc6bf49d37614b1cd75"
+
+[[files]]
+file = "config/yosbr/config/quick-pack.json"
+hash = "e65c63c2505fd2cc619109e62f7149518e6f95b4a9a50ad33533d118ba84d1b0"
+
+[[files]]
+file = "config/yosbr/config/sodium-options.json"
+hash = "0e255d3c8be3e7e63110a72b69d64e962ffcdb264e342a507a3ad10bc0356be5"
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "663ebbf4d38d266f4b3902f9f904a2f3cdcec912a126d2886f311ef30592460b"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "34c6f7be54b4b18e66116424ac7330f983b018b3f30d5013c927d45843007f73"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "118f8bcf804bed08c8d294ffd98609a2c64a7cdacec50c0d14cbd26f1785068c"
+metafile = true
+
+[[files]]
+file = "mods/ebe.pw.toml"
+hash = "a1095d36aa401ff208298a279c8b9faad51f041936164926012f20de0f3c3ff0"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "49313d469bceaa834b58226e2df59205fe48894e67854fad41d83cac2566ec99"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "897d523fd4d02e925a8e0e2dbb1b951751d1e6e9ddd882aecebf00cabc80ee04"
+metafile = true
+
+[[files]]
+file = "mods/fast-ip-ping.pw.toml"
+hash = "cc55acfde14fc0451e26e674114e3f04396f78872794ed1d3c4a8eea36884c7e"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "767eea9287ca8b5f73fc9778d8fd653ebe8118bb8734c8b370bd255c262fd210"
+metafile = true
+
+[[files]]
+file = "mods/hydrogen.pw.toml"
+hash = "0e1a6f22d9e5538561be2f2a8bfd4998704124266c2af98d23e9adc67df5f9d9"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
+hash = "664c3700d2b96d24d56564c701079be0e6d2fad55e4845b483793f6e6ee2370f"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "eb550afc82a6b1017573ee3794d47ddd73ac13b1ce906f9e83768ddfb67e24b7"
+metafile = true
+
+[[files]]
+file = "mods/lazydfu.pw.toml"
+hash = "da1b3ee71d9ed1f17da4c85ca3da39af3e49fcc5bb032689613c4e00fc587a40"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "e1aea49ed8a6f2af853793ee649e69d27d872b080c4a4a30264a42022a4eabed"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "682c345112a0296450041eb8529bcde162d4cc6fec0cc92621b21485bd29ac78"
+metafile = true
+
+[[files]]
+file = "mods/quick-pack.pw.toml"
+hash = "2a3d5d669ae94174a5dd51e3da6079214894832e976d8190928ca5fa14bc7862"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "d347c75e741807b9b87b2df676149bc56efcf4338b4edaefc3509ade046884c9"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "ed16e8eafecde0c8377f68b7cb7339dc3cb127d5a77a88a2d854fe3ab5841883"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "df7d2eba1d60778975ea3bfe42c119d62c04363805932f9f034734c4f03236b2"
+metafile = true
+
+[[files]]
+file = "mods/starlight.pw.toml"
+hash = "768c803d25c5fafebc2f39649b24c765b31ea5100d2c213da0486fc501fbb728"
+metafile = true
+
+[[files]]
+file = "mods/yosbr.pw.toml"
+hash = "649c259a4777ba1b544b69d04a79f2b1b0e1a3c520033cc86a3c14d5fa53564a"
+metafile = true
