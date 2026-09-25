@@ -1,0 +1,13 @@
+name = "Cleanroom relauncher unofficial"
+filename = "++relauncher-0.8.3-beta-shadow.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "057443b809a82b06d58d232c709854a60cf36198"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8574852
+project-id = 1214906

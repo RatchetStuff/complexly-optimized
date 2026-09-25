@@ -1,0 +1,13 @@
+name = "VintageFix"
+filename = "vintagefix-0.7.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bf8b820c70b64d433c7c31a3150a9eb14907388d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8895999
+project-id = 871198

@@ -1,0 +1,13 @@
+name = "Complexly Optimized"
+author = "Ratchet"
+version = "26.9.37-SNAPSHOT+mc1.12.2.cleanroom"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "3dd6e09dfc1e3fc59b574b69a08ef73becd53ba648bd972c18cdc347a2e94eef"
+
+[versions]
+forge = "14.23.5.2864"
+minecraft = "1.12.2"
