@@ -131,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/krypton.pw.toml"
-hash = "9dd2808f043c1fb8dfcf699174790d6f082b6d56aff1fe4573927d8a722931bb"
+hash = "02aeaff7a4aa907614c1a58915883badebe115712f08e774ab2da7b7b83ce72e"
 metafile = true
 
 [[files]]
@@ -191,7 +191,7 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "19816a828acb7aaafd7102f97000484c486cfda71c6db6c847f5d6820a3fb9ec"
+hash = "de37a8fa19853190c14d986c7b3887ba1c7fbdd5d28126c9ef72484129b875bd"
 metafile = true
 
 [[files]]
