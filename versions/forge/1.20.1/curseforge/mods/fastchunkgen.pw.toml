@@ -1,13 +1,13 @@
 name = "FastChunkGen"
-filename = "fastchunkgen-0.28-all.jar"
+filename = "fastchunkgen-0.29-all.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1c183bcfcc80cb1f3d709e075f7f49a802a69f7a"
+hash = "da1bedb1d950b7f6146bba26c25e7af7c34a51e7"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8924013
+file-id = 8963118
 project-id = 1628827
