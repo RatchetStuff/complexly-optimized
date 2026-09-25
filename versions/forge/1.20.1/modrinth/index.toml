@@ -26,7 +26,7 @@ hash = "51daf2342a12d3b6e9af2cdbcfc2764b039dc3f57775ee71b8e34da1196b155f"
 
 [[files]]
 file = "configureddefaults/config/modernfix-mixins.properties"
-hash = "1d85f8774a899a06134a9dcd308b30255761cbaf6b8c555dcd2fce62addcc063"
+hash = "06325ec5f625919e621c04d91197279cd33758fa43ec1ab42dece4f1a9852b94"
 
 [[files]]
 file = "configureddefaults/config/quick-pack.json"
