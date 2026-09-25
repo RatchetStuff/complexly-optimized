@@ -1,0 +1,13 @@
+name = "Config Manager"
+filename = "ConfigManager-fabric-1.20.4-1.21.x-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jlNms3Jp/versions/mzUw5rk9/ConfigManager-fabric-1.20.4-1.21.x-1.0.0.jar"
+hash-format = "sha512"
+hash = "9ba822765c56089f47656061064d76b2883ce66c855214d21151bfc06583505f6e1cf49b8cfe43ab55e78ffcbfe30c5c24b73e85be0d99241e04955245db4ef7"
+
+[update]
+[update.modrinth]
+mod-id = "jlNms3Jp"
+version = "mzUw5rk9"
