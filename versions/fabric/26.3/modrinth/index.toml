@@ -128,7 +128,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "4d46615697276151aa0c7403f8368d467cb7dd12b040659b67bd34364d0f9780"
+hash = "3b3b9e886735bd8d8809954b7da8d1cca5b8186086379f129f0e4183470a7b2b"
 metafile = true
 
 [[files]]
@@ -203,5 +203,5 @@ metafile = true
 
 [[files]]
 file = "mods/zmaterial-rule-compiler.pw.toml"
-hash = "18f9527654b10d8226eafebc0a872efc5e8c1f73e10b653590bf78def6be0029"
+hash = "2178adab75559bd15737567b951bfc2a184b4e4a2404b1f978e08902a3ce1384"
 metafile = true

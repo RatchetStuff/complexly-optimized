@@ -53,7 +53,7 @@ metafile = true
 
 [[files]]
 file = "mods/asyncparticles.pw.toml"
-hash = "0783e3ccc947eabd1191f713e6564f5b66211e170e96d8f1be47fbab720b1e60"
+hash = "95799558d0fe39c4150f91a59474e5b1df38e4a8ecf7f38f5e4409d82412b505"
 metafile = true
 
 [[files]]
@@ -98,7 +98,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "d3d081a0de2c25dda8bd96fad8b3c46dc4c264d8c6bdd1749baeeb610e11d58d"
+hash = "988c6c0843f579257b6e8f730c04912ea5b1d0d47826b10adbf9fb0ac4287287"
 metafile = true
 
 [[files]]
