@@ -96,11 +96,6 @@ hash = "32ba5b383cc4307b7728d46ae92a5e0ba82c2cbf4924955c19824f2a2c79da8b"
 metafile = true
 
 [[files]]
-file = "mods/fabric-language-kotlin.pw.toml"
-hash = "7a7f5673b6e33eebaed00c0c453fc41d11c7474eb320c3ce8736d415fcfe2682"
-metafile = true
-
-[[files]]
 file = "mods/fast-ip-ping.pw.toml"
 hash = "72d8c8d67a82cb003f19b036d2782391ba243cbfc351a93a80ff0500085fa692"
 metafile = true
@@ -108,11 +103,6 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "d88352f607700aed0db6a0679d4a2a2eaba2a83d38696ca966c2dace0a32f2b7"
-metafile = true
-
-[[files]]
-file = "mods/fzzy-config.pw.toml"
-hash = "86f3bf44d767d1b1a1e76e6db5bd99e757875daeb3f9a4ac2afef86d2b020151"
 metafile = true
 
 [[files]]
@@ -173,11 +163,6 @@ metafile = true
 [[files]]
 file = "mods/moreculling.pw.toml"
 hash = "06d0708b2f778731f7520021f2f3c2284a347fd6679f0227e97fea4140b374a8"
-metafile = true
-
-[[files]]
-file = "mods/particle-core.pw.toml"
-hash = "46c39c1653c439e9ebda5f31a08d858336b3abcdcab4e1f926fcc75b10bd177b"
 metafile = true
 
 [[files]]
