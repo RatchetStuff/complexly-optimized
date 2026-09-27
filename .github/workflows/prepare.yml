@@ -48,7 +48,7 @@ jobs:
                 output=$(packwiz update -ay)
                 echo "$output"
 
-                if [[ "$output" != 'Failed to check updates for '* ]]; then
+                if [[ "$output" != *'Failed to check updates for '* ]]; then
                   break
                 fi
 
@@ -82,7 +82,7 @@ jobs:
               esac
 
               if [[ -z "$version" ]]; then
-                continue
+                exit 0
               fi
 
               until packwiz migrate loader "$version"; do
