@@ -38,25 +38,28 @@ jobs:
         run: go install github.com/packwiz/packwiz@latest
       
       - name: Update mods
+        shell: bash
         run: |
           find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
             dir=$(dirname "$filepath")
             (
-              cd "$dir" || exit 1
+              cd "$dir"
               while true; do
                 output=$(packwiz update -ay)
                 echo "$output"
-                if ! grep -q '^Failed to check updates for ' <<< "$output"; then
+
+                if [[ "$output" != 'Failed to check updates for '* ]]; then
                   break
-                else
-                  echo "Update check failed! Retrying..."
                 fi
+
+                echo "Update check failed! Retrying..."
                 sleep 30
               done
             )
           done
       
       - name: Migrate loaders
+        shell: bash
         run: |
           find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
             dir=$(dirname "$filepath")
@@ -65,7 +68,7 @@ jobs:
             loader="${parts[0]}"
 
             (
-              cd "$dir" || exit 1
+              cd "$dir"
               case "$loader" in
                 fabric)
                   version="${{ inputs.fabric_version }}"
@@ -91,9 +94,10 @@ jobs:
       
       - name: Find previous tag
         id: previous_tag
+        shell: bash
         run: |
           previous_tag=$(git tag --sort=-version:refname | head -n 1)
-          if [ -z "$previous_tag" ]; then
+          if [[ -z "$previous_tag" ]]; then
             echo "No previous tag found."
             exit 1
           fi
@@ -114,10 +118,11 @@ jobs:
         env:
           pack_version: ${{ steps.version.outputs.version }}
           previous_tag: ${{ steps.previous_tag.outputs.tag }}
+        shell: bash
         run: |
           find versions -type f -name 'pack.toml' -print0 | while IFS= read -r -d '' filepath; do
             dir=$(dirname "$filepath")
-            if [ -n "$previous_tag" ] && git diff --quiet "$previous_tag" -- "$dir"; then
+            if [[ -n "$previous_tag" ]] && git diff --quiet "$previous_tag" -- "$dir"; then
               continue
             fi
 

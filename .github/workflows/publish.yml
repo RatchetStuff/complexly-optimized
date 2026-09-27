@@ -29,10 +29,12 @@ jobs:
 
       - name: Find previous tag
         id: previous_tag
+        shell: bash
         run: |
           previous_tag=$(git tag --sort=-version:refname | head -n 1)
-          if [ -z "$previous_tag" ]; then
-            echo "No previous tag found" && exit 1
+          if [[ -z "$previous_tag" ]]; then
+            echo "No previous tag found"
+            exit 1
           fi
           echo "tag=$previous_tag" >> "$GITHUB_OUTPUT"
 
@@ -51,10 +53,11 @@ jobs:
         env:
           pack_version: ${{ steps.version.outputs.version }}
           previous_tag: ${{ steps.previous_tag.outputs.tag }}
+        shell: bash
         run: |
           find versions -type f -name 'pack.toml' -print0 | while IFS= read -r -d '' filepath; do
             dir=$(dirname "$filepath")
-            if [ -n "$previous_tag" ] && git diff --quiet "$previous_tag" HEAD -- "$dir"; then
+            if [[ -n "$previous_tag" ]] && git diff --quiet "$previous_tag" HEAD -- "$dir"; then
               continue
             fi
 
