@@ -1,0 +1,13 @@
+name = "Async Hotbars"
+filename = "hotbarlagfixer-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/rrWdhjP0/versions/HGfZFflg/hotbarlagfixer-1.1.0.jar"
+hash-format = "sha512"
+hash = "2854c0b8b76be9a1e5c5045be3122d7f25564d27d7b540f983c5221e69d7b32b2b0a5ee07e98e596d5f027598ebdbb5af01a28e6aadd6c4a495424f38a0e4ada"
+
+[update]
+[update.modrinth]
+mod-id = "rrWdhjP0"
+version = "HGfZFflg"

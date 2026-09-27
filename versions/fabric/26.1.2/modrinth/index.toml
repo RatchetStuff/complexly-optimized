@@ -107,6 +107,11 @@ hash = "f15298233f49e8213745b0d10177267c6ccfec889fc27d7c0ef84fe43918a6b7"
 metafile = true
 
 [[files]]
+file = "mods/hotbar-lag-fixer.pw.toml"
+hash = "4cb6df0a98de848b14e1cbdca147c2c125bce4e9d067774010d323f26ad6c68e"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "59d8a7808f69deae5bc1c17ed2db6c28cb231398681f6f7902ae7e92da229e1a"
 metafile = true
