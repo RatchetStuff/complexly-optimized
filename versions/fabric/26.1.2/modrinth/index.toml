@@ -177,6 +177,11 @@ hash = "2bdb56e488e0e075e80aa031f3ba8a74527207b5ca1781a09ca1732f597a0db6"
 metafile = true
 
 [[files]]
+file = "mods/resource-trimmer.pw.toml"
+hash = "b166e4db103d769c9c8847515a839ad7d7488538cfe70fd79988d9af80376dba"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "d5a2925609b3dcf060253a1d75414e4c7747c9d5c206c5ff83a678f75b94ff5b"
 metafile = true

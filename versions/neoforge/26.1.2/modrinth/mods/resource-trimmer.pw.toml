@@ -1,0 +1,13 @@
+name = "Resource Trimmer"
+filename = "ResourceTrimmer-neoforge-MC26.1.2-26.1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TVKrCZNh/versions/kuwebbC6/ResourceTrimmer-neoforge-MC26.1.2-26.1.2.2.jar"
+hash-format = "sha512"
+hash = "405e6171ce9a2c7d1573d6b604acc5f8704afa75952dabb3cb9827a399817f9c3b83def1a19047594fea57519ce8785b149f1da1dee43ba397fb880e35d05b2a"
+
+[update]
+[update.modrinth]
+mod-id = "TVKrCZNh"
+version = "kuwebbC6"
