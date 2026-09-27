@@ -70,11 +70,6 @@ hash = "c3dc965e7f98972b40bd70f7c946d0a72b99fbad10273d089ddf90deaee092cd"
 metafile = true
 
 [[files]]
-file = "mods/scalar-legacy.pw.toml"
-hash = "c1fb189ad08a9630c596e8609f90f2a7f7a19eb6a0bfdbb4841bd7c6a477e4fc"
-metafile = true
-
-[[files]]
 file = "mods/stellarcore.pw.toml"
 hash = "2a67dbf29682f771822faa091b283f412971ca699b927b2cdaac2cd807267b2f"
 metafile = true
