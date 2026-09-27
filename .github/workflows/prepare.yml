@@ -68,19 +68,24 @@ jobs:
               cd "$dir" || exit 1
               case "$loader" in
                 fabric)
-                  if [ -n "${{ inputs.fabric_version }}" ]; then
-                    packwiz migrate loader "${{ inputs.fabric_version }}"
-                  fi
+                  version="${{ inputs.fabric_version }}"
                   ;;
                 quilt)
-                  if [ -n "${{ inputs.quilt_version }}" ]; then
-                    packwiz migrate loader "${{ inputs.quilt_version }}"
-                  fi
+                  version="${{ inputs.quilt_version }}"
                   ;;
                 *)
-                  packwiz migrate loader latest
+                  version='latest'
                   ;;
               esac
+
+              if [[ -z "$version" ]]; then
+                continue
+              fi
+
+              until packwiz migrate loader "$version"; do
+                echo 'Migration failed! Retrying...'
+                sleep 10
+              done
             )
           done
       
