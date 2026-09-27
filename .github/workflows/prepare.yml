@@ -33,6 +33,8 @@ jobs:
       
       - name: Setup Go
         uses: actions/setup-go@v7
+        with:
+          cache: false
       
       - name: Setup packwiz
         run: go install github.com/packwiz/packwiz@latest
