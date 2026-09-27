@@ -18,7 +18,7 @@ hash = "81513f54851d7f9a8155ca4171004be8a28e13c0a3bf4b1151c1a630588914b2"
 
 [[files]]
 file = "config/modpack_defaults/config/modernfix-mixins.properties"
-hash = "24156f9d816a15e2afbb45fb02d8d89a28ac656f98fbc6ebaf2be171f92f2943"
+hash = "06325ec5f625919e621c04d91197279cd33758fa43ec1ab42dece4f1a9852b94"
 
 [[files]]
 file = "config/modpack_defaults/config/modmenu.json"
