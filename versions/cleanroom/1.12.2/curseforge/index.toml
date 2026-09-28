@@ -9,6 +9,10 @@ file = "config/forge_early.cfg"
 hash = "2501cbd2f877dbab01c214b17cb87bbde26a6e30bd0796af0b71640be0bcc107"
 
 [[files]]
+file = "config/fugue.cfg"
+hash = "fb3be4d4e59c05e0673aba986f0ae84e86149318536fd1dc9d7c64d75daed60a"
+
+[[files]]
 file = "mods/alfheim-lighting-engine.pw.toml"
 hash = "5b8e138b7b21ad18dd6ebdbf6cc4b23c2d2137a7253fd968a4030487c5fb9a28"
 metafile = true
