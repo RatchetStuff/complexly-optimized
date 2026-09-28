@@ -128,7 +128,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "d68f9ad500e062c1e3b59f25bf72416e579d18d836b104f2712464298932eca7"
+hash = "a39389e4c813b70b984a0c8aed769825b32c321ee0b9aed1151d92cb38f77357"
 metafile = true
 
 [[files]]
@@ -203,15 +203,15 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "254c71d7e0ce74ca91e070d2dacff9d9f4deffe17bbda20449962741568fab44"
+hash = "b7ffa132a714793a8765befdd471d52c2e4ba81132ad19f639e4f22e29b6ffe3"
 metafile = true
 
 [[files]]
 file = "mods/zfastsurface.pw.toml"
-hash = "23466604c8f43a33ed2a159507de20f0fe9a32f579721cf98240ab95e3d2e52c"
+hash = "4025421405da6b72fe812d5b7c13e015acaa5f2144a471f787f38eb39d846793"
 metafile = true
 
 [[files]]
 file = "mods/zmaterial-rule-compiler.pw.toml"
-hash = "88d1e5bda243b3f49543bce21d686f9d925a64d19d51cc4930b07c41f73c8304"
+hash = "36a86c85ee193ab2ead39da3d4b320615b56ecded2be320a646ca73ee52b11fb"
 metafile = true
