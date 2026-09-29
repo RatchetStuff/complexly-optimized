@@ -1,0 +1,13 @@
+name = "Starlight (NeoForge)"
+filename = "starlight-1.1.3+neoforge.2e9f705.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fxaD1ZvA/versions/Xj1oVouV/starlight-1.1.3%2Bneoforge.2e9f705.jar"
+hash-format = "sha512"
+hash = "f9ae126ae69a1a49bcdef28177f45e5d5c428686ff827a1f464345f9fefdb3d13698c98903374bd1d742f2ac57a03308c3b5278d177dd2cd133a39b62b266606"
+
+[update]
+[update.modrinth]
+mod-id = "fxaD1ZvA"
+version = "Xj1oVouV"

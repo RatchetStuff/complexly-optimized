@@ -1,0 +1,13 @@
+name = "Jasione"
+filename = "jasione-1.0.8+1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qlDkBPij/versions/wzVPKUzw/jasione-1.0.8%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "d0e82839ba7726e2d27c21b9b617d5ea56d0d207629412012e599ce1474290cd94e371622248800a453c9f1b111f287c5ae376f0125564b16f11fdef9e42e006"
+
+[update]
+[update.modrinth]
+mod-id = "qlDkBPij"
+version = "wzVPKUzw"
