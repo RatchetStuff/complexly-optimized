@@ -1,0 +1,13 @@
+name = "FerriteCore"
+filename = "ferritecore-6.1.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uXXizFIs/versions/HWBrlwWv/ferritecore-6.1.1-neoforge.jar"
+hash-format = "sha512"
+hash = "a11846c4428d14094817bc8368b70c5a6e03a538c12e72fc19cbf6d67035f982127b16abd8e20f336c52bc522dd662fa97ad196d9fe3a385c98882235ccea8f4"
+
+[update]
+[update.modrinth]
+mod-id = "uXXizFIs"
+version = "HWBrlwWv"
