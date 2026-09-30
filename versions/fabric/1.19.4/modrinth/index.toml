@@ -4,9 +4,6 @@ hash-format = "sha256"
 file = "config/crash_assistant/config.toml"
 
 [[files]]
-file = "configureddefaults/config/crash_assistant/config.toml"
-
-[[files]]
 file = "configureddefaults/config/dynamic_fps.json"
 
 [[files]]
