@@ -12,4 +12,5 @@ minecraft = "1.21.8"
 neoforge = "21.8.54"
 
 [options]
+acceptable-game-versions = ["1.21.6", "1.21.7"]
 no-internal-hashes = true
