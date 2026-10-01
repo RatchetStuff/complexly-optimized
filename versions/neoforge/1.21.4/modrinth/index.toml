@@ -111,7 +111,3 @@ metafile = true
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
 metafile = true
-
-[[files]]
-file = "mods/zfastnoise.pw.toml"
-metafile = true
