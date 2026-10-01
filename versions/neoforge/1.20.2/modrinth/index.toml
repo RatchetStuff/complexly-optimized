@@ -51,6 +51,10 @@ file = "mods/fast-ip-ping.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 metafile = true
 
