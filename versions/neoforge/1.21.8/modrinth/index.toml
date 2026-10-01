@@ -94,6 +94,10 @@ file = "mods/quick-pack.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 metafile = true
 
