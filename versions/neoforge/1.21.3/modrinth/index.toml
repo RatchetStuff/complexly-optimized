@@ -1,0 +1,95 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/crash_assistant/config.toml"
+
+[[files]]
+file = "config/modpack_defaults/config/dynamic_fps.json"
+
+[[files]]
+file = "config/modpack_defaults/config/ferritecore.mixin.properties"
+
+[[files]]
+file = "config/modpack_defaults/config/moreculling.toml"
+
+[[files]]
+file = "config/modpack_defaults/config/quick-pack.json"
+
+[[files]]
+file = "config/modpack_defaults/options.txt"
+
+[[files]]
+file = "mods/asynclogger.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/configmanager.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/jasione.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/quick-pack.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+metafile = true

@@ -1,0 +1,13 @@
+name = "ServerCore"
+filename = "servercore-forge-1.5.0+1.20.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4WWQxlQP/versions/VDBhnf5e/servercore-forge-1.5.0%2B1.20.2.jar"
+hash-format = "sha512"
+hash = "8928f7febc1c795d0e18d3e068f4f20cce76f48834a6214f78d1ead5145357a4bac4781c9cd0d7a2ab6671230fc3daccb51d596282ca8553a9542a3eff0da520"
+
+[update]
+[update.modrinth]
+mod-id = "4WWQxlQP"
+version = "VDBhnf5e"
