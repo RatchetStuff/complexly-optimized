@@ -1,0 +1,13 @@
+name = "More Culling"
+filename = "moreculling-neoforge-1.21.8-1.4.0-beta.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/51shyZVL/versions/pxrTGOud/moreculling-neoforge-1.21.8-1.4.0-beta.2.jar"
+hash-format = "sha512"
+hash = "52d93c3ad755622bb8676fe66b77ab0073255d31efd4fc41992ae23c24a7720244d2ee612c0ddadf444833e2483b3c60c4687698c5d2e41bd0afe9e535667726"
+
+[update]
+[update.modrinth]
+mod-id = "51shyZVL"
+version = "pxrTGOud"
