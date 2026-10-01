@@ -86,6 +86,10 @@ file = "mods/moreculling.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/noisiumforked.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/quick-pack.pw.toml"
 metafile = true
 
