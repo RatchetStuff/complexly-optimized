@@ -55,10 +55,6 @@ file = "mods/immediatelyfast.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/jasione.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/krypton-fnp.pw.toml"
 metafile = true
 
