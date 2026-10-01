@@ -72,11 +72,19 @@ file = "mods/fabric-api.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fast-ip-ping.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
 metafile = true
 
 [[files]]
@@ -125,6 +133,10 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
 metafile = true
 
 [[files]]
