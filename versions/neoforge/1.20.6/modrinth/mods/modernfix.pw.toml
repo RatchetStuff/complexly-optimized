@@ -1,0 +1,13 @@
+name = "ModernFix"
+filename = "modernfix-neoforge-5.18.0+mc1.20.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nmDcB62a/versions/g8YTb1tk/modernfix-neoforge-5.18.0%2Bmc1.20.6.jar"
+hash-format = "sha512"
+hash = "0ccb157e31382f34d682bdc081722d715d0c62ccd48c2ea18f54bc9847a327c808262d1d6618d874de37cd78949cf09920d6da5fd46f27cddaf56048753d9b54"
+
+[update]
+[update.modrinth]
+mod-id = "nmDcB62a"
+version = "g8YTb1tk"

@@ -1,0 +1,13 @@
+name = "Embeddium"
+filename = "embeddium-0.3.25+mc1.20.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sk9rgfiA/versions/YcDuSsmz/embeddium-0.3.25%2Bmc1.20.4.jar"
+hash-format = "sha512"
+hash = "6565e4e037a22711589ad1a51a47f1d9e1afcd74b727d3baffc242b7d549ef0c01772102eac5e6c015f73ac1ea21b1b0bfd3fb33ebf078314e0ac71d84b1c705"
+
+[update]
+[update.modrinth]
+mod-id = "sk9rgfiA"
+version = "YcDuSsmz"

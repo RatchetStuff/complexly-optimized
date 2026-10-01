@@ -1,0 +1,13 @@
+name = "Resourceful Config"
+filename = "ResourcefulConfig-neoforge-1.21.7-3.7.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/M1953qlQ/versions/DG74mvNL/ResourcefulConfig-neoforge-1.21.7-3.7.6.jar"
+hash-format = "sha512"
+hash = "46178a897533527f7c18b5d41c5af0909aa14a9f2041f08970236f942bac42d358e1d98aa542e48784962699ea1ec0f22adfa6bcd21ca1fa922b13190bdd0ed0"
+
+[update]
+[update.modrinth]
+mod-id = "M1953qlQ"
+version = "DG74mvNL"

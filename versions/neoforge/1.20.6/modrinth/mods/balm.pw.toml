@@ -1,0 +1,13 @@
+name = "Balm"
+filename = "balm-neoforge-1.20.6-10.3.6-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MBAkmtvl/versions/lRDrMehk/balm-neoforge-1.20.6-10.3.6-all.jar"
+hash-format = "sha512"
+hash = "afe69fbb60de55001bd5d98268900e17163e330985065b52d1b554fe21dac676d0fcc82bdfdaa47821447087e0524b0b404ecf76a1d9b996aff86d3c0815dce1"
+
+[update]
+[update.modrinth]
+mod-id = "MBAkmtvl"
+version = "lRDrMehk"

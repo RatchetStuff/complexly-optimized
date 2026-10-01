@@ -1,0 +1,13 @@
+name = "Krypton Reno"
+filename = "krypton_fnp-neoforge-1.21.10-26.1.0-1.21.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JkxWVYwU/versions/nGvrv1fN/krypton_fnp-neoforge-1.21.10-26.1.0-1.21.9.jar"
+hash-format = "sha512"
+hash = "8787594111dec6209c35ba10669255a9470a353059b40003e4d3eee3aeedfbe6ab6180dddedf17d3c7c5e9a77128d7b019949e48de97ba161535a4f54e7b15ec"
+
+[update]
+[update.modrinth]
+mod-id = "JkxWVYwU"
+version = "nGvrv1fN"

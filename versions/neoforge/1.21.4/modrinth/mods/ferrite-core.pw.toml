@@ -1,0 +1,13 @@
+name = "FerriteCore"
+filename = "ferritecore-7.1.3-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uXXizFIs/versions/joOID027/ferritecore-7.1.3-neoforge.jar"
+hash-format = "sha512"
+hash = "c66509657387327f0a7652f3f2ba57a0deb96a96a9ea744bae0ca38f84ca550f43d189bcfbf3919c1f5109665b092790026c140f93156cb5ad7f9f1f34476774"
+
+[update]
+[update.modrinth]
+mod-id = "uXXizFIs"
+version = "joOID027"

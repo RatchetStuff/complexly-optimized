@@ -1,0 +1,13 @@
+name = "Fast IP Ping"
+filename = "fast-ip-ping-v1.0.12-mc1.20.6-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9mtu0sUO/versions/H0m7YuLf/fast-ip-ping-v1.0.12-mc1.20.6-neoforge.jar"
+hash-format = "sha512"
+hash = "4748eb71555fcefb5d297bafbc7ccef3d9de87cbf4033240e73957e585561888cd34b9321a83b3a7c9c872bee5ab501b560d8cdcab327f564a4a543367103755"
+
+[update]
+[update.modrinth]
+mod-id = "9mtu0sUO"
+version = "H0m7YuLf"
