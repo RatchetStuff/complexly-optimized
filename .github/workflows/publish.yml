@@ -44,7 +44,7 @@ jobs:
         id: version
         run: |
           year=$(date -u +'%y')
-          month=$(date -u +'%-m')
+          month=$(date -u +'%m')
 
           patch=$(git tag -l "${year}.${month}.*" | wc -l)
           version="${year}.${month}.${patch}"

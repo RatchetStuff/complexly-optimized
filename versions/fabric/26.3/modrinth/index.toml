@@ -4,9 +4,6 @@ hash-format = "sha256"
 file = "config/crash_assistant/config.toml"
 
 [[files]]
-file = "config/modpack_defaults/config/crash_assistant/config.toml"
-
-[[files]]
 file = "config/modpack_defaults/config/dynamic_fps.json"
 
 [[files]]
@@ -93,6 +90,10 @@ metafile = true
 
 [[files]]
 file = "mods/jasione.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
 metafile = true
 
 [[files]]
