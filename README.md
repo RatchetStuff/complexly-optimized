@@ -48,7 +48,7 @@ Few refuse to help players that have a problem just because of unrelated reasons
 - Versions follow this format: YY.MM.PATCH+mcVERSION.LOADER
 - Versions adhere to Calendar Versioning.
 - Platforms are already included in the file extension.
-- Example: 26.1.0+mc1.12.2.forge.zip
+- Example: 27.01.0+mc1.12.2.cleanroom.zip
 
 ### Release
 Uses GitHub workflows to semi-automate publishing to GitHub, which are later manually imported to Modrinth.
