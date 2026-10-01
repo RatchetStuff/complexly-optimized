@@ -1,0 +1,13 @@
+name = "TexTrue's Embeddium Options"
+filename = "textrues_embeddium_options-lexforge-0.1.4-1.20.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/S1tndFDa/versions/NpL8OsTP/textrues_embeddium_options-lexforge-0.1.4-1.20.2.jar"
+hash-format = "sha512"
+hash = "948dd1c039693ae6fdd640c7960586d8faa8c3a948f2ef471d0c6771ac70fce027d3b25bf181afad059ccb9f0ee07eaed86bcd93cde125e023bb52d0821feece"
+
+[update]
+[update.modrinth]
+mod-id = "S1tndFDa"
+version = "NpL8OsTP"
