@@ -37,6 +37,10 @@ file = "mods/badoptimizations.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/c2me-neoforge.pw.toml"
 metafile = true
 
@@ -109,7 +113,15 @@ file = "mods/obe.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/prickle.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/quick-pack.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/resource-trimmer.pw.toml"
 metafile = true
 
 [[files]]

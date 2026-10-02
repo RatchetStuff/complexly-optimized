@@ -1,0 +1,13 @@
+name = "Resource Trimmer"
+filename = "resourcetrimmer-neoforge-1.21.1-21.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eb379e610e30d284381b8aa71a500f0add851941"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6390343
+project-id = 1235231

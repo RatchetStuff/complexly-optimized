@@ -1,0 +1,13 @@
+name = "Resource Trimmer"
+filename = "resourcetrimmer-fabric-1.21.1-21.1.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TVKrCZNh/versions/JUxwl8w6/resourcetrimmer-fabric-1.21.1-21.1.5.jar"
+hash-format = "sha512"
+hash = "4523d9138dbf911d4360ae51e6d7070f8770d3c9bc628a3596404ac0ec7cecbc977fa397d4207b22d090d377d747468ea6217497f9f6d197d49e165d4eb54784"
+
+[update]
+[update.modrinth]
+mod-id = "TVKrCZNh"
+version = "JUxwl8w6"
