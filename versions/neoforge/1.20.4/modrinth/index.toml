@@ -16,9 +16,6 @@ file = "config/ferritecore.mixin.properties"
 file = "config/modernfix-mixins.properties"
 
 [[files]]
-file = "config/quick-pack.json"
-
-[[files]]
 file = "mods/badoptimizations.pw.toml"
 metafile = true
 
