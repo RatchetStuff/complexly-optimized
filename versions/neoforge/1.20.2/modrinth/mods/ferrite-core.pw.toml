@@ -1,0 +1,13 @@
+name = "FerriteCore"
+filename = "ferritecore-6.0.2-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uXXizFIs/versions/tfQSdUpc/ferritecore-6.0.2-forge.jar"
+hash-format = "sha512"
+hash = "a0fab831f2d7d9061446136f3291f88d0f7bafd5c1b2b7042ff338e8ef65781ac078af5a2c7888bbb755f4a5bd9ef0f20ebd90f01b5a1910c5b23d5bfc2ef43d"
+
+[update]
+[update.modrinth]
+mod-id = "uXXizFIs"
+version = "tfQSdUpc"
