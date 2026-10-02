@@ -1,0 +1,63 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/crash_assistant/config.toml"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+
+[[files]]
+file = "config/dynamic_fps.json"
+
+[[files]]
+file = "config/ferritecore.mixin.properties"
+
+[[files]]
+file = "config/modernfix-mixins.properties"
+
+[[files]]
+file = "config/quick-pack.json"
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/starlight-neoforge.pw.toml"
+metafile = true
