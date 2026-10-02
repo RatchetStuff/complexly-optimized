@@ -1,0 +1,13 @@
+name = "KryptonFoxified"
+filename = "KryptonFoxified-0.1.1+mc1.20.4.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/rmFH8I1v/versions/vHKWaHwV/KryptonFoxified-0.1.1%2Bmc1.20.4.jar"
+hash-format = "sha512"
+hash = "f4e4773e0f5c75babc985fc8378162fb0cc6ceb227337f94f8e6dc9d80541919a1fc8efcc0910dbe9b8381e8d830bd50d2eb8a95fe5505a426e863081a8ee9bf"
+
+[update]
+[update.modrinth]
+mod-id = "rmFH8I1v"
+version = "vHKWaHwV"

@@ -24,6 +24,10 @@ file = "mods/balm.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/crash-assistant.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/default-options.pw.toml"
 metafile = true
 
@@ -45,6 +49,10 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/krypton-foxified.pw.toml"
 metafile = true
 
 [[files]]
