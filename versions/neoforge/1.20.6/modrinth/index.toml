@@ -59,10 +59,6 @@ file = "mods/immediatelyfast.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/jasione.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/krypton-fnp.pw.toml"
 metafile = true
 
@@ -80,8 +76,4 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/zfastnoise.pw.toml"
 metafile = true
