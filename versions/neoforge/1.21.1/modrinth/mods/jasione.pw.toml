@@ -1,13 +1,13 @@
 name = "Jasione"
-filename = "jasione-1.0.8+1.21.1-neoforge.jar"
+filename = "jasione-1.0.9+1.21.1-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/qlDkBPij/versions/vbe7Ency/jasione-1.0.8%2B1.21.1-neoforge.jar"
+url = "https://cdn.modrinth.com/data/qlDkBPij/versions/GsGw7K8F/jasione-1.0.9%2B1.21.1-neoforge.jar"
 hash-format = "sha512"
-hash = "ec86b415b9ade03e98bee214d4dfc1fb31a24672dd978708994df11d90b3677e7d23b16a69a8f70eec7073607c94e64e9b84cfa2d19e2274b5a93043a5cc2456"
+hash = "b7ec7703883399517876001ef6dea1e56b0c05af1c44c69d65cf8815fd655b9992a83063a6a77b2b15b6f110384dbe85833fc009be7baf4f60da94ee95fbf2f1"
 
 [update]
 [update.modrinth]
 mod-id = "qlDkBPij"
-version = "vbe7Ency"
+version = "GsGw7K8F"
