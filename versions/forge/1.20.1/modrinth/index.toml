@@ -10,6 +10,9 @@ file = "configureddefaults/config/cull-less-leaves.json"
 file = "configureddefaults/config/dynamic_fps.json"
 
 [[files]]
+file = "configureddefaults/config/fastquit.toml"
+
+[[files]]
 file = "configureddefaults/config/ferritecore.mixin.properties"
 
 [[files]]
@@ -34,6 +37,10 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
 metafile = true
 
 [[files]]
@@ -62,6 +69,10 @@ metafile = true
 
 [[files]]
 file = "mods/fast-ip-ping.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fastquit-forge.pw.toml"
 metafile = true
 
 [[files]]

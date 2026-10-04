@@ -10,6 +10,9 @@ file = "config/defaultoptions/options.txt"
 file = "config/dynamic_fps.json"
 
 [[files]]
+file = "config/fastquit.toml"
+
+[[files]]
 file = "config/ferritecore.mixin.properties"
 
 [[files]]
@@ -21,6 +24,10 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
 metafile = true
 
 [[files]]
@@ -41,6 +48,10 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fastquit-forge.pw.toml"
 metafile = true
 
 [[files]]

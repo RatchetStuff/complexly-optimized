@@ -10,6 +10,9 @@ file = "config/dynamic_fps.json"
 file = "config/embeddium-options.json"
 
 [[files]]
+file = "config/fastquit.toml"
+
+[[files]]
 file = "config/ferritecore.mixin.properties"
 
 [[files]]
@@ -44,6 +47,10 @@ metafile = true
 
 [[files]]
 file = "mods/fast-ip-ping.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fastquit-forge.pw.toml"
 metafile = true
 
 [[files]]

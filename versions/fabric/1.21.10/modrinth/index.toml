@@ -7,6 +7,9 @@ file = "config/crash_assistant/config.toml"
 file = "config/modpack_defaults/config/dynamic_fps.json"
 
 [[files]]
+file = "config/modpack_defaults/config/fastquit.toml"
+
+[[files]]
 file = "config/modpack_defaults/config/ferritecore.mixin.properties"
 
 [[files]]
@@ -66,6 +69,10 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fastquit.pw.toml"
 metafile = true
 
 [[files]]

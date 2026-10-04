@@ -1,0 +1,13 @@
+name = "FastQuit-Forge"
+filename = "Fastquit-3.0.2+1.18.2forge.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "ffbd7e1eebf42680ad180144d5182b1f13b7334b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8795148
+project-id = 1177884

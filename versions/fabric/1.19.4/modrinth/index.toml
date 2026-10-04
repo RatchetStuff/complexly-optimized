@@ -7,6 +7,9 @@ file = "config/crash_assistant/config.toml"
 file = "configureddefaults/config/dynamic_fps.json"
 
 [[files]]
+file = "configureddefaults/config/fastquit-config.txt"
+
+[[files]]
 file = "configureddefaults/config/ferritecore.mixin.properties"
 
 [[files]]
@@ -72,6 +75,10 @@ metafile = true
 
 [[files]]
 file = "mods/fast-ip-ping.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fastquit.pw.toml"
 metafile = true
 
 [[files]]

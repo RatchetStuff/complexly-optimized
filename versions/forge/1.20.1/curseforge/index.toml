@@ -10,6 +10,9 @@ file = "configureddefaults/config/cull-less-leaves.json"
 file = "configureddefaults/config/dynamic_fps.json"
 
 [[files]]
+file = "configureddefaults/config/fastquit.toml"
+
+[[files]]
 file = "configureddefaults/config/ferritecore.mixin.properties"
 
 [[files]]
@@ -49,6 +52,10 @@ file = "mods/brute-force-rendering-culling-revived.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/configured-defaults.pw.toml"
 metafile = true
 
@@ -78,6 +85,10 @@ metafile = true
 
 [[files]]
 file = "mods/fastchunkgen.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fastquit-forge.pw.toml"
 metafile = true
 
 [[files]]
