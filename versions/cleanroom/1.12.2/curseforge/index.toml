@@ -10,10 +10,17 @@ file = "config/crash_assistant/config.toml"
 file = "config/forge_early.cfg"
 
 [[files]]
+file = "config/fpsreducer/fpsreducer.cfg"
+
+[[files]]
 file = "config/fugue.cfg"
 
 [[files]]
 file = "mods/alfheim-lighting-engine.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/asynclogger.pw.toml"
 metafile = true
 
 [[files]]
@@ -38,6 +45,10 @@ metafile = true
 
 [[files]]
 file = "mods/fastquit-forge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fps-reducer.pw.toml"
 metafile = true
 
 [[files]]
