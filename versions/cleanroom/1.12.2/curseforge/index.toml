@@ -4,6 +4,9 @@ hash-format = "sha256"
 file = "config/crash_assistant/config.toml"
 
 [[files]]
+file = "config/fastquit.toml"
+
+[[files]]
 file = "config/forge_early.cfg"
 
 [[files]]
@@ -31,6 +34,10 @@ metafile = true
 
 [[files]]
 file = "mods/entity-culling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fastquit-forge.pw.toml"
 metafile = true
 
 [[files]]
