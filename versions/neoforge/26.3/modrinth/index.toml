@@ -90,10 +90,6 @@ file = "mods/quick-pack.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/resource-trimmer.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/resourceful-config.pw.toml"
 metafile = true
 
