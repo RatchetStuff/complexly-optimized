@@ -38,6 +38,10 @@ file = "mods/c2me-neoforge.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cloth-config.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/configmanager.pw.toml"
 metafile = true
 
@@ -82,7 +86,7 @@ file = "mods/lithium.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/modernfix-mvus.pw.toml"
+file = "mods/moreculling.pw.toml"
 metafile = true
 
 [[files]]
