@@ -3,11 +3,11 @@ filename = "hotbarlagfixer-1.1.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/rrWdhjP0/versions/juGrgHZN/hotbarlagfixer-1.1.1.jar"
+url = "https://cdn.modrinth.com/data/rrWdhjP0/versions/f9ivejb0/hotbarlagfixer-1.1.1.jar"
 hash-format = "sha512"
-hash = "b400b1d02d2a6ec82f9e7d19e1abcbf10c00c4957f51030261f31914ceed32dbad60777c67a2223ba856c11f709e4302b5fae6c6e5822cf001c7e219d1fe7e05"
+hash = "3da71497731fd62da2554695b1cd5e5bc7bed43acf4870ff12b5a6534e6f6e8be0296a939748bbe1734cc48de028ce4db4df42902a6aa5e2cd1f79416417a5e9"
 
 [update]
 [update.modrinth]
 mod-id = "rrWdhjP0"
-version = "juGrgHZN"
+version = "f9ivejb0"
