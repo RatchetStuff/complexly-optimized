@@ -86,6 +86,10 @@ file = "mods/lithium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/modernfix-mvus.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/moreculling.pw.toml"
 metafile = true
 
@@ -103,10 +107,6 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/sodium.pw.toml"
 metafile = true
 
 [[files]]
