@@ -1,13 +1,13 @@
 name = "Concurrent Chunk Management Engine"
-filename = "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.122.jar"
+filename = "c2me-neoforge-mc1.21.1-0.4.0-alpha.0.123.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "91a9a9b7791fb8a9642752ca6009553a0546c96e"
+hash = "50fe2e38c6369b51e4dee1106d0295185e6251c4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8896937
+file-id = 9131675
 project-id = 533097

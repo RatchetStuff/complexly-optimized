@@ -9,7 +9,7 @@ hash-format = "sha256"
 
 [versions]
 minecraft = "1.21.8"
-neoforge = "21.8.54"
+neoforge = "21.8.57"
 
 [options]
 acceptable-game-versions = ["1.21.6", "1.21.7"]
