@@ -110,5 +110,9 @@ file = "mods/servercore.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/sodium.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
 metafile = true
