@@ -1,13 +1,13 @@
 name = "Material Rule Compiler"
-filename = "zmatcomp-1.0.0+26.1.jar"
+filename = "zmatcomp-1.1.2+26.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/vnpqfrJN/versions/phIg6cLe/zmatcomp-1.0.0%2B26.1.jar"
+url = "https://cdn.modrinth.com/data/vnpqfrJN/versions/y2a9xwkH/zmatcomp-1.1.2%2B26.1.jar"
 hash-format = "sha512"
-hash = "063957e2b11c5623be281efa7a76d89aff447b9d32bec7f28270800ffaeed422dbab53a9e90931e5b033438f2232acb2d420c0237b86e20778e633ecd4cb8df1"
+hash = "da263eab182f10fc9037cb0fb0a8e086e6010f105238c42c548c60ab5c5e5f00cbd12e827610f56f14106c9e44d26d65d3a6d0ed24fa9c0fb9c47ae999c093a9"
 
 [update]
 [update.modrinth]
 mod-id = "vnpqfrJN"
-version = "phIg6cLe"
+version = "y2a9xwkH"
