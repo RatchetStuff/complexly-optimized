@@ -174,7 +174,3 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 metafile = true
-
-[[files]]
-file = "mods/zmaterial-rule-compiler.pw.toml"
-metafile = true
