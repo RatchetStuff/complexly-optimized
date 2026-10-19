@@ -1,13 +1,13 @@
 name = "AsyncParticles"
-filename = "AsyncParticles-21.1.4.7+1.21.1.jar"
+filename = "AsyncParticles-21.1.4.9+1.21.1.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "d399a3467d453abf4f69c065163f2dfcee2d3062"
+hash = "234987507c0c939be49ead51e370230f07741856"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9140462
+file-id = 9254357
 project-id = 1215753
