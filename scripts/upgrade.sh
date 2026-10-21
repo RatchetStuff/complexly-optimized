@@ -7,15 +7,15 @@ find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filep
     cd "$dir"
     attempt=0
     while true; do
-      ((attempt++))
-      output=$(packwiz update -ay)
+      ((++attempt))
+      output=$(packwiz upgrade -ay)
       echo "$output"
 
       if [[ "$output" != *'Failed to check updates for '* ]]; then
         break
       fi
 
-      echo "Update check failed! Retrying..."
+      echo "Update check failed! Retrying... (attempt $attempt)"
       sleep $((5 * attempt))
     done
   )
