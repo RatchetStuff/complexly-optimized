@@ -1,8 +1,36 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-fabric_version="0.19.5"
-quilt_version="0.30.1"
+fabric_version=""
+quilt_version=""
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -f|--fabric-version)
+      fabric_version="$2"
+      shift 2
+      ;;
+    -q|--quilt-version)
+      quilt_version="$2"
+      shift 2
+      ;;
+    '-?'|--help)
+      echo -e "
+\033[1;4mUsage:\033[0m $0 [OPTIONS]
+
+\033[1;4mOPTIONS:\033[0m
+  \033[1m-?, --help\033[0m                      print help
+  \033[1m-f, --fabric-version\033[0m <VERSION>  migrate fabric loader
+  \033[1m-q, --quilt-version\033[0m <VERSION>   migrate quilt loader
+"
+      exit 0
+      ;;
+    *)
+      echo "Unknown argument: $1"
+      exit 1
+      ;;
+  esac
+done
 
 find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
   dir=$(dirname "$filepath")
