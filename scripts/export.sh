@@ -10,16 +10,21 @@ mkdir -p "$BIN"
 
 find "$REPOSITORY/versions" -type f -name 'pack.toml' -print0 | while IFS= read -r -d '' filepath; do
   dir=$(dirname "$filepath")
-  distribution="$(basename "$dir")"
   (
     cd "$dir"
+
+    IFS='/' read -ra parts <<< "${filepath#"$REPOSITORY/versions/"}"
+    loader="${parts[0]}"
+    mc_version="${parts[1]}"
+    distribution="${parts[2]}"
+    
     case "$distribution" in
       curseforge)
-        packwiz cf export
+        output=$(packwiz cf export)
         mv *.zip "$BIN"
         ;;
       modrinth)
-        packwiz mr export
+        output=$(packwiz mr export)
         mv *.mrpack "$BIN"
         ;;
       *)
@@ -27,5 +32,8 @@ find "$REPOSITORY/versions" -type f -name 'pack.toml' -print0 | while IFS= read 
         exit 1
         ;;
     esac
+    if [[ "$output" == *'Modpack exported to '* ]]; then
+      echo "Modpack exported (mc${mc_version}.${loader})"
+    fi
   )
 done
