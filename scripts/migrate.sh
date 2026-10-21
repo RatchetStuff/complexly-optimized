@@ -21,8 +21,7 @@ while [[ $# -gt 0 ]]; do
 \033[1;4mOPTIONS:\033[0m
   \033[1m-?, --help\033[0m                      print help
   \033[1m-f, --fabric-version\033[0m <VERSION>  migrate fabric loader
-  \033[1m-q, --quilt-version\033[0m <VERSION>   migrate quilt loader
-"
+  \033[1m-q, --quilt-version\033[0m <VERSION>   migrate quilt loader"
       exit 0
       ;;
     *)
