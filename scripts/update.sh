@@ -12,7 +12,7 @@ find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filep
     attempt=0
     while true; do
       ((++attempt))
-      output=$(packwiz upgrade -ay)
+      output=$(packwiz update -ay)
 
       if [[ "$output" != *'Failed to check updates for '* ]]; then
         if [[ "$output" == *'All files are up to date!'* ]]; then
