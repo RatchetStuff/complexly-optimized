@@ -17,7 +17,7 @@ find versions -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filep
       if [[ "$output" != *'Failed to check updates for '* ]]; then
         if [[ "$output" == *'All files are up to date!'* ]]; then
           echo "All files are up to date! (mc${mc_version}.${loader})"
-        elif [[ "$output" == *'Files updated!'* ]]
+        elif [[ "$output" == *'Files updated!'* ]]; then
           echo "Files updated! (mc${mc_version}.${loader})"
         fi
         break
