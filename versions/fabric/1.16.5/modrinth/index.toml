@@ -107,5 +107,9 @@ file = "mods/structure-layout-optimizer.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/windows-priority-boost.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/yosbr.pw.toml"
 metafile = true

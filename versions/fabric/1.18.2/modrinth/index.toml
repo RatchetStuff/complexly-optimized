@@ -160,3 +160,7 @@ metafile = true
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
 metafile = true
+
+[[files]]
+file = "mods/windows-priority-boost.pw.toml"
+metafile = true
