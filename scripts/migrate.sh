@@ -56,7 +56,7 @@ find "$REPOSITORY/versions" -type f -name "pack.toml" -print0 | while IFS= read 
       exit 0
     fi
 
-    if ! packwiz migrate loader "$version"; do
+    if ! packwiz migrate loader "$version"; then
       echo "Skipping loader!"
       exit 1
     done
