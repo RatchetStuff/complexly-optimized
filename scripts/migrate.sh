@@ -56,11 +56,9 @@ find "$REPOSITORY/versions" -type f -name "pack.toml" -print0 | while IFS= read 
       exit 0
     fi
 
-    attempt=0
-    until packwiz migrate loader "$version"; do
-      ((++attempt))
-      echo "Migration failed! Retrying... (attempt $attempt)"
-      sleep $((5 * attempt))
+    if ! packwiz migrate loader "$version"; do
+      echo "Skipping loader!"
+      exit 1
     done
   )
 done
