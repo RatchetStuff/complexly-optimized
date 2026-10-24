@@ -1,13 +1,13 @@
 name = "Brute Force Rendering Culling Revived"
-filename = "Brute Force Culling Revived-forge-1.20.1-2.2.3.jar"
+filename = "Brute Force Culling Revived-forge-1.20.1-2.2.4.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "de3c4d964c60f31e5c4ebb58bca92168e5ac1b52"
+hash = "3e74358cb6659ef93b488dbeaa491c881c644bf3"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9139620
+file-id = 9301180
 project-id = 1519201
