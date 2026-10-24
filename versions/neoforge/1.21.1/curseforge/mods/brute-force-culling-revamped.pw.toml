@@ -1,0 +1,13 @@
+name = "Brute Force Culling Revamped"
+filename = "brute_force_culling-neoforge-1.21.1-2.0.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "f40647c9c9d801c4e0f463a3d134b6f6a63758f4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9304613
+project-id = 1657611

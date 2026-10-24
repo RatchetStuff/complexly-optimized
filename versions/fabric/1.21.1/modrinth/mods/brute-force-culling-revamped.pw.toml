@@ -1,0 +1,13 @@
+name = "Brute Force Culling Revamped"
+filename = "brute_force_culling-fabric-1.21.1-2.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/tZn2RW1V/versions/ELncWyFE/brute_force_culling-fabric-1.21.1-2.0.0.jar"
+hash-format = "sha512"
+hash = "f9f961a961276704988cc3351f977d651bf22daddb7e21a60af05a8d08f2868fe43b771449e77af600dfb1d707cd51182e10b8231dfa9779053cd117d87e8df5"
+
+[update]
+[update.modrinth]
+mod-id = "tZn2RW1V"
+version = "ELncWyFE"

@@ -48,6 +48,10 @@ file = "mods/badoptimizations.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/brute-force-culling-revamped.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/c2me.pw.toml"
 metafile = true
 
@@ -145,6 +149,10 @@ metafile = true
 
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
 metafile = true
 
 [[files]]

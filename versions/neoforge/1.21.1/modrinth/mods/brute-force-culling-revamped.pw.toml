@@ -1,0 +1,13 @@
+name = "Brute Force Culling Revamped"
+filename = "brute_force_culling-neoforge-1.21.1-2.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/tZn2RW1V/versions/IIYsT4J5/brute_force_culling-neoforge-1.21.1-2.0.0.jar"
+hash-format = "sha512"
+hash = "039a1c7ce2ccd918c66211b9eca256530091006f00e4de3a3dbfcec10b07ec44f6d9ac6f30ba778d9a60ee186ff04a91eb3bf98aed6c42876bd8a00b2e25a9c6"
+
+[update]
+[update.modrinth]
+mod-id = "tZn2RW1V"
+version = "IIYsT4J5"
