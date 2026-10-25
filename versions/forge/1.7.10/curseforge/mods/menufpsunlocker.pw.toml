@@ -1,0 +1,13 @@
+name = "MenuFPSUnlocker"
+filename = "MenuFPSUnlocker-Forge-1.1.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "ace8231e197bf4e1cac66f9fe9c9cd1de25eab14"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7256203
+project-id = 1133347

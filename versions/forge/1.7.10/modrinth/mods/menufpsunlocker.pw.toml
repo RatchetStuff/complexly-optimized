@@ -1,0 +1,13 @@
+name = "MenuFPSUnlocker"
+filename = "MenuFPSUnlocker-Forge-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/eACKl8af/versions/HkqCFYx4/MenuFPSUnlocker-Forge-1.1.0.jar"
+hash-format = "sha512"
+hash = "bd6511e13bad023e3711dc5b909a0bf619e7c9eeced9024a2ddfa7c09eefe482d4298777bf48b26c1ac3473a2cf573313580c67c954c00ec885fe1213d81c555"
+
+[update]
+[update.modrinth]
+mod-id = "eACKl8af"
+version = "HkqCFYx4"

@@ -1,0 +1,13 @@
+name = "FPS Reducer"
+filename = "FpsReducer-mc1.7.10-1.10.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/iZ10HXDj/versions/KkQ36LBj/FpsReducer-mc1.7.10-1.10.3.jar"
+hash-format = "sha512"
+hash = "46d7dd2ebd2ed35ef61f1cae53a8fe58a3fd8d28f0267dfd999041e3df4e67e656e3cdaef76bc139419dc6df78b4dde059306ccc9569e2b1302ee4feb103a51d"
+
+[update]
+[update.modrinth]
+mod-id = "iZ10HXDj"
+version = "KkQ36LBj"

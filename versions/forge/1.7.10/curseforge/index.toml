@@ -1,0 +1,75 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/FpsReducer/FpsReducer.cfg"
+
+[[files]]
+file = "config/crash_assistant/config.toml"
+
+[[files]]
+file = "mods/archaicfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/beddium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/careful-cast-corrector-ccc.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chunkpurge.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/falsetweaks.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fastcraft.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/foamfix-optimization-mod.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fplib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fps-reducer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/helpfixer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/menufpsunlocker.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/redirectionor-retro.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/serializationisbad.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/squidless.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/unimixins.pw.toml"
+metafile = true

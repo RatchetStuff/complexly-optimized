@@ -1,0 +1,13 @@
+name = "ArchaicFix"
+filename = "archaicfix-0.8.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xTJanN3v/versions/HagnT2ce/archaicfix-0.8.2.jar"
+hash-format = "sha512"
+hash = "081dadf7d96848109ee1218464a101972a737f2ea712e9303a048b107803656ca5faa43c765d0040ea0cfacbcc9d76e3eafde7aa7da1ba8ca9345d44474bf8c7"
+
+[update]
+[update.modrinth]
+mod-id = "xTJanN3v"
+version = "HagnT2ce"
