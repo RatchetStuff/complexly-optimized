@@ -1,0 +1,13 @@
+name = "SerializationIsBad"
+filename = "serializationisbad-1.5.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TTZtsNrf/versions/UNewFQPv/serializationisbad-1.5.2.jar"
+hash-format = "sha512"
+hash = "40391775653921f408b04c8dc08f033d03af612bb397e85e2731717c70a92ec339c53add179fc6487dbfe1db33120ef56870c96740d7c8861461012dd058895d"
+
+[update]
+[update.modrinth]
+mod-id = "TTZtsNrf"
+version = "UNewFQPv"

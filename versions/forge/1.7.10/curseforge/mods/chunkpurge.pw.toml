@@ -1,0 +1,13 @@
+name = "ChunkPurge"
+filename = "ChunkPurge-1.7.10-2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4a00b982a66259f0cfc9bd5e0cffd003a8a237fc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2263206
+project-id = 237027

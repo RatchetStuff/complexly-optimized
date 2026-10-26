@@ -1,0 +1,13 @@
+name = "TileEntity Reset Fix"
+filename = "TileEntityResetFix-1.0.1-noreq.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cKitwCSu/versions/uxSWLWki/TileEntityResetFix-1.0.1-noreq.jar"
+hash-format = "sha512"
+hash = "0e970bc02ffc851d8fd6f9541355fc17eb1740e61c0071ae7fdbf5da189a6bef9665453e5d1026bf572b94bbeea83d9f80d3e68559d207944186edc2f9219211"
+
+[update]
+[update.modrinth]
+mod-id = "cKitwCSu"
+version = "uxSWLWki"
