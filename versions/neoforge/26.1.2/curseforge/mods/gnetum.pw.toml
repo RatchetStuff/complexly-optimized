@@ -1,0 +1,13 @@
+name = "Gnetum"
+filename = "Gnetum-4.6.3+26.1.2-neoforge.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "50898bb2d040e687877d149f0afa97ffcc145895"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9074596
+project-id = 1220460

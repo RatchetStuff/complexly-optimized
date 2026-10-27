@@ -62,6 +62,10 @@ file = "mods/ferrite-core.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/gnetum.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 metafile = true
 
