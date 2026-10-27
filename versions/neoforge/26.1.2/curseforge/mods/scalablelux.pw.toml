@@ -1,0 +1,13 @@
+name = "ScalableLux"
+filename = "ScalableLux-neoforge-0.3.0-alpha.0.18-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2aeb073fb755f846e7228eb213cc670e49964ad6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8407484
+project-id = 1055925

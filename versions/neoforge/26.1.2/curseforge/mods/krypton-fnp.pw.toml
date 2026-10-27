@@ -1,0 +1,13 @@
+name = "Krypton Reno"
+filename = "kreno-neoforge-26.1.2-26.3.2-26.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "99fdb5ee47e414c675bb7a0e99e564b8f0eebbf5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8379220
+project-id = 1269169

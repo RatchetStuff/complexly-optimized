@@ -1,0 +1,11 @@
+{
+    "uncap_menu_frame_rate": true,
+    "states": {
+        "unfocused": {
+            "frame_rate_target": 15
+        },
+        "invisible": {
+            "run_garbage_collector": true
+        }
+    }
+}

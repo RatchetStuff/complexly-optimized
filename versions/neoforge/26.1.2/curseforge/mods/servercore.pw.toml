@@ -1,0 +1,13 @@
+name = "ServerCore"
+filename = "servercore-neoforge-1.5.19+26.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fa2b95ca2562546b4cf9f4e057fcc9f266c08948"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8312206
+project-id = 550579
