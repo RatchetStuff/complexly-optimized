@@ -31,16 +31,36 @@ QOL features are specifically chosen to provide the best experience, including:
 - No chat signing, without adding extra mods.
 
 ## Why?
-Because some optimization modpacks as of right now:
 
-### Are not technically free.
-Most of them are licensed under MIT, which is fair, but it prevents commercial modpacks from closing their source. This I personally dislike because I want to be able to do anything with my modpack without facing licensing issues.
+### No licensing restrictions.
 
-### Don't have a clear sense of direction.
-There are modpacks which knows what they're doing, but they center their modpack around everyone (vanilla players and modpack makers, which cannot be mixed together), which creates a frankenstein-sort of mod set.
+Why put a license? When making an optimization modpack, vanilla players and modpack makers are going to use it. By having license restrictions, you are restricting users from using your optimizations. And for what reason?
 
-### Are picky when it comes to support.
-Few refuse to help players that have a problem just because of unrelated reasons (e.g. for using a specific launcher). This is unprofessional practice in my opinion, and prevents a fraction of the player base from receiving support. These barriers are stripped from this modpack.
+Just like Simply Optimized, modpack makers can license their modpack built on top of this modpack with ARR as a whole, no licensing headache included. Why not? It's a performance modpack.
+
+### Not limited to one distribution.
+
+In the current versions, it doesn't matter if you use Modrinth or CurseForge since they both have the same optimization mods.
+
+In the old versions however, especially on Forge, this is not the case. A lot of mods are CurseForge-only, and by that is mods like RoadRunner, LazyDFU Reforged and etc. Unfortunately, Modrinth-equivalent versions don't exist, and even if there are alternatives, they don't match the quality of these mods.
+
+TLDR; Both!
+
+### Rolling updates!
+
+Don't wait 3 years looking forward to another update. The rolling release cycle allows you to get updates whatever and whenever you want. Don't want updates? Just don't update.
+
+### Bleeding-edge!
+
+For what everyone tells you to be stable and frozen (which is lame, in my opinion), this modpack looks the other way. If it doesn't murder you or your worlds, it will remain included, allowing for marginal optimizations that, for other modpacks, are usually out of scope!
+
+### Proper support!
+
+You may be surprised, but this response may be frustrating to some people (me included).
+
+"We can't help you because you're using [insert a very specific and unrelated launcher here]."
+
+Yes, you know what I'm talking about. We're not crazy, and we certainly won't do that. If anything, go ahead and ask! We're all ears.
 
 ## Technical Information
 
@@ -54,4 +74,4 @@ Few refuse to help players that have a problem just because of unrelated reasons
 Uses GitHub workflows to semi-automate publishing to GitHub, which are later manually imported to Modrinth.
 
 ## Credits
-Made by me and other contributors (if there are).
+Made by me in my free time ~~with my soul baked into it~~.
