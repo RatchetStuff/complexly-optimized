@@ -39,7 +39,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: update pack version"
-          tag_name: ${{ steps.bump.outputs.version }}
       
       - name: Export modpack
         run: scripts/export.sh
@@ -48,6 +47,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: Kira-NT/mc-publish@v3
         with:
+          github-tag: ${{ steps.bump.outputs.version }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
           files: bin/*
