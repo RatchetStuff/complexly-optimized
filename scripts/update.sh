@@ -23,7 +23,7 @@ find "$REPOSITORY/versions" -type f -name 'pack.toml' -print0 | while IFS= read 
     continue
   fi
 
-  IFS='/' read -ra parts <<< "${filepath#versions/}"
+  IFS='/' read -ra parts <<< "${filepath#"$REPOSITORY/versions/"}"
   loader="${parts[0]}"
   mc_version="${parts[1]}"
 
