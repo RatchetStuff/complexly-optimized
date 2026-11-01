@@ -42,13 +42,15 @@ jobs:
 
       - name: Create version
         id: version
+        shell: bash
         run: |
+          export TZ='UTC'
+
           year=$(date -u +'%y')
           month=$(date -u +'%m')
-
           patch=$(git tag -l "${year}.${month}.*" | wc -l)
-          version="${year}.${month}.${patch}"
 
+          version="${year}.${month}.${patch}"
           echo "version=$version" >> "$GITHUB_OUTPUT"
       
       - name: Bump pack.toml version
@@ -85,8 +87,8 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: Kira-NT/mc-publish@v3
         with:
-          github-tag: ${{ steps.bump.outputs.version }}
+          github-tag: ${{ steps.version.outputs.version }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
           files: bin/*
-          version: ${{ steps.bump.outputs.version }}
+          version: ${{ steps.version.outputs.version }}
