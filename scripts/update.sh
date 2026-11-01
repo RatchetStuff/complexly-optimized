@@ -30,5 +30,3 @@ find "$REPOSITORY/versions" -type f -name 'pack.toml' -print0 | while IFS= read 
   full_version="${release_version}+mc${mc_version}.${loader}"
   sed -i -E "s/^version = .*/version = \"${full_version}\"/" "$filepath"
 done
-
-echo "$release_version"
