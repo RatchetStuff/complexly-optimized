@@ -51,4 +51,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
           files: bin/*
-          version: ${{ steps.version.outputs.version }}
+          version: ${{ steps.bump.outputs.version }}
