@@ -5,7 +5,7 @@ export TZ='UTC'
 # Find previous tag
 previous_tag=$(git tag --sort=-version:refname | head -n 1)
 if [[ -z "$previous_tag" ]]; then
-  echo "No previous tag found"
+  echo "No previous tag found" >&2
   exit 1
 fi
 
