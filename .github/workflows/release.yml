@@ -29,54 +29,17 @@ jobs:
       - name: Setup packwiz
         run: go install github.com/packwiz/packwiz@latest
 
-      - name: Find previous tag
-        id: previous_tag
+      - name: Bump pack version
+        id: bump
         shell: bash
-        run: |
-          previous_tag=$(git tag --sort=-version:refname | head -n 1)
-          if [[ -z "$previous_tag" ]]; then
-            echo "No previous tag found"
-            exit 1
-          fi
-          echo "tag=$previous_tag" >> "$GITHUB_OUTPUT"
-
-      - name: Create version
-        id: version
-        run: |
-          year=$(date -u +'%y')
-          month=$(date -u +'%m')
-
-          patch=$(git tag -l "${year}.${month}.*" | wc -l)
-          version="${year}.${month}.${patch}"
-
-          echo "version=$version" >> "$GITHUB_OUTPUT"
-      
-      - name: Bump pack.toml version
-        env:
-          pack_version: ${{ steps.version.outputs.version }}
-          previous_tag: ${{ steps.previous_tag.outputs.tag }}
-        shell: bash
-        run: |
-          find versions -type f -name 'pack.toml' -print0 | while IFS= read -r -d '' filepath; do
-            dir=$(dirname "$filepath")
-            if [[ -n "$previous_tag" ]] && git diff --quiet "$previous_tag" HEAD -- "$dir"; then
-              continue
-            fi
-
-            IFS='/' read -ra parts <<< "${filepath#versions/}"
-            loader="${parts[0]}"
-            mc_version="${parts[1]}"
-
-            full_version="${pack_version}+mc${mc_version}.${loader}"
-            sed -i -E "s/^version = .*/version = \"${full_version}\"/" "$filepath"
-          done
+        run: echo "version=$(scripts/update.sh)" >> "$GITHUB_OUTPUT"
 
       - name: Commit release
         if: github.ref == 'refs/heads/main'
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "chore: release ${{ steps.version.outputs.version }}"
-          tag_name: ${{ steps.version.outputs.version }}
+          commit_message: "chore: update pack version"
+          tag_name: ${{ steps.bump.outputs.version }}
       
       - name: Export modpack
         run: scripts/export.sh
