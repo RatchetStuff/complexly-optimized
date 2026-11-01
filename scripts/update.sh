@@ -16,7 +16,8 @@ release_version_patch=$(git tag -l "${release_version_year}.${release_version_mo
 release_version="${release_version_year}.${release_version_month}.${release_version_patch}"
 
 # Bump pack version
-find versions -type f -name 'pack.toml' -print0 | while IFS= read -r -d '' filepath; do
+REPOSITORY=$(git rev-parse --show-toplevel)
+find "$REPOSITORY/versions" -type f -name 'pack.toml' -print0 | while IFS= read -r -d '' filepath; do
   dir=$(dirname "$filepath")
   if [[ -n "$previous_tag" ]] && git diff --quiet "$previous_tag" -- "$dir"; then
     continue
