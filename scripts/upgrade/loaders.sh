@@ -4,6 +4,7 @@ set -euo pipefail
 fabric_version=""
 quilt_version=""
 
+# Arguments
 while [[ $# -gt 0 ]]; do
   case "$1" in
     -f|--fabric-version)
@@ -31,6 +32,7 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+# Upgrade loaders
 REPOSITORY=$(git rev-parse --show-toplevel)
 find "$REPOSITORY/versions" -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
   dir=$(dirname "$filepath")
@@ -40,6 +42,8 @@ find "$REPOSITORY/versions" -type f -name "pack.toml" -print0 | while IFS= read 
 
   (
     cd "$dir"
+    
+    # Skip Fabric & Quilt unless specified (to avoid issues with beta releases)
     case "$loader" in
       fabric)
         version="$fabric_version"
@@ -52,10 +56,12 @@ find "$REPOSITORY/versions" -type f -name "pack.toml" -print0 | while IFS= read 
         ;;
     esac
 
+    # Skip if version is unspecified
     if [[ -z "$version" ]]; then
       exit 0
     fi
 
+    # Skip on error
     if ! packwiz migrate loader "$version"; then
       echo "Skipping loader!"
       exit 1

@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Arguments
 while [[ $# -gt 0 ]]; do
   case "$1" in
     '-?'|--help)
@@ -19,12 +20,15 @@ while [[ $# -gt 0 ]]; do
 done
 
 REPOSITORY=$(git rev-parse --show-toplevel)
+
+# Create 'bin' folder
 BIN="$REPOSITORY/bin"
 if [[ -d "$BIN" ]]; then
   rm -r "$BIN"
 fi
 mkdir -p "$BIN"
 
+# Export modpacks
 find "$REPOSITORY/versions" -type f -name 'pack.toml' -print0 | while IFS= read -r -d '' filepath; do
   dir=$(dirname "$filepath")
   (
