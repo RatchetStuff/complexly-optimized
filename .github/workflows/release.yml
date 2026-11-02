@@ -79,7 +79,7 @@ jobs:
           done
 
       - name: Commit release
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/release'
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: apply automatic changes"
@@ -89,7 +89,7 @@ jobs:
         run: scripts/export.sh
       
       - name: Release modpack
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/release'
         uses: Kira-NT/mc-publish@v3
         with:
           github-tag: ${{ steps.create-version.outputs.version }}
