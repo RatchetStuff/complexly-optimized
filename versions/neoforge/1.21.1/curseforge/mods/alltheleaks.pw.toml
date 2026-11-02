@@ -1,13 +1,13 @@
 name = "AllTheLeaks (Memory Leak Fix)"
-filename = "alltheleaks-1.1.13+1.21.1-neoforge.jar"
+filename = "alltheleaks-1.1.14-1.21.1-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ea11d23e0f8c48544a269dc7c56f6593cb1cafe2"
+hash = "9466eee51e9af6d3dd65d1dc164cd8ea98df1fcc"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8943912
+file-id = 9360134
 project-id = 1091339
