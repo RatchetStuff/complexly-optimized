@@ -8,11 +8,11 @@ quilt_version=""
 while [[ $# -gt 0 ]]; do
   HELP_USAGE="\033[1;4mUsage:\033[0m \033[1m$0\033[0m [OPTIONS]"
   case "$1" in
-    -f|--fabric|--fabric-version)
+    -f|--fabric)
       fabric_version="$2"
       shift 2
       ;;
-    -q|--quilt|--quilt-version)
+    -q|--quilt)
       quilt_version="$2"
       shift 2
       ;;
@@ -22,9 +22,9 @@ while [[ $# -gt 0 ]]; do
 $HELP_USAGE
 
 \033[1;4mOPTIONS:\033[0m
-  \033[1m-?, --help\033[0m                                print help
-  \033[1m-f, --fabric, --fabric-version\033[0m <VERSION>  migrate fabric loader
-  \033[1m-q, --quilt, --quilt-version\033[0m <VERSION>    migrate quilt loader"
+  \033[1m-?, --help\033[0m              print help
+  \033[1m-f, --fabric\033[0m <VERSION>  migrate fabric loader
+  \033[1m-q, --quilt\033[0m <VERSION>   migrate quilt loader"
       exit 0
       ;;
     *)
