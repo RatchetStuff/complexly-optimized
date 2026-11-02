@@ -4,42 +4,53 @@ set -euo pipefail
 fabric_version=""
 quilt_version=""
 
+# Arguments (uses eza as format)
 while [[ $# -gt 0 ]]; do
+  HELP_USAGE="\033[1;4mUsage:\033[0m \033[1m$0\033[0m [OPTIONS]"
   case "$1" in
-    -f|--fabric-version)
+    -f|--fabric)
       fabric_version="$2"
       shift 2
       ;;
-    -q|--quilt-version)
+    -q|--quilt)
       quilt_version="$2"
       shift 2
       ;;
     '-?'|--help)
-      echo -e "
-\033[1;4mUsage:\033[0m $0 [OPTIONS]
+      echo -e "Upgrade loaders in modpacks
+
+$HELP_USAGE
 
 \033[1;4mOPTIONS:\033[0m
-  \033[1m-?, --help\033[0m                      print help
-  \033[1m-f, --fabric-version\033[0m <VERSION>  migrate fabric loader
-  \033[1m-q, --quilt-version\033[0m <VERSION>   migrate quilt loader"
+  \033[1m-?, --help\033[0m              print help
+  \033[1m-f, --fabric\033[0m <VERSION>  migrate fabric loader
+  \033[1m-q, --quilt\033[0m <VERSION>   migrate quilt loader"
       exit 0
       ;;
     *)
-      echo "Unknown argument: $1"
+      echo -e "\033[1;31merror:\033[0m unexpected argument '\033[33m$1\033[0m' found
+
+$HELP_USAGE
+
+For more information, try '\033[1m--help\033[0m'."
       exit 1
       ;;
   esac
 done
 
+# Upgrade loaders
 REPOSITORY=$(git rev-parse --show-toplevel)
 find "$REPOSITORY/versions" -type f -name "pack.toml" -print0 | while IFS= read -r -d '' filepath; do
   dir=$(dirname "$filepath")
 
   IFS='/' read -ra parts <<< "${filepath#"$REPOSITORY/versions/"}"
   loader="${parts[0]}"
+  minecraft="${parts[1]}"
 
   (
     cd "$dir"
+    
+    # Skip Fabric & Quilt unless specified (to avoid issues with beta releases)
     case "$loader" in
       fabric)
         version="$fabric_version"
@@ -52,10 +63,17 @@ find "$REPOSITORY/versions" -type f -name "pack.toml" -print0 | while IFS= read 
         ;;
     esac
 
+    # Skip if version is unspecified
     if [[ -z "$version" ]]; then
       exit 0
     fi
 
+    # Skip if mc1.7.10.forge
+    if [[ "$loader" == 'forge' && "$minecraft" == '1.7.10' ]]; then
+      exit 0
+    fi
+
+    # Skip on error
     if ! packwiz migrate loader "$version"; then
       echo "Skipping loader!"
       exit 1

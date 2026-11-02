@@ -29,26 +29,77 @@ jobs:
       - name: Setup packwiz
         run: go install github.com/packwiz/packwiz@latest
 
-      - name: Bump pack version
-        id: bump
+      - name: Cache packwiz
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/packwiz
+          key: packwiz-cache-${{ hashFiles('versions/**/*.pw.toml') }}
+          restore-keys: packwiz-cache-
+
+      - name: Find previous tag
+        id: previous_tag
         shell: bash
-        run: echo "version=$(scripts/update.sh)" >> "$GITHUB_OUTPUT"
+        run: |
+          previous_tag=$(git tag --sort=-version:refname | head -n 1)
+          if [[ -z "$previous_tag" ]]; then
+            echo "No previous tag found"
+            exit 1
+          fi
+          echo "tag=$previous_tag" >> "$GITHUB_OUTPUT"
+
+      - name: Create version
+        id: create-version
+        shell: bash
+        run: |
+          export TZ='UTC'
+
+          year=$(date -u +'%y')
+          month=$(date -u +'%m')
+          patch=$(git tag -l "${year}.${month}.*" | wc -l)
+
+          version="${year}.${month}.${patch}"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh packs
+        shell: bash
+        run: scripts/refresh.sh
+      
+      - name: Update pack version
+        env:
+          release_version: ${{ steps.create-version.outputs.version }}
+          previous_tag: ${{ steps.previous_tag.outputs.tag }}
+        shell: bash
+        run: |
+          find versions -type f -name 'pack.toml' -print0 | while IFS= read -r -d '' filepath; do
+            dir=$(dirname "$filepath")
+            if [[ -n "${{ env.previous_tag }}" ]] && git diff --quiet "${{ env.previous_tag }}" -- "$dir"; then
+              continue
+            fi
+
+            IFS='/' read -ra parts <<< "${filepath#versions/}"
+            loader="${parts[0]}"
+            minecraft="${parts[1]}"
+
+            pack_version="${{ env.release_version }}+mc${minecraft}.${loader}"
+            sed -i -E "s/^version = .*/version = \"${pack_version}\"/" "$filepath"
+          done
 
       - name: Commit release
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/release'
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "chore: update pack version"
+          commit_message: "chore: apply automatic changes"
+          tag_name: ${{ steps.create-version.outputs.version }}
       
       - name: Export modpack
         run: scripts/export.sh
       
       - name: Release modpack
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/release'
         uses: Kira-NT/mc-publish@v3
         with:
-          github-tag: ${{ steps.bump.outputs.version }}
+          github-tag: ${{ steps.create-version.outputs.version }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
           files: bin/*
-          version: ${{ steps.bump.outputs.version }}
+          version: ${{ steps.create-version.outputs.version }}
