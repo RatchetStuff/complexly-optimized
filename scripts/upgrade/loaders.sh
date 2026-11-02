@@ -45,6 +45,7 @@ find "$REPOSITORY/versions" -type f -name "pack.toml" -print0 | while IFS= read 
 
   IFS='/' read -ra parts <<< "${filepath#"$REPOSITORY/versions/"}"
   loader="${parts[0]}"
+  minecraft="${parts[1]}"
 
   (
     cd "$dir"
@@ -64,6 +65,11 @@ find "$REPOSITORY/versions" -type f -name "pack.toml" -print0 | while IFS= read 
 
     # Skip if version is unspecified
     if [[ -z "$version" ]]; then
+      exit 0
+    fi
+
+    # Skip if mc1.7.10.forge
+    if [[ "$loader" == 'forge' && "$minecraft" == '1.7.10' ]]; then
       exit 0
     fi
 
