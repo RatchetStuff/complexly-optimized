@@ -29,6 +29,13 @@ jobs:
       - name: Setup packwiz
         run: go install github.com/packwiz/packwiz@latest
 
+      - name: Cache packwiz
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/packwiz
+          key: packwiz-cache-${{ hashFiles('versions/**/*.pw.toml') }}
+          restore-keys: packwiz-cache-
+
       - name: Find previous tag
         id: previous_tag
         shell: bash
