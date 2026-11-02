@@ -66,7 +66,7 @@ jobs:
         run: |
           find versions -type f -name 'pack.toml' -print0 | while IFS= read -r -d '' filepath; do
             dir=$(dirname "$filepath")
-            if [[ -n "$previous_tag" ]] && git diff --quiet "$previous_tag" HEAD -- "$dir"; then
+            if [[ -n "${{ env.previous_tag }}" ]] && git diff --quiet "${{ env.previous_tag }}" HEAD -- "$dir"; then
               continue
             fi
 
@@ -74,7 +74,7 @@ jobs:
             loader="${parts[0]}"
             minecraft="${parts[1]}"
 
-            pack_version="${release_version}+mc${minecraft}.${loader}"
+            pack_version="${{ env.release_version }}+mc${minecraft}.${loader}"
             sed -i -E "s/^version = .*/version = \"${pack_version}\"/" "$filepath"
           done
 
