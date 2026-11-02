@@ -19,6 +19,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
         with:
+          ref: release
           fetch-depth: 0
 
       - name: Setup Go
@@ -41,7 +42,7 @@ jobs:
           echo "tag=$previous_tag" >> "$GITHUB_OUTPUT"
 
       - name: Create version
-        id: version
+        id: create-version
         shell: bash
         run: |
           export TZ='UTC'
@@ -52,10 +53,14 @@ jobs:
 
           version="${year}.${month}.${patch}"
           echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh packs
+        shell: bash
+        run: scripts/refresh.sh
       
       - name: Update pack version
         env:
-          release_version: ${{ steps.version.outputs.version }}
+          release_version: ${{ steps.create-version.outputs.version }}
           previous_tag: ${{ steps.previous_tag.outputs.tag }}
         shell: bash
         run: |
@@ -77,8 +82,8 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "chore: update pack version"
-          tag_name: ${{ steps.version.outputs.version }}
+          commit_message: "chore: apply automatic changes"
+          tag_name: ${{ steps.create-version.outputs.version }}
       
       - name: Export modpack
         run: scripts/export.sh
@@ -87,8 +92,8 @@ jobs:
         if: github.ref == 'refs/heads/main'
         uses: Kira-NT/mc-publish@v3
         with:
-          github-tag: ${{ steps.version.outputs.version }}
+          github-tag: ${{ steps.create-version.outputs.version }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
           files: bin/*
-          version: ${{ steps.version.outputs.version }}
+          version: ${{ steps.create-version.outputs.version }}
