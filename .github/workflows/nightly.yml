@@ -1,0 +1,15 @@
+name: Nightly
+
+on:
+  schedule:
+    - cron: '0 18 * * *'
+
+jobs:
+  nightly:
+    runs-on: ubuntu-26.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          ref: staging
