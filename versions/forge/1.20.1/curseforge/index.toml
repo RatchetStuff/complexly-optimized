@@ -72,7 +72,7 @@ file = "mods/dynamic-fps.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/embeddium.pw.toml"
+file = "mods/emberbium.pw.toml"
 metafile = true
 
 [[files]]

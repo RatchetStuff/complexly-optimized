@@ -1,0 +1,49 @@
+name: Nightly
+
+on:
+  schedule:
+    - cron: '0 18 * * *'
+
+jobs:
+  nightly:
+    runs-on: ubuntu-26.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          ref: staging
+
+      - name: Setup Go
+        uses: actions/setup-go@v7
+        with:
+          cache: false
+      
+      - name: Setup packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Cache packwiz
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/packwiz
+          key: packwiz-cache-${{ hashFiles('versions/**/*.pw.toml') }}
+          restore-keys: packwiz-cache-
+        
+      - name: Upgrade packs
+        run: scripts/upgrade.sh
+
+      - name: Refresh packs
+        run: scripts/refresh.sh
+      
+      - name: Commit release
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: apply nightly changes"
+      
+      - name: Export packs
+        run: scripts/export.sh
+      
+      - name: Upload artifact
+        uses: actions/upload-artifact@v7
+        with:
+          path: bin/*
