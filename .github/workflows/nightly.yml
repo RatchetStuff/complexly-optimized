@@ -1,5 +1,8 @@
 name: Nightly
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 18 * * *'
