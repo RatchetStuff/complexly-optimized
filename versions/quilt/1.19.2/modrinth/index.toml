@@ -34,10 +34,6 @@ file = "configureddefaults/config/sodium-options.json"
 file = "configureddefaults/options.txt"
 
 [[files]]
-file = "mods/badoptimizations.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/c2me-fabric.pw.toml"
 metafile = true
 

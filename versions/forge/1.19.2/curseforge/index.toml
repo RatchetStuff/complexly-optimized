@@ -35,10 +35,6 @@ file = "mods/asynclogger.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/badoptimizations.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 metafile = true
 

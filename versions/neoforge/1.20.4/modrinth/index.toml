@@ -19,10 +19,6 @@ file = "config/ferritecore.mixin.properties"
 file = "config/modernfix-mixins.properties"
 
 [[files]]
-file = "mods/badoptimizations.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/balm.pw.toml"
 metafile = true
 

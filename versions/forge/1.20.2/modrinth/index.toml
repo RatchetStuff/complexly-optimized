@@ -19,10 +19,6 @@ file = "configureddefaults/config/modernfix-mixins.properties"
 file = "configureddefaults/options.txt"
 
 [[files]]
-file = "mods/badoptimizations.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/configured-defaults.pw.toml"
 metafile = true
 
