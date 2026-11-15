@@ -43,10 +43,6 @@ file = "mods/asyncparticles.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/badoptimizations.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/brute-force-culling-revamped.pw.toml"
 metafile = true
 

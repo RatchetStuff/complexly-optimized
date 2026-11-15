@@ -14,6 +14,9 @@ concurrency:
 jobs:
   release:
     runs-on: ubuntu-26.04
+
+    env:
+      ref: 'refs/heads/release'
     
     steps:
       - name: Checkout repository
@@ -85,7 +88,7 @@ jobs:
           done
 
       - name: Commit release
-        if: github.ref == 'refs/heads/release'
+        if: github.ref == env.ref
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: apply automatic changes"
@@ -95,7 +98,7 @@ jobs:
         run: scripts/export.sh
       
       - name: Release modpack
-        if: github.ref == 'refs/heads/release'
+        if: github.ref == env.ref
         uses: Kira-NT/mc-publish@v3
         with:
           github-tag: ${{ steps.create-version.outputs.version }}

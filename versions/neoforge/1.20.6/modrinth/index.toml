@@ -22,10 +22,6 @@ file = "config/modernfix-mixins.properties"
 file = "config/quick-pack.json"
 
 [[files]]
-file = "mods/badoptimizations.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/balm.pw.toml"
 metafile = true
 

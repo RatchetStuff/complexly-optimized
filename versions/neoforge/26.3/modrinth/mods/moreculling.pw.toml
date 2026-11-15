@@ -1,13 +1,13 @@
 name = "More Culling"
-filename = "moreculling-neoforge-26.3-1.9.1.jar"
+filename = "moreculling-neoforge-26.3-1.9.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/51shyZVL/versions/mcJkKkUL/moreculling-neoforge-26.3-1.9.1.jar"
+url = "https://cdn.modrinth.com/data/51shyZVL/versions/CrZ3fy5A/moreculling-neoforge-26.3-1.9.2.jar"
 hash-format = "sha512"
-hash = "08b00c5d1554f6ce574ff4543391ac8eac9baf621dac2c84a8b680d4e7d14964222bc698384404bb1cfcfe45571470aaab95dc66db51f480c74fe56159dbc799"
+hash = "15524f7abbbf5e5a7bb1dcb56ed51b4e45991cbbe33186fa63d76275ecefd1e62ad4d19f8fd256fd1e6b9425bf264ea74a1992e45640e4caa6569fa6e3fd1f00"
 
 [update]
 [update.modrinth]
 mod-id = "51shyZVL"
-version = "mcJkKkUL"
+version = "CrZ3fy5A"
