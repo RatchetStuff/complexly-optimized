@@ -1,13 +1,13 @@
 name = "Optimized Block Entities [OBE]"
-filename = "obe+1.20.1-forge-1.2.1-patch.3-srg.jar"
+filename = "obe+1.20.1-forge-1.2.9-srg.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/AtOSAunf/versions/GaDC0iZn/obe%2B1.20.1-forge-1.2.1-patch.3-srg.jar"
+url = "https://cdn.modrinth.com/data/AtOSAunf/versions/mSQ4BWpx/obe%2B1.20.1-forge-1.2.9-srg.jar"
 hash-format = "sha512"
-hash = "38403a82b5a9865187803430614a3ef73c7228d963bfed46f7937c51985099aff159a7d76e10ffa98e109ab0761dc5171c20bb34039738438da3eec9e9c14d95"
+hash = "7fb18149ae26c4bd9c70219c12a12c33c19de3d4d9973e6449688a72dba4843be1c2a1da20bf2e11edeac3e673070fc2e42ef08bd561afd3648554adee06404c"
 
 [update]
 [update.modrinth]
 mod-id = "AtOSAunf"
-version = "GaDC0iZn"
+version = "mSQ4BWpx"

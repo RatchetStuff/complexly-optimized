@@ -1,13 +1,13 @@
 name = "Kerria"
-filename = "Kerria-1.3.2+1.19.2-forge.jar"
+filename = "Kerria-1.4.0-1.19.2-forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e39474ca3a2ef25464e10bdd121fa8799f8a48d5"
+hash = "aac33d3cda7c21b1059868e33524839e06c76bd1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8361806
+file-id = 9643128
 project-id = 1503432

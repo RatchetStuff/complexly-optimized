@@ -1,13 +1,13 @@
 name = "Gnetum"
-filename = "gnetum-2.5.1+1.20.1-forge.jar"
+filename = "gnetum-2.5.2+1.20.1-forge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/7MoE34WK/versions/ZmXeGdhH/gnetum-2.5.1%2B1.20.1-forge.jar"
+url = "https://cdn.modrinth.com/data/7MoE34WK/versions/hAhtTdKX/gnetum-2.5.2%2B1.20.1-forge.jar"
 hash-format = "sha512"
-hash = "b737f8a5a503e2374184afc0a132dadbbbf66596827737ac439cd1a3880d65e83addf61ef63b93352c93ada3eceb23473743b693179e6d7808c0133177915c70"
+hash = "3583c9fb5f25005acd82ba7e393021784ee5b24b015ba7c57b4738d8b160efdc3a79a064fce167ee5a559af301a3e2e274dadb5749a0ca67253d7a6d68ff781d"
 
 [update]
 [update.modrinth]
 mod-id = "7MoE34WK"
-version = "ZmXeGdhH"
+version = "hAhtTdKX"
