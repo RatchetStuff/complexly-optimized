@@ -1,13 +1,13 @@
 name = "Optimized Block Entities [OBE]"
-filename = "obe+1.21.5-1.2.6.jar"
+filename = "obe+1.21.5-1.2.13.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/AtOSAunf/versions/flvZymto/obe%2B1.21.5-1.2.6.jar"
+url = "https://cdn.modrinth.com/data/AtOSAunf/versions/mmCutwKK/obe%2B1.21.5-1.2.13.jar"
 hash-format = "sha512"
-hash = "ba9863123f39521b1eb18e39e1783c5559fd667672d768b08bf0d30d10d8fa386da5ef1716095e9292bdaabd717c6d3f23792ef8b1e11d6f48551150893d7c2e"
+hash = "4a063094b3b3d07a3f09ce100f8a3a6a12b685ca44cd764b05320f04305e533f0d6f3a6cf104dd4ea39119e5f077ff3e5db87fe9ad9b38add10e7707014f36b3"
 
 [update]
 [update.modrinth]
 mod-id = "AtOSAunf"
-version = "flvZymto"
+version = "mmCutwKK"

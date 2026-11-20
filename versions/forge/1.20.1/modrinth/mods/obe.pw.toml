@@ -3,11 +3,11 @@ filename = "obe+1.20.1-forge-1.2.9-srg.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/AtOSAunf/versions/mSQ4BWpx/obe%2B1.20.1-forge-1.2.9-srg.jar"
+url = "https://cdn.modrinth.com/data/AtOSAunf/versions/nbTLutF4/obe%2B1.20.1-forge-1.2.9-srg.jar"
 hash-format = "sha512"
-hash = "7fb18149ae26c4bd9c70219c12a12c33c19de3d4d9973e6449688a72dba4843be1c2a1da20bf2e11edeac3e673070fc2e42ef08bd561afd3648554adee06404c"
+hash = "4d439a9601ee5159c8f965cee2c7c2b4f2717e4c8eb0b94626662bfec5aca2ae46e5fddeba1f1ab940278dc51e708557e4046e945cc161e0a35cd9dc1e1b485d"
 
 [update]
 [update.modrinth]
 mod-id = "AtOSAunf"
-version = "mSQ4BWpx"
+version = "nbTLutF4"
