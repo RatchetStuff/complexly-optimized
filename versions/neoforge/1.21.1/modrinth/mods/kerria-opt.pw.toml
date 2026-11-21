@@ -1,13 +1,13 @@
 name = "Kerria"
-filename = "Kerria-1.3.2+1.21.1-neoforge.jar"
+filename = "Kerria-1.4.0+1.21.1-neoforge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/f0ruQTF7/versions/MsiyjxjP/Kerria-1.3.2%2B1.21.1-neoforge.jar"
+url = "https://cdn.modrinth.com/data/f0ruQTF7/versions/POBg9RhE/Kerria-1.4.0%2B1.21.1-neoforge.jar"
 hash-format = "sha512"
-hash = "2c7f5711d4c19882a0db8b0ffdb030ca83d45998972a28dfd8f2689062a53797f07c315edf58af6129b20fc27879fd881a7d58b7c0461c3b4573cfce05f551f1"
+hash = "669ee3b80f749506cd9ccc406a5986f8c430b2a3b70c109222c7f827f331ba4d453634ba92d36d2f4c49bf8117e2f679b040e37975e520c51681d5715047eb85"
 
 [update]
 [update.modrinth]
 mod-id = "f0ruQTF7"
-version = "MsiyjxjP"
+version = "POBg9RhE"

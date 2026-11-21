@@ -1,13 +1,13 @@
 name = "quick pack"
-filename = "quick-pack-forge-1.5.1+1.20.1-all-srg.jar"
+filename = "quick-pack-forge-1.5.2+1.20.1-all-srg.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/pSISfJ4O/versions/mrNJyUSX/quick-pack-forge-1.5.1%2B1.20.1-all-srg.jar"
+url = "https://cdn.modrinth.com/data/pSISfJ4O/versions/J1xKoZdQ/quick-pack-forge-1.5.2%2B1.20.1-all-srg.jar"
 hash-format = "sha512"
-hash = "efe79238ef578f486ed90ae25b9d0a61fb294cafc40e0346f27df956ba2d1f1c5cfa6ac7bf7ed9c37cf9414d212762b79e9a80260abe1663c24b58813b8b0034"
+hash = "079c94522c6eecce1aa1111292beaa66a320b9409cdaddbb89819604a218fc611c369a4556b8e5d1c048e8b7d1f9b00e3644656926ab89ed9ecc3b46315034c8"
 
 [update]
 [update.modrinth]
 mod-id = "pSISfJ4O"
-version = "mrNJyUSX"
+version = "J1xKoZdQ"

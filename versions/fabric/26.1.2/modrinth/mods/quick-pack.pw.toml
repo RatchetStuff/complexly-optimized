@@ -1,13 +1,13 @@
 name = "quick pack"
-filename = "quick-pack-fabric-1.5.1+26.1.2.jar"
+filename = "quick-pack-fabric-1.5.2+26.1.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/pSISfJ4O/versions/rn4IgurJ/quick-pack-fabric-1.5.1%2B26.1.2.jar"
+url = "https://cdn.modrinth.com/data/pSISfJ4O/versions/aFIiraDQ/quick-pack-fabric-1.5.2%2B26.1.2.jar"
 hash-format = "sha512"
-hash = "4fe5f7776b2f4365efadbdffc962f194dd3b8376aac133948af2ab7ebc588ab052fa834f6bbc1d8f6f1b55339d8a216bcceeed6fccd78e94fb2e371c9123f714"
+hash = "33b3fd58dbb490ee2216763bca9f7489ceb456f528b47e8afd6101e9dc4a8614004c3a9fa6d9d0b543a846bafb06825e9d7d651d8d04220e4fea9309bc7d6514"
 
 [update]
 [update.modrinth]
 mod-id = "pSISfJ4O"
-version = "rn4IgurJ"
+version = "aFIiraDQ"
