@@ -1,13 +1,13 @@
 name = "Gnetum"
-filename = "Gnetum-4.6.4+26.3-neoforge.jar"
+filename = "Gnetum-4.6.5+26.3-neoforge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/7MoE34WK/versions/XQSMHlKk/Gnetum-4.6.4%2B26.3-neoforge.jar"
+url = "https://cdn.modrinth.com/data/7MoE34WK/versions/HHdbgfUN/Gnetum-4.6.5%2B26.3-neoforge.jar"
 hash-format = "sha512"
-hash = "54a345440aaef5230a482f5e82a6a57cc4325108c86156704529b66eae5a54766c935ef428d1051eef14774c53f5b58978c0f1cf4d465b429f46d69d7fc579ab"
+hash = "6d0c6885648c8a6a2d606a43ddb9648ab2b9e88f2817a42fb6dd6e26c57e27bd3b227323459cb0371cf58e74ad5e7fb4cdf7d1683d9dcd65e2e6ab9dc6cf32e6"
 
 [update]
 [update.modrinth]
 mod-id = "7MoE34WK"
-version = "XQSMHlKk"
+version = "HHdbgfUN"
