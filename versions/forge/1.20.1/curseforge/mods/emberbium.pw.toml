@@ -1,13 +1,13 @@
 name = "Emberbium"
-filename = "emberbium-0.3.32-beta.118-dirty-mc1.20.1.jar"
+filename = "emberbium-0.3.32-beta.120-dirty-mc1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "850af702f43a214f59c9dd649116165bce2dda8c"
+hash = "845f56767c9030ca45c853871248241652e7b394"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9491632
+file-id = 9809960
 project-id = 1679656
