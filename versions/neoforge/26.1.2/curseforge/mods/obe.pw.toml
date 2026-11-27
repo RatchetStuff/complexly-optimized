@@ -1,13 +1,13 @@
 name = "Optimized Block Entities"
-filename = "obe-26.1.2-neoforge-1.2.15.jar"
+filename = "obe-26.1.2-neoforge-1.2.16.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "92009f40535a4be4cbf20935d370b533136d1f6f"
+hash = "12497d2dbdf5753f8b71d2f65e31ba33b19fffc0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9792270
+file-id = 9837397
 project-id = 1575743

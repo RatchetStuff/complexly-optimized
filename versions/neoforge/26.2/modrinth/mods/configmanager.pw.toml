@@ -1,13 +1,13 @@
 name = "Config Manager"
-filename = "ConfigManager-neoforge-26.3-1.1.4.jar"
+filename = "ConfigManager-neoforge-26.3-1.1.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/jlNms3Jp/versions/Rj4uVCjt/ConfigManager-neoforge-26.3-1.1.4.jar"
+url = "https://cdn.modrinth.com/data/jlNms3Jp/versions/LMvVf2dE/ConfigManager-neoforge-26.3-1.1.6.jar"
 hash-format = "sha512"
-hash = "5a00b35021456297d42cdf6deee257b7fc48faef8c738746ca642c6a1629b0df00216e8a698c9d579febb361986cf5b90e18e978d84ecdfc2d9c69454252f7ea"
+hash = "8838637c3329707245008224865d029660203b607fa68fe8a2b01674d0236ef6c70ba54ba83f92c79a1b254ff1245950a93c42c8418976614a6de4566bd122e8"
 
 [update]
 [update.modrinth]
 mod-id = "jlNms3Jp"
-version = "Rj4uVCjt"
+version = "LMvVf2dE"

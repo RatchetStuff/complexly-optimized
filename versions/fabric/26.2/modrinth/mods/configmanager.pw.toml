@@ -1,13 +1,13 @@
 name = "Config Manager"
-filename = "ConfigManager-fabric-26.3-1.1.4.jar"
+filename = "ConfigManager-fabric-26.3-1.1.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/jlNms3Jp/versions/okecULrz/ConfigManager-fabric-26.3-1.1.4.jar"
+url = "https://cdn.modrinth.com/data/jlNms3Jp/versions/Y8TbsBtJ/ConfigManager-fabric-26.3-1.1.6.jar"
 hash-format = "sha512"
-hash = "afa99b575ec46f79929710dbca2b2afab1567a217753a91f33b6d27d35734070cb1af2e509e602850d7848985686284d4dcd7211c7a1b8048bee663b33e24de6"
+hash = "3506c4874fdff7469d70864f2a28782c2286ebc9330531bbb44f65459c2d7895b162e8ddd17adc9b82885262f292e1746144ac0419508750bfd58ac71a3399e8"
 
 [update]
 [update.modrinth]
 mod-id = "jlNms3Jp"
-version = "okecULrz"
+version = "Y8TbsBtJ"
